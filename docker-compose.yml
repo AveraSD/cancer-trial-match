@@ -1,0 +1,21 @@
+version: "3"
+services:
+  shinyapps:
+    build: .
+    # image: trialsapp:dev
+    ports:
+      - "3838:3838" # host:container
+    container_name: shinyapps
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on: 
+      - mongodb  
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    container_name: mongodb
+    volumes: 
+      #- ./data/db:/data/db:ro
+      - ./data/trials:/data/trials
+      - ./mongo/db_init.sh:/docker-entrypoint-initdb.d/db_init.sh:ro

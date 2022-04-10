@@ -1,0 +1,29 @@
+test_id	patient_id	matchType	gene	mutationEffect	variantType	msi	tmb
+A123	1	cna	FRS2		amplification		
+A123	1	cna	MDM2		amplification		
+A353	2	mut	EGFR	p.N771_H773dup			
+A456	3	msi_tmb					23.2
+A982	4	mut	KRAS	p.G12C			
+A982	4	mut	KMT2C	p.D2692E			
+A982	4	mut	CREBBP	p.K1588N			
+A220	4	mut	KRAS	p.G12C			
+A220	4	mut	POT1	p.R273W			
+A220	4	mut	HOXB13	p.L9*			
+A220	4	mut	ERBB4	p.D611N			
+A912	5	mut	KRAS	p.G12V			
+A912	5	mut	KEAP1	p.G114W			
+A912	5	mut	ATM	p.I2948F			
+A900	6	msi_tmb				stable	10.5
+A530	7	mut	AKT1	p.E17K			
+A221	8	mut	KRAS	p.G12C			
+B432	9	mut	ESR1	p.D538G			
+B432	9	mut	ESR1	p.Y537N			
+B221	10	cna	EGFR		amplification		
+B221	10	cna	MET		amplification		
+B671	11	mut	PIK3CA	p.H1047R			
+B671	11	mut	ATM	p.G553*			
+B671	11	mut	PIK3CA	p.D1029H			
+B671	11	mut	FUBP1	p.R139T			
+B671	11	mut	STAG2	p.H608Q			
+B671	11	mut	CDKN2A	p.G89S			
+B671	11	msi_tmb				stable	14.7

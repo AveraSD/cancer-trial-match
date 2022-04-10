@@ -1,0 +1,869 @@
+level_1	level_2	level_3	level_4	level_5	level_6	level_7	metamaintype	metacolor	metanci	metaumls	history
+Adrenal Gland (ADRENAL_GLAND)	NA	NA	NA	NA	NA	NA	Adrenal Gland Cancer, NOS	Purple	C12666	C0001625	NA
+Adrenal Gland (ADRENAL_GLAND)	Adrenocortical Adenoma (ACA)	NA	NA	NA	NA	NA	Adrenocortical Adenoma	Purple	C9003	C0206667	NA
+Adrenal Gland (ADRENAL_GLAND)	Adrenocortical Carcinoma (ACC)	NA	NA	NA	NA	NA	Adrenocortical Carcinoma	Purple	C9325	C0206686	NA
+Adrenal Gland (ADRENAL_GLAND)	Pheochromocytoma (PHC)	NA	NA	NA	NA	NA	Pheochromocytoma	Purple	C3326	C0031511	NA
+Ampulla of Vater (AMPULLA_OF_VATER)	NA	NA	NA	NA	NA	NA	Ampullary Carcinoma, NOS	Purple	C13011	C0042425	NA
+Ampulla of Vater (AMPULLA_OF_VATER)	Ampullary Carcinoma (AMPCA)	NA	NA	NA	NA	NA	Ampullary Cancer	Purple	C3908	C0262401	NA
+Ampulla of Vater (AMPULLA_OF_VATER)	Ampullary Carcinoma (AMPCA)	Intestinal Ampullary Carcinoma (IAMPCA)	NA	NA	NA	NA	Ampullary Cancer	Purple	C27415	C1332247	NA
+Ampulla of Vater (AMPULLA_OF_VATER)	Ampullary Carcinoma (AMPCA)	Mixed Ampullary Carcinoma (MAMPCA)	NA	NA	NA	NA	Ampullary Cancer	Purple	NA	NA	NA
+Ampulla of Vater (AMPULLA_OF_VATER)	Ampullary Carcinoma (AMPCA)	Pancreatobiliary Ampullary Carcinoma (PAMPCA)	NA	NA	NA	NA	Ampullary Cancer	Purple	NA	NA	NA
+Biliary Tract (BILIARY_TRACT)	NA	NA	NA	NA	NA	NA	Biliary Tract Cancer, NOS	Green	C12678	C0005423	NA
+Biliary Tract (BILIARY_TRACT)	Cholangiocarcinoma (CHOL)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	Green	C4436	C0206698	NA
+Biliary Tract (BILIARY_TRACT)	Cholangiocarcinoma (CHOL)	Extrahepatic Cholangiocarcinoma (EHCH)	NA	NA	NA	NA	Hepatobiliary Cancer	Green	NA	NA	NA
+Biliary Tract (BILIARY_TRACT)	Cholangiocarcinoma (CHOL)	Intrahepatic Cholangiocarcinoma (IHCH)	NA	NA	NA	NA	Hepatobiliary Cancer	Green	C35417	C0345905	NA
+Biliary Tract (BILIARY_TRACT)	Cholangiocarcinoma (CHOL)	Perihilar Cholangiocarcinoma (PHCH)	NA	NA	NA	NA	Hepatobiliary Cancer	Green	C96804	C3273047	NA
+Biliary Tract (BILIARY_TRACT)	Gallbladder Cancer (GBC)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	Green	C3844	C0235782	NA
+Biliary Tract (BILIARY_TRACT)	Gallbladder Cancer (GBC)	Adenosquamous Carcinoma of the Gallbladder (GBASC)	NA	NA	NA	NA	Hepatobiliary Cancer	Green	NA	NA	NA
+Biliary Tract (BILIARY_TRACT)	Gallbladder Cancer (GBC)	Gallbladder Adenocarcinoma, NOS (GBAD)	NA	NA	NA	NA	Hepatobiliary Cancer	Green	NA	NA	NA
+Biliary Tract (BILIARY_TRACT)	Gallbladder Cancer (GBC)	Small Cell Gallbladder Carcinoma (SCGBC)	NA	NA	NA	NA	Hepatobiliary Cancer	Green	NA	NA	NA
+Biliary Tract (BILIARY_TRACT)	Intracholecystic Papillary Neoplasm (ICPN)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	Green	NA	NA	NA
+Biliary Tract (BILIARY_TRACT)	Intraductal Papillary Neoplasm of the Bile Duct (IPN)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	Green	NA	NA	NA
+Bladder/Urinary Tract (BLADDER)	NA	NA	NA	NA	NA	NA	Bladder/Urinary Tract Cancer, NOS	Yellow	C12414	C0005682	NA
+Bladder/Urinary Tract (BLADDER)	Bladder Adenocarcinoma (BLAD)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C4032	C0279682	NA
+Bladder/Urinary Tract (BLADDER)	Bladder Squamous Cell Carcinoma (BLSC)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C4031	C0279681	NA
+Bladder/Urinary Tract (BLADDER)	Bladder Urothelial Carcinoma (BLCA)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C39851	C0279680	NA
+Bladder/Urinary Tract (BLADDER)	Inflammatory Myofibroblastic Bladder Tumor (IMTB)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C6177	C1336891	NA
+Bladder/Urinary Tract (BLADDER)	Inverted Urothelial Papilloma (IUP)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	NA	NA	NA
+Bladder/Urinary Tract (BLADDER)	Mucosal Melanoma of the Urethra (URMM)	NA	NA	NA	NA	NA	Melanoma	Yellow	NA	NA	GMUCM
+Bladder/Urinary Tract (BLADDER)	Plasmacytoid/Signet Ring Cell Bladder Carcinoma (SRCBC)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C39823	C1512742	NA
+Bladder/Urinary Tract (BLADDER)	Sarcomatoid Carcinoma of the Urinary Bladder (SCB)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C39824	C1512743	NA
+Bladder/Urinary Tract (BLADDER)	Small Cell Bladder Cancer (SCBC)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C9461	C1332564	NA
+Bladder/Urinary Tract (BLADDER)	Upper Tract Urothelial Carcinoma (UTUC)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C7716	C0220648	NA
+Bladder/Urinary Tract (BLADDER)	Urachal Carcinoma (URCA)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C39842	C1511205	NA
+Bladder/Urinary Tract (BLADDER)	Urachal Carcinoma (URCA)	Urachal Adenocarcinoma (UA)	NA	NA	NA	NA	Bladder Cancer	Yellow	C39843	C1511204	NA
+Bladder/Urinary Tract (BLADDER)	Urethral Cancer (UCA)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	C9106	C0700101	NA
+Bladder/Urinary Tract (BLADDER)	Urethral Cancer (UCA)	Urethral Adenocarcinoma (UAD)	NA	NA	NA	NA	Bladder Cancer	Yellow	C6167	C1336885	NA
+Bladder/Urinary Tract (BLADDER)	Urethral Cancer (UCA)	Urethral Squamous Cell Carcinoma (USCC)	NA	NA	NA	NA	Bladder Cancer	Yellow	C6165	C1336890	NA
+Bladder/Urinary Tract (BLADDER)	Urethral Cancer (UCA)	Urethral Urothelial Carcinoma (UCU)	NA	NA	NA	NA	Bladder Cancer	Yellow	NA	CL448335	NA
+Bladder/Urinary Tract (BLADDER)	Urothelial Papilloma (UPA)	NA	NA	NA	NA	NA	Bladder Cancer	Yellow	NA	NA	NA
+Bone (BONE)	NA	NA	NA	NA	NA	NA	Bone Cancer, NOS	White	C12366	C0262950	NA
+Bone (BONE)	Adamantinoma (ADMA)	NA	NA	NA	NA	NA	Bone Cancer	White	NA	NA	NA
+Bone (BONE)	Chondroblastoma (CHBL)	NA	NA	NA	NA	NA	Bone Cancer	White	C2945	C0008441	NA
+Bone (BONE)	Chondrosarcoma (CHS)	NA	NA	NA	NA	NA	Bone Cancer	White	C2946	C0008479	NA
+Bone (BONE)	Chondrosarcoma (CHS)	Dedifferentiated Chondrosarcoma (DDCHS)	NA	NA	NA	NA	Bone Cancer	White	C6476	C0862878	NA
+Bone (BONE)	Chondrosarcoma (CHS)	Extraskeletal Myxoid Chondrosarcoma (EMCHS)	NA	NA	NA	NA	Bone Cancer	White	C27502	C1275278	NA
+Bone (BONE)	Chondrosarcoma (CHS)	Mesenchymal Chondrosarcoma (MCHS)	NA	NA	NA	NA	Bone Cancer	White	C53493	C1708980	NA
+Bone (BONE)	Chondrosarcoma (CHS)	Myxoid Chondrosarcoma (MYCHS)	NA	NA	NA	NA	Bone Cancer	White	C4303	C0334551	NA
+Bone (BONE)	Chordoma (CHDM)	NA	NA	NA	NA	NA	Bone Cancer	White	C2947	C0008487	NA
+Bone (BONE)	Chordoma (CHDM)	Conventional Type Chordoma (CCHDM)	NA	NA	NA	NA	Bone Cancer	White	NA	NA	NA
+Bone (BONE)	Chordoma (CHDM)	Dedifferentiated Chordoma (DDCHDM)	NA	NA	NA	NA	Bone Cancer	White	C48876	C1266174	NA
+Bone (BONE)	Ewing Sarcoma (ES)	NA	NA	NA	NA	NA	Bone Cancer	White	C4817	C0553580	NA
+Bone (BONE)	Giant Cell Tumor of Bone (GCTB)	NA	NA	NA	NA	NA	Bone Cancer	White	C121932	C0206638	NA
+Bone (BONE)	Osteosarcoma (OS)	NA	NA	NA	NA	NA	Bone Cancer	White	C9145	C0029463	NA
+Bone (BONE)	Osteosarcoma (OS)	Chondroblastic Osteosarcoma (CHOS)	NA	NA	NA	NA	Bone Cancer	White	C4021	C0279603	NA
+Bone (BONE)	Osteosarcoma (OS)	Fibroblastic Osteosarcoma (FIOS)	NA	NA	NA	NA	Bone Cancer	White	C4020	C0279602	NA
+Bone (BONE)	Osteosarcoma (OS)	High-Grade Surface Osteosarcoma (HGSOS)	NA	NA	NA	NA	Bone Cancer	White	C53958	C1266165	NA
+Bone (BONE)	Osteosarcoma (OS)	Low-Grade Central Osteosarcoma (LGCOS)	NA	NA	NA	NA	Bone Cancer	White	C6474	C1266163	NA
+Bone (BONE)	Osteosarcoma (OS)	Osteoblastic Osteosarcoma (OSOS)	NA	NA	NA	NA	Bone Cancer	White	C53953	C1704328	NA
+Bone (BONE)	Osteosarcoma (OS)	Parosteal Osteosarcoma (PAOS)	NA	NA	NA	NA	Bone Cancer	White	C8969	C0206642	NA
+Bone (BONE)	Osteosarcoma (OS)	Periosteal Osteosarcoma (PEOS)	NA	NA	NA	NA	Bone Cancer	White	C8970	C1377843	NA
+Bone (BONE)	Osteosarcoma (OS)	Secondary Osteosarcoma (SECOS)	NA	NA	NA	NA	Bone Cancer	White	C53704	C1710042	NA
+Bone (BONE)	Osteosarcoma (OS)	Small Cell Osteosarcoma (SCOS)	NA	NA	NA	NA	Bone Cancer	White	C4023	C0279622	NA
+Bone (BONE)	Osteosarcoma (OS)	Telangiectatic Osteosarcoma (TEOS)	NA	NA	NA	NA	Bone Cancer	White	C3902	C0259782	NA
+Bowel (BOWEL)	NA	NA	NA	NA	NA	NA	Bowel Cancer, NOS	SaddleBrown	C12736	C0021853	NA
+Bowel (BOWEL)	Anal Gland Adenocarcinoma (AGA)	NA	NA	NA	NA	NA	Anal Cancer	SaddleBrown	C5609	C1266027	NA
+Bowel (BOWEL)	Anal Squamous Cell Carcinoma (ANSC)	NA	NA	NA	NA	NA	Anal Cancer	SaddleBrown	C9161	C1412036	NA
+Bowel (BOWEL)	Anorectal Mucosal Melanoma (ARMM)	NA	NA	NA	NA	NA	Melanoma	SaddleBrown	C4639	C0349538	NA
+Bowel (BOWEL)	Appendiceal Adenocarcinoma (APAD)	NA	NA	NA	NA	NA	Appendiceal Cancer	SaddleBrown	C7718	C0238003	NA
+Bowel (BOWEL)	Appendiceal Adenocarcinoma (APAD)	Colonic Type Adenocarcinoma of the Appendix (CTAAP)	NA	NA	NA	NA	Appendiceal Cancer	SaddleBrown	NA	NA	NA
+Bowel (BOWEL)	Appendiceal Adenocarcinoma (APAD)	Goblet Cell Adenocarcinoma of the Appendix (GCCAP)	NA	NA	NA	NA	Appendiceal Cancer	SaddleBrown	NA	C0205695	NA
+Bowel (BOWEL)	Appendiceal Adenocarcinoma (APAD)	Mucinous Adenocarcinoma of the Appendix (MAAP)	NA	NA	NA	NA	Appendiceal Cancer	SaddleBrown	C43558	C1706832	NA
+Bowel (BOWEL)	Appendiceal Adenocarcinoma (APAD)	Signet Ring Cell Type of the Appendix (SRAP)	NA	NA	NA	NA	Appendiceal Cancer	SaddleBrown	C43554	C1711320	NA
+Bowel (BOWEL)	Colorectal Adenocarcinoma (COADREAD)	NA	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	C5105	C1319315	NA
+Bowel (BOWEL)	Colorectal Adenocarcinoma (COADREAD)	Colon Adenocarcinoma (COAD)	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	C4349	C0338106	NA
+Bowel (BOWEL)	Colorectal Adenocarcinoma (COADREAD)	Colon Adenocarcinoma In Situ (CAIS)	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	NA	NA	NA
+Bowel (BOWEL)	Colorectal Adenocarcinoma (COADREAD)	Mucinous Adenocarcinoma of the Colon and Rectum (MACR)	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	C43585	C1707439	NA
+Bowel (BOWEL)	Colorectal Adenocarcinoma (COADREAD)	Rectal Adenocarcinoma (READ)	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	C9383	C0149978	NA
+Bowel (BOWEL)	Colorectal Adenocarcinoma (COADREAD)	Signet Ring Cell Adenocarcinoma of the Colon and Rectum (SRCCR)	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	C9168,C7967	C0279654,C1707436	NA
+Bowel (BOWEL)	Gastrointestinal Neuroendocrine Tumors (GINET)	NA	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumor	SaddleBrown	C95404	C2987127	NA
+Bowel (BOWEL)	Gastrointestinal Neuroendocrine Tumors (GINET)	High-Grade Neuroendocrine Carcinoma of the Colon and Rectum (HGNEC)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumor	SaddleBrown	C96156	C3272607	NA
+Bowel (BOWEL)	Gastrointestinal Neuroendocrine Tumors (GINET)	Small Bowel Well-Differentiated Neuroendocrine Tumor (SBWDNET)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumor	SaddleBrown	C9461	C1332564	NA
+Bowel (BOWEL)	Gastrointestinal Neuroendocrine Tumors (GINET)	Well-Differentiated Neuroendocrine Tumor of the Appendix (AWDNET)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumor	SaddleBrown	C96422	C3272767	NA
+Bowel (BOWEL)	Gastrointestinal Neuroendocrine Tumors (GINET)	Well-Differentiated Neuroendocrine Tumor of the Rectum (RWDNET)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumor	SaddleBrown	C96159	C3272610	NA
+Bowel (BOWEL)	Low-grade Appendiceal Mucinous Neoplasm (LAMN)	NA	NA	NA	NA	NA	Appendiceal Cancer	SaddleBrown	NA	NA	NA
+Bowel (BOWEL)	Medullary Carcinoma of the Colon (CMC)	NA	NA	NA	NA	NA	Colorectal Cancer	SaddleBrown	C60641	C1880119	NA
+Bowel (BOWEL)	Small Bowel Cancer (SBC)	NA	NA	NA	NA	NA	Small Bowel Cancer	SaddleBrown	C7724	C0238196	NA
+Bowel (BOWEL)	Small Bowel Cancer (SBC)	Duodenal Adenocarcinoma (DA)	NA	NA	NA	NA	Small Bowel Cancer	SaddleBrown	C7889	C0278804	NA
+Bowel (BOWEL)	Small Intestinal Carcinoma (SIC)	NA	NA	NA	NA	NA	Small Bowel Cancer	SaddleBrown	C7724	C0238196	NA
+Bowel (BOWEL)	Tubular Adenoma of the Colon (TAC)	NA	NA	NA	NA	NA	Tubular Adenoma of the Colon	SaddleBrown	NA	NA	NA
+Breast (BREAST)	NA	NA	NA	NA	NA	NA	Breast Cancer, NOS	HotPink	C12971	C0006141	NA
+Breast (BREAST)	Adenomyoepithelioma of the Breast (BRAME)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	C6899	C1510795	NA
+Breast (BREAST)	Breast Ductal Carcinoma In Situ (DCIS)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	C2924	C0007124	NA
+Breast (BREAST)	Breast Ductal Carcinoma In Situ (DCIS)	Paget Disease of the Nipple (PD)	NA	NA	NA	NA	Breast Cancer	HotPink	C3301	C1704323	NA
+Breast (BREAST)	Breast Fibroepithelial Neoplasms (BFN)	NA	NA	NA	NA	NA	Breast Sarcoma	HotPink	C40405	C1511309	NA
+Breast (BREAST)	Breast Fibroepithelial Neoplasms (BFN)	Fibroadenoma (FA)	NA	NA	NA	NA	Breast Sarcoma	HotPink	C3744	C0206650	NA
+Breast (BREAST)	Breast Fibroepithelial Neoplasms (BFN)	Phyllodes Tumor of the Breast (PT)	NA	NA	NA	NA	Breast Sarcoma	HotPink	C7575	C0238031	NA
+Breast (BREAST)	Breast Fibroepithelial Neoplasms (BFN)	Phyllodes Tumor of the Breast (PT)	Benign Phyllodes Tumor of the Breast (BPT)	NA	NA	NA	Breast Sarcoma	HotPink	C5196	C1332533	NA
+Breast (BREAST)	Breast Fibroepithelial Neoplasms (BFN)	Phyllodes Tumor of the Breast (PT)	Borderline Phyllodes Tumor of the Breast (BLPT)	NA	NA	NA	Breast Sarcoma	HotPink	C5316	C1332592	NA
+Breast (BREAST)	Breast Fibroepithelial Neoplasms (BFN)	Phyllodes Tumor of the Breast (PT)	Malignant Phyllodes Tumor of the Breast (MPT)	NA	NA	NA	Breast Sarcoma	HotPink	C4504	C0346154	NA
+Breast (BREAST)	Breast Lobular Carcinoma In Situ (LCIS)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	C4018	C0279563	NA
+Breast (BREAST)	Breast Neoplasm, NOS (BNNOS)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+Breast (BREAST)	Breast Sarcoma (PBS)	NA	NA	NA	NA	NA	Breast Sarcoma	HotPink	C4670	C0349667	NA
+Breast (BREAST)	Breast Sarcoma (PBS)	Breast Angiosarcoma (BA)	NA	NA	NA	NA	Breast Sarcoma	HotPink	C5184	C1332614	NA
+Breast (BREAST)	Inflammatory Breast Cancer (IBC)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	C4001	C0278601	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	C9245	C0853879	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Adenoid Cystic Breast Cancer (ACBC)	NA	NA	NA	NA	Breast Cancer	HotPink	C5130	C1332167	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Carcinoma with Signet Ring (BRSRCC)	NA	NA	NA	NA	Breast Cancer	HotPink	C5175	C1335964	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Invasive Cancer, NOS (BRCANOS)	NA	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Invasive Carcinoma, NOS (BRCNOS)	NA	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Invasive Carcinosarcoma, NOS (CSNOS)	NA	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Invasive Ductal Carcinoma (IDC)	NA	NA	NA	NA	Breast Cancer	HotPink	C4194	C1134719	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Invasive Lobular Carcinoma (ILC)	NA	NA	NA	NA	Breast Cancer	HotPink	C7950	C0279565	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Invasive Mixed Mucinous Carcinoma (IMMC)	NA	NA	NA	NA	Breast Cancer	HotPink	C9131	C1334807	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Breast Mixed Ductal and Lobular Carcinoma (MDLC)	NA	NA	NA	NA	Breast Cancer	HotPink	C5160	CL007210	NA
+Breast (BREAST)	Invasive Breast Carcinoma (BRCA)	Solid Papillary Carcinoma of the Breast (SPC)	NA	NA	NA	NA	Breast Cancer	HotPink	C6870	C1336027	NA
+Breast (BREAST)	Juvenile Secretory Carcinoma of the Breast (JSCB)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	NA	NA	NA	NA	NA	Breast Cancer	HotPink	C5164	C1334708	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Epithelial Type Metaplastic Breast Cancer (EMBC)	NA	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Epithelial Type Metaplastic Breast Cancer (EMBC)	Metaplastic Adenocarcinoma with Spindle Cell Differentiation (MASCC)	NA	NA	NA	Breast Cancer	HotPink	C40358	C1519487	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Epithelial Type Metaplastic Breast Cancer (EMBC)	Metaplastic Adenosquamous Carcinoma (MASC)	NA	NA	NA	Breast Cancer	HotPink	C40361	C1510796	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Epithelial Type Metaplastic Breast Cancer (EMBC)	Metaplastic Squamous Cell Carcinoma (MSCC)	NA	NA	NA	Breast Cancer	HotPink	C5177	C1336079	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Mixed Type Metaplastic Breast Cancer (MMBC)	NA	NA	NA	NA	Breast Cancer	HotPink	C40364	C1513365	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Mixed Type Metaplastic Breast Cancer (MMBC)	Carcinoma with Chondroid Metaplasia (CCHM)	NA	NA	NA	Breast Cancer	HotPink	C47847	C1707042	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Mixed Type Metaplastic Breast Cancer (MMBC)	Carcinoma with Osseous Metaplasia (COM)	NA	NA	NA	Breast Cancer	HotPink	C47848	C1711312	NA
+Breast (BREAST)	Metaplastic Breast Cancer (MBC)	Mixed Type Metaplastic Breast Cancer (MMBC)	Metaplastic Carcinosarcoma (MCS)	NA	NA	NA	Breast Cancer	HotPink	NA	NA	NA
+CNS/Brain (BRAIN)	NA	NA	NA	NA	NA	NA	CNS/Brain Cancer, NOS	Gray	C12438	C3714787	NA
+CNS/Brain (BRAIN)	Choroid Plexus Tumor (CPT)	NA	NA	NA	NA	NA	Choroid Plexus Tumor	Gray	C3473	C0085138	NA
+CNS/Brain (BRAIN)	Choroid Plexus Tumor (CPT)	Atypical Choroid Plexus Papilloma (ACPP)	NA	NA	NA	NA	Choroid Plexus Tumor	Gray	C53686	C1266176	NA
+CNS/Brain (BRAIN)	Choroid Plexus Tumor (CPT)	Choroid Plexus Carcinoma (CPC)	NA	NA	NA	NA	Choroid Plexus Tumor	Gray	C4715	C0431109	NA
+CNS/Brain (BRAIN)	Choroid Plexus Tumor (CPT)	Choroid Plexus Papilloma (CPP)	NA	NA	NA	NA	Choroid Plexus Tumor	Gray	C3698	C0205770	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	NA	NA	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Anaplastic Astrocytoma (AASTR)	NA	NA	NA	NA	Glioma	Gray	C9477	C0334579	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Anaplastic Oligoastrocytoma (AOAST)	NA	NA	NA	NA	Glioma	Gray	C6959	C0431108	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Anaplastic Oligodendroglioma (AODG)	NA	NA	NA	NA	Glioma	Gray	C4326	C0334590	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Astrocytoma (ASTR)	NA	NA	NA	NA	Glioma	Gray	C60781	C0004114	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Diffuse Astrocytoma (DASTR)	NA	NA	NA	NA	Glioma	Gray	C7173	C0280785	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Diffuse Intrinsic Pontine Glioma (DIPG)	NA	NA	NA	NA	Glioma	Gray	C94764	C2986658	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Glioblastoma (GB)	NA	NA	NA	NA	Glioma	Gray	C3058	C0017636	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Glioblastoma (GB)	Glioblastoma Multiforme (GBM)	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Glioblastoma (GB)	Gliosarcoma (GSARC)	NA	NA	NA	Glioma	Gray	C3796	C0206726	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Glioblastoma (GB)	Small Cell Glioblastoma (SCGBM)	NA	NA	NA	Glioma	Gray	C125890	C1272516	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Glioma, NOS (GNOS)	NA	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	High-Grade Glioma, NOS (HGGNOS)	NA	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Oligoastrocytoma (OAST)	NA	NA	NA	NA	Glioma	Gray	C4050	C0280793	NA
+CNS/Brain (BRAIN)	Diffuse Glioma (DIFG)	Oligodendroglioma (ODG)	NA	NA	NA	NA	Glioma	Gray	C3288	C0751396	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	NA	NA	NA	NA	NA	Embryonal Tumor	Gray	C3264	C0027654	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Atypical Teratoid/Rhabdoid Tumor (ATRT)	NA	NA	NA	NA	Embryonal Tumor	Gray	C6906	C1266184	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Desmoplastic/Nodular Medulloblastoma (DMBL)	NA	NA	NA	NA	Embryonal Tumor	Gray	C4956	C0751291	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Embryonal Tumor with Abundant Neuropil and True Rosettes (ETANTR)	NA	NA	NA	NA	Embryonal Tumor	Gray	C4915	C0700367	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Large Cell/Anaplastic Medulloblastoma (AMBL)	NA	NA	NA	NA	Embryonal Tumor	Gray	C6904	C1266180	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Medulloblastoma (MBL)	NA	NA	NA	NA	Embryonal Tumor	Gray	C3222	C0025149	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Medulloblastoma with Extensive Nodularity (MBEN)	NA	NA	NA	NA	Embryonal Tumor	Gray	C5407	C1334970	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Medulloepithelioma (MDEP)	NA	NA	NA	NA	Embryonal Tumor	Gray	C4327	C0334596	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Medullomyoblastoma (MMB)	NA	NA	NA	NA	Embryonal Tumor	Gray	C3706	C0205833	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Melanotic Medulloblastoma (MMBL)	NA	NA	NA	NA	Embryonal Tumor	Gray	C9497	C1275668	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Olfactory Neuroblastoma (ONBL)	NA	NA	NA	NA	Embryonal Tumor	Gray	C3789	C0206717	NA
+CNS/Brain (BRAIN)	Embryonal Tumor (EMBT)	Primitive Neuroectodermal Tumor (PNET)	NA	NA	NA	NA	Embryonal Tumor	Gray	C3716	C0206663	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	NA	NA	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Anaplastic Ganglioglioma (AGNG)	NA	NA	NA	NA	Glioma	Gray	C4717	C0431112	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Anaplastic Pleomorphic Xanthoastrocytoma (APXA)	NA	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Dysembryoplastic Neuroepithelial Tumor (DNT)	NA	NA	NA	NA	Glioma	Gray	C9505	C1266177	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Gangliocytoma (GNC)	NA	NA	NA	NA	Glioma	Gray	C6934	CL378224	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Ganglioglioma (GNG)	NA	NA	NA	NA	Glioma	Gray	C3788	C0206716	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Low-Grade Glioma, NOS (LGGNOS)	NA	NA	NA	NA	Glioma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Pilocytic Astrocytoma (PAST)	NA	NA	NA	NA	Glioma	Gray	C4047	C0334583	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Pilomyxoid Astrocytoma (PMA)	NA	NA	NA	NA	Glioma	Gray	C40315	C1519086	NA
+CNS/Brain (BRAIN)	Encapsulated Glioma (ENCG)	Pleomorphic Xanthoastrocytoma (PXA)	NA	NA	NA	NA	Glioma	Gray	C4323	C0334586	NA
+CNS/Brain (BRAIN)	Ependymomal Tumor (EPMT)	NA	NA	NA	NA	NA	CNS Cancer	Gray	C6770	C1333407	NA
+CNS/Brain (BRAIN)	Ependymomal Tumor (EPMT)	Anaplastic Ependymoma (APE)	NA	NA	NA	NA	CNS Cancer	Gray	C4049	C0280788	NA
+CNS/Brain (BRAIN)	Ependymomal Tumor (EPMT)	Clear Cell Ependymoma (CCE)	NA	NA	NA	NA	CNS Cancer	Gray	C4714	C1384404	NA
+CNS/Brain (BRAIN)	Ependymomal Tumor (EPMT)	Ependymoma (EPM)	NA	NA	NA	NA	Glioma	Gray	C3017	C0014474	NA
+CNS/Brain (BRAIN)	Ependymomal Tumor (EPMT)	Myxopapillary Ependymoma (MPE)	NA	NA	NA	NA	CNS Cancer	Gray	C3697	C0205769	NA
+CNS/Brain (BRAIN)	Ependymomal Tumor (EPMT)	Subependymoma (SUBE)	NA	NA	NA	NA	CNS Cancer	Gray	C3795	C0206725	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	NA	NA	NA	NA	NA	Germ Cell Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Choriocarcinoma (BCCA)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C2948	C0008497	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Embryonal Carcinoma (BEC)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C7010	C1333377	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Germinoma (GMN)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C3753	C0206660	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Immature Teratoma (BIMT)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C7014	C1332883	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Malignant Teratoma (BMGT)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C7015	C1336704	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Mature Teratoma (BMT)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C7013	C1332886	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Mixed Germ Cell Tumor (BMGCT)	NA	NA	NA	NA	Germ Cell Tumor	Gray	C4290	C0334524	NA
+CNS/Brain (BRAIN)	Germ Cell Tumor, Brain (BGCT)	Yolk Sac Tumor (BYST)	NA	NA	NA	NA	Germ Cell Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	NA	NA	NA	NA	NA	CNS Cancer	Gray	C3229	C0025284	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Anaplastic Meningioma (ANM)	NA	NA	NA	NA	CNS Cancer	Gray	C4051	C0259785	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Atypical Meningioma (ATM)	NA	NA	NA	NA	CNS Cancer	Gray	C4723	C0431122	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Chordoid Meningioma (CHOM)	NA	NA	NA	NA	CNS Cancer	Gray	C6908	C1370510	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Clear cell Meningioma (CCM)	NA	NA	NA	NA	CNS Cancer	Gray	C4722	C0431121	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Hemangiopericytoma of the Central Nervous System (HPCCNS)	NA	NA	NA	NA	CNS Cancer	Gray	C4660	C0349622	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Meningioma (MNG)	NA	NA	NA	NA	CNS Cancer	Gray	C3230	C0025286	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Papillary Meningioma (PPM)	NA	NA	NA	NA	CNS Cancer	Gray	C3904	C3163622	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Rhabdoid Meningioma (RHM)	NA	NA	NA	NA	CNS Cancer	Gray	C6909	C0259786	NA
+CNS/Brain (BRAIN)	Meningothelial Tumor (MNGT)	Solitary Fibrous Tumor of the Central Nervous System (SFTCNS)	NA	NA	NA	NA	CNS Cancer	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	NA	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C6974	C1334936	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Hemangioblastoma (HMBL)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C3801	C0206734	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	High-Grade Neuroepithelial Tumor (HGNET)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Low-Grade Neuroepithelial Tumor (LGNET)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Malignant Lymphoma (MLYM)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C3208	C0024299	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Malignant Tumor (MT)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C9305	C0006826	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Mesenchymal Chondrosarcoma of the CNS (MCHSCNS)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C3737	C0206637	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Primary Brain Tumor (PBT)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C4952	C0750974	NA
+CNS/Brain (BRAIN)	Miscellaneous Brain Tumor (MBT)	Primary Neuroepithelial Tumor (PRNET)	NA	NA	NA	NA	Miscellaneous Brain Tumor	Gray	C3787	C0206715	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	NA	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C7172	C1332889	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Angiocentric Glioma (ANGL)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C92552	C2363903	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Astroblastoma (ASTB)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C4324	C0334587	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Central Neurocytoma (CNC)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C3791	C0206719	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Cerebellar Liponeurocytoma (CLNC)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C6905	C1370507	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Chordoid Glioma of the Third Ventricle (CHGL)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C5592	C1322252	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Desmoplastic Infantile Astrocytoma (DIA)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C9476	C0457179	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Desmoplastic Infantile Ganglioglioma (DIG)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C4738	C1321878	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease (LDD)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C8419	C0391826	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Extraventricular Neurocytoma (EVN)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C92555	C2985175	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Papillary Glioneuronal Tumor (PGNT)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C92554	C2985174	NA
+CNS/Brain (BRAIN)	Miscellaneous Neuroepithelial Tumor (MNET)	Rosette-forming Glioneuronal Tumor of the Fourth Ventricle (RGNT)	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C67559	C2347979	NA
+CNS/Brain (BRAIN)	Pineal Tumor (PINT)	NA	NA	NA	NA	NA	Pineal Tumor	Gray	C3328	C1412004	NA
+CNS/Brain (BRAIN)	Pineal Tumor (PINT)	Papillary Tumor of the Pineal Region (PTPR)	NA	NA	NA	NA	Pineal Tumor	Gray	C92624	C2985219	NA
+CNS/Brain (BRAIN)	Pineal Tumor (PINT)	Pineal Parenchymal Tumor of Intermediate Differentiation (PPTID)	NA	NA	NA	NA	Pineal Tumor	Gray	C6967	C1367859	NA
+CNS/Brain (BRAIN)	Pineal Tumor (PINT)	Pineoblastoma (PBL)	NA	NA	NA	NA	Pineal Tumor	Gray	C9344	C0205898	NA
+CNS/Brain (BRAIN)	Pineal Tumor (PINT)	Pineocytoma (PINC)	NA	NA	NA	NA	Pineal Tumor	Gray	C6966	C0917890	NA
+CNS/Brain (BRAIN)	Primary CNS Melanocytic Tumors (PCNSMT)	NA	NA	NA	NA	NA	Primary CNS Melanocytic Tumors	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Primary CNS Melanocytic Tumors (PCNSMT)	Melanocytoma (MELC)	NA	NA	NA	NA	Melanocytoma	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Primary CNS Melanocytic Tumors (PCNSMT)	Primary CNS Melanoma (PCNSM)	NA	NA	NA	NA	Melanoma	LightSkyBlue	C5505	C1332888	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	NA	NA	NA	NA	NA	Sellar Tumor	Gray	C4944	C0748616	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Atypical Pituitary Adenoma (APTAD)	NA	NA	NA	NA	Sellar Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Craniopharyngioma, Adamantinomatous Type (ACPG)	NA	NA	NA	NA	Sellar Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Craniopharyngioma, Papillary Type (PCGP)	NA	NA	NA	NA	Sellar Tumor	Gray	NA	NA	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Granular Cell Tumor (GCT)	NA	NA	NA	NA	Sellar Tumor	Gray	C3474	C0085167	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Pituicytoma (PTCY)	NA	NA	NA	NA	Sellar Tumor	Gray	C94524	C2986550	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Pituitary Adenoma (PTAD)	NA	NA	NA	NA	Sellar Tumor	Gray	C3329	C0032000	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Pituitary Carcinoma (PTCA)	NA	NA	NA	NA	Sellar Tumor	Gray	C4536	C0346300	NA
+CNS/Brain (BRAIN)	Sellar Tumor (SELT)	Spindle Cell Oncocytoma of the Adenohypophysis (SCOAH)	NA	NA	NA	NA	Sellar Tumor	Gray	C94537	C2986561	NA
+Cervix (CERVIX)	NA	NA	NA	NA	NA	NA	Cervical Cancer, NOS	Teal	C12311	C0007874	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C4029	C0279672	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Cervical Clear Cell Carcinoma (CECC)	NA	NA	NA	NA	Cervical Cancer	Teal	C6344	C1332912	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Cervical Endometrioid Carcinoma (CEEN)	NA	NA	NA	NA	Cervical Cancer	Teal	C3769	C0206687	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Cervical Serous Carcinoma (CESE)	NA	NA	NA	NA	Cervical Cancer	Teal	NA	NA	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Endocervical Adenocarcinoma (ECAD)	NA	NA	NA	NA	Cervical Cancer	Teal	C28327	C1299237	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Mesonephric Carcinoma (CEMN)	NA	NA	NA	NA	Cervical Cancer	Teal	NA	CL329978	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Mucinous Carcinoma (CEMU)	NA	NA	NA	NA	Cervical Cancer	Teal	C26712	C0007130	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Mucinous Carcinoma (CEMU)	Gastric Type Mucinous Carcinoma (GCEMU)	NA	NA	NA	Cervical Cancer	Teal	NA	NA	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Mucinous Carcinoma (CEMU)	Intestinal Type Mucinous Carcinoma (ICEMU)	NA	NA	NA	Cervical Cancer	Teal	C40203	C1516422	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Mucinous Carcinoma (CEMU)	Signet Ring Mucinous Carcinoma (SCEMU)	NA	NA	NA	Cervical Cancer	Teal	C40205	C1516424	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma (CEAD)	Villoglandular Carcinoma (CEVG)	NA	NA	NA	NA	Cervical Cancer	Teal	C40208	C1516425	NA
+Cervix (CERVIX)	Cervical Adenocarcinoma In Situ (CEAIS)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C4520	C0346203	NA
+Cervix (CERVIX)	Cervical Adenoid Basal Carcinoma (CABC)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C40213	C1516403	NA
+Cervix (CERVIX)	Cervical Adenoid Cystic Carcinoma (CACC)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C6346	C1332911	NA
+Cervix (CERVIX)	Cervical Adenosquamous Carcinoma (CEAS)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C4519	C0346202	NA
+Cervix (CERVIX)	Cervical Leiomyosarcoma (CELI)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	NA	NA	NA
+Cervix (CERVIX)	Cervical Neuroendocrine Tumor (CENE)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C40214	C1516417	NA
+Cervix (CERVIX)	Cervical Rhabdomyosarcoma (CERMS)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	NA	NA	NA
+Cervix (CERVIX)	Cervical Squamous Cell Carcinoma (CESC)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C4028	C0279671	NA
+Cervix (CERVIX)	Glassy Cell Carcinoma of the Cervix (CEGCC)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C40212	C1516407	NA
+Cervix (CERVIX)	Mixed Cervical Carcinoma (MCCE)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	NA	NA	NA
+Cervix (CERVIX)	Small Cell Carcinoma of the Cervix (SCCE)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C7982	C0279674	NA
+Cervix (CERVIX)	Villoglandular Adenocarcinoma of the Cervix (VGCE)	NA	NA	NA	NA	NA	Cervical Cancer	Teal	C40208	C1516425	NA
+Esophagus/Stomach (STOMACH)	NA	NA	NA	NA	NA	NA	Esophageal/Stomach Cancer, NOS	LightSkyBlue	C12391	C0038351	NA
+Esophagus/Stomach (STOMACH)	Esophageal Poorly Differentiated Carcinoma (EPDCA)	NA	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	NA	NA	NA
+Esophagus/Stomach (STOMACH)	Esophageal Squamous Cell Carcinoma (ESCC)	NA	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C4024	C0279626	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	NA	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C9296	C1332166	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Adenocarcinoma of the Gastroesophageal Junction (GEJ)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C9296	C1332166	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Adenosquamous Carcinoma of the Stomach (STAS)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C5474	C1333761	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Esophageal Adenocarcinoma (ESCA)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C4025	C0279628	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Gastric Remnant Adenocarcinoma (GRC)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	NA	NA	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Small Cell Carcinoma of the Stomach (STSC)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C6764	C1333788	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Stomach Adenocarcinoma (STAD)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C4004	C0278701	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Stomach Adenocarcinoma (STAD)	Diffuse Type Stomach Adenocarcinoma (DSTAD)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C9159	C0279635	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Stomach Adenocarcinoma (STAD)	Intestinal Type Stomach Adenocarcinoma (ISTAD)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C9157	C0279633	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Stomach Adenocarcinoma (STAD)	Mucinous Stomach Adenocarcinoma (MSTAD)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C5248	C1334809	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Stomach Adenocarcinoma (STAD)	Papillary Stomach Adenocarcinoma (PSTAD)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C5472	C1333785	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Stomach Adenocarcinoma (STAD)	Tubular Stomach Adenocarcinoma (TSTAD)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C5473	C1333791	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Undifferentiated Stomach Adenocarcinoma (USTAD)	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C5476	C1336858	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Undifferentiated Stomach Adenocarcinoma (USTAD)	Poorly Differentiated Carcinoma of the Stomach (SPDAC)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	NA	NA	NA
+Esophagus/Stomach (STOMACH)	Esophagogastric Adenocarcinoma (EGC)	Undifferentiated Stomach Adenocarcinoma (USTAD)	Signet Ring Cell Carcinoma of the Stomach (SSRCC)	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	C5250	C1335965	NA
+Esophagus/Stomach (STOMACH)	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach (GINETES)	NA	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	NA	NA	NA
+Esophagus/Stomach (STOMACH)	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach (GINETES)	High-Grade Neuroendocrine Carcinoma of the Esophagus (HGNEE)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach	LightSkyBlue	NA	NA	NA
+Esophagus/Stomach (STOMACH)	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach (GINETES)	High-Grade Neuroendocrine Carcinoma of the Stomach (HGNES)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach	LightSkyBlue	NA	NA	NA
+Esophagus/Stomach (STOMACH)	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach (GINETES)	Well-Differentiated Neuroendocrine Tumors of the Stomach (SWDNET)	NA	NA	NA	NA	Gastrointestinal Neuroendocrine Tumor	LightSkyBlue	C95871	C3272399	NA
+Esophagus/Stomach (STOMACH)	Mucosal Melanoma of the Esophagus (ESMM)	NA	NA	NA	NA	NA	Melanoma	LightSkyBlue	C5707	C1333460	NA
+Esophagus/Stomach (STOMACH)	Smooth Muscle Neoplasm, NOS (SMN)	NA	NA	NA	NA	NA	Esophagogastric Cancer	LightSkyBlue	NA	NA	NA
+Eye (EYE)	NA	NA	NA	NA	NA	NA	Eye Cancer, NOS	Green	C12401	C0015392	NA
+Eye (EYE)	Lacrimal Gland Tumor (LGT)	NA	NA	NA	NA	NA	Lacrimal Gland Tumor	Green	NA	NA	NA
+Eye (EYE)	Lacrimal Gland Tumor (LGT)	Adenoid Cystic Carcinoma of the Lacrimal Gland (ACLG)	NA	NA	NA	NA	Lacrimal Gland Tumor	Green	NA	NA	NA
+Eye (EYE)	Lacrimal Gland Tumor (LGT)	Squamous Cell Carcinoma of the Lacrimal Gland (SCLG)	NA	NA	NA	NA	Lacrimal Gland Tumor	Green	NA	NA	NA
+Eye (EYE)	Ocular Melanoma (OM)	NA	NA	NA	NA	NA	Melanoma	Green	C8562	C0558356	NA
+Eye (EYE)	Ocular Melanoma (OM)	Conjunctival Melanoma (CM)	NA	NA	NA	NA	Melanoma	Green	C4550	C0346360	NA
+Eye (EYE)	Ocular Melanoma (OM)	Uveal Melanoma (UM)	NA	NA	NA	NA	Melanoma	Green	C7712	C0220633	NA
+Eye (EYE)	Retinoblastoma (RBL)	NA	NA	NA	NA	NA	Retinoblastoma	Green	C7541	C0035335	NA
+Head and Neck (HEAD_NECK)	NA	NA	NA	NA	NA	NA	Head and Neck Cancer, NOS	DarkRed	C12418	C0460004	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	NA	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Adenosquamous Carcinoma of the Tongue (ASCT)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Epithelial-Myoepithelial Carcinoma (EMYOCA)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C4199	C0334392	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Head and Neck Neuroendocrine Carcinoma (HNNE)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	NUT Midline Carcinoma of the Head and Neck (NMCHN)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C45716	C1707291	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Odontogenic Carcinoma (ODGC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C4812	C0334558	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Odontogenic Carcinoma (ODGC)	Clear Cell Odontogenic Carcinoma (CCOC)	NA	NA	NA	Head and Neck Cancer	DarkRed	C54300	C0475829	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Sinonasal Adenocarcinoma (SNA)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	NA	CL473651	NA
+Head and Neck (HEAD_NECK)	Head and Neck Carcinoma, Other (OHNCA)	Sinonasal Undifferentiated Carcinoma (SNUC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C54294	C1710096	NA
+Head and Neck (HEAD_NECK)	Head and Neck Mucosal Melanoma (HNMUCM)	NA	NA	NA	NA	NA	Melanoma	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	NA	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C34447	C1168401	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	Head and Neck Squamous Cell Carcinoma of Unknown Primary (HNSCUP)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	Hypopharynx Squamous Cell Carcinoma (HPHSC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C4043	C0280321	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	Larynx Squamous Cell Carcinoma (LXSC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C4044	C0280324	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	Oral Cavity Squamous Cell Carcinoma (OCSC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C4833	C0585362	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	Oropharynx Squamous Cell Carcinoma (OPHSC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	NA	C0280313	NA
+Head and Neck (HEAD_NECK)	Head and Neck Squamous Cell Carcinoma (HNSC)	Sinonasal Squamous Cell Carcinoma (SNSC)	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C54287	C0334270	NA
+Head and Neck (HEAD_NECK)	Nasopharyngeal Carcinoma (NPC)	NA	NA	NA	NA	NA	Head and Neck Cancer	DarkRed	C3871	C2931822	NA
+Head and Neck (HEAD_NECK)	Parathyroid Cancer (PTH)	NA	NA	NA	NA	NA	Parathyroid Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Parathyroid Cancer (PTH)	Parathyroid Carcinoma (PTHC)	NA	NA	NA	NA	Parathyroid Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	NA	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C9272	C0948750	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Acinic Cell Carcinoma (ACCC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C3768	C0206685	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Adenoid Cystic Carcinoma (ACYC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C2970	C0010606	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Basal Cell Adenocarcinoma (BCAC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Carcinoma ex Pleomorphic Adenoma (CAEXPA)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin (HNMASC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Mucoepidermoid Carcinoma (MUCC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C3772	C0206694	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Myoepithelial Carcinoma (MYEC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C35700	C1335904	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Pleomorphic Adenoma (PADA)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Polymorphous Adenocarcinoma (PAC)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Salivary Adenocarcinoma (SAAD)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C8021	C0279746	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Salivary Carcinoma, Other (OSACA)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	NA	NA	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Salivary Duct Carcinoma (SDCA)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C5904	C1301194	NA
+Head and Neck (HEAD_NECK)	Salivary Carcinoma (SACA)	Salivary Gland Oncocytoma (SGO)	NA	NA	NA	NA	Salivary Gland Cancer	DarkRed	C5932	C1335906	NA
+Head and Neck (HEAD_NECK)	Sialoblastoma (SBL)	NA	NA	NA	NA	NA	Sialoblastoma	DarkRed	NA	NA	NA
+Kidney (KIDNEY)	NA	NA	NA	NA	NA	NA	Kidney Cancer, NOS	Orange	C12415	C0022646	NA
+Kidney (KIDNEY)	Clear Cell Sarcoma of Kidney (CCSK)	NA	NA	NA	NA	NA	Clear Cell Sarcoma of Kidney	Orange	NA	NA	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	NA	NA	NA	NA	NA	Renal Cell Carcinoma	Orange	C9385	C0007134	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Clear Cell Carcinoma (CCRCC)	NA	NA	NA	NA	Renal Cell Carcinoma	Orange	C4033	C0279702	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Clear Cell Carcinoma (CCRCC)	Renal Clear Cell Carcinoma with Sarcomatoid Features (SCCRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	NA	NA	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	NA	NA	NA	NA	Renal Cell Carcinoma	Orange	NA	NA	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Chromophobe Renal Cell Carcinoma (CHRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C4146	C1266042	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Clear Cell Papillary Renal Cell Carcinoma (CCPRC)	NA	NA	NA	Renal Cell Carcinoma	Orange	NA	NA	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Collecting Duct Renal Cell Carcinoma (CDRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C6194	C1266044	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	FH-Deficient Renal Cell Carcinoma (FHRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	NA	NA	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Papillary Renal Cell Carcinoma (PRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C6975	C1306837	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Renal Angiomyolipoma (RAML)	NA	NA	NA	Renal Cell Carcinoma	Orange	C3888	C0241961	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Renal Medullary Carcinoma (MRC)	NA	NA	NA	Renal Cell Carcinoma	Orange	NA	CL448379	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Renal Mucinous Tubular Spindle Cell Carcinoma (MTSCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C39807	C1513719	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Renal Oncocytoma (ROCY)	NA	NA	NA	Renal Cell Carcinoma	Orange	C4526	C0346255	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Renal Small Cell Carcinoma (RSCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	NA	CL473652	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Sarcomatoid Renal Cell Carcinoma (SRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C27893	C1266043	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Translocation-Associated Renal Cell Carcinoma (TRCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C27891	C1337036	NA
+Kidney (KIDNEY)	Renal Cell Carcinoma (RCC)	Renal Non-Clear Cell Carcinoma (NCCRCC)	Unclassified Renal Cell Carcinoma (URCC)	NA	NA	NA	Renal Cell Carcinoma	Orange	C27892	C1336853	NA
+Kidney (KIDNEY)	Renal Neuroendocrine Tumor (RNET)	NA	NA	NA	NA	NA	Renal Neuroendocrine Tumor	Orange	NA	NA	NA
+Kidney (KIDNEY)	Rhabdoid Cancer (MRT)	NA	NA	NA	NA	NA	Rhabdoid Cancer	Orange	C3808	C0206743	NA
+Kidney (KIDNEY)	Wilms' Tumor (WT)	NA	NA	NA	NA	NA	Wilms Tumor	Orange	NA	CL343552	NA
+Liver (LIVER)	NA	NA	NA	NA	NA	NA	Liver Cancer, NOS	MediumSeaGreen	C12392	C0023884	NA
+Liver (LIVER)	Fibrolamellar Carcinoma (FLC)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	C4131	C0334287	NA
+Liver (LIVER)	Hepatoblastoma (LIHB)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	C3728	C0206624	NA
+Liver (LIVER)	Hepatocellular Adenoma (LIAD)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	C3758	C0206669	NA
+Liver (LIVER)	Hepatocellular Carcinoma (HCC)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	C3099	C0019204	NA
+Liver (LIVER)	Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma (HCCIHCH)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	C3828	C0221287	NA
+Liver (LIVER)	Liver Angiosarcoma (LIAS)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	C4438	C0345907	NA
+Liver (LIVER)	Malignant Nonepithelial Tumor of the Liver (LIMNET)	NA	NA	NA	NA	NA	Hepatobiliary Cancer	MediumSeaGreen	NA	NA	NA
+Liver (LIVER)	Malignant Rhabdoid Tumor of the Liver (MRTL)	NA	NA	NA	NA	NA	Malignant Rhabdoid Tumor of the Liver	MediumSeaGreen	NA	NA	NA
+Liver (LIVER)	Undifferentiated Embryonal Sarcoma of the Liver (UESL)	NA	NA	NA	NA	NA	Undifferentiated Embryonal Sarcoma of the Liver	MediumSeaGreen	NA	NA	NA
+Lung (LUNG)	NA	NA	NA	NA	NA	NA	Lung Cancer, NOS	Gainsboro	C12468	C0024109	NA
+Lung (LUNG)	Combined Small Cell Lung Carcinoma (CSCLC)	NA	NA	NA	NA	NA	Small Cell Lung Cancer	Gainsboro	C9137	C0334240	NA
+Lung (LUNG)	Inflammatory Myofibroblastic Lung Tumor (IMTL)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C39740	C1518038	NA
+Lung (LUNG)	Lung Adenocarcinoma In Situ (LAIS)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	NA	NA	NA
+Lung (LUNG)	Lung Neuroendocrine Tumor (LNET)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C5670	C1334452	NA
+Lung (LUNG)	Lung Neuroendocrine Tumor (LNET)	Atypical Lung Carcinoid (ALUCA)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C45551	C1708766	NA
+Lung (LUNG)	Lung Neuroendocrine Tumor (LNET)	Large Cell Neuroendocrine Carcinoma (LUNE)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C6875	C1265996	NA
+Lung (LUNG)	Lung Neuroendocrine Tumor (LNET)	Lung Carcinoid (LUCA)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C4038	C0280089	NA
+Lung (LUNG)	Lung Neuroendocrine Tumor (LNET)	Small Cell Lung Cancer (SCLC)	NA	NA	NA	NA	Small Cell Lung Cancer	Gainsboro	C4917	C0149925	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C2926	C0007131	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Ciliated Muconodular Papillary Tumor of the Lung (CMPT)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	NA	NA	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Large Cell Lung Carcinoma (LCLC)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C4450	C0345958	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Large Cell Lung Carcinoma (LCLC)	Basaloid Large Cell Carcinoma of the Lung (BLCLC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C7266	C1332463	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Large Cell Lung Carcinoma (LCLC)	Clear Cell Carcinoma of the Lung (CCLC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C4451	C1707407	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Large Cell Lung Carcinoma (LCLC)	Giant Cell Carcinoma of the Lung (GCLC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C4452	C0345960	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Large Cell Lung Carcinoma (LCLC)	Large Cell Lung Carcinoma With Rhabdoid Phenotype (RLCLC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C6876	C1265997	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Large Cell Lung Carcinoma (LCLC)	Lymphoepithelioma-like Carcinoma of the Lung (LECLC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C45519	C1708792	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Lung Adenocarcinoma (LUAD)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C3512	C0152013	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Lung Adenosquamous Carcinoma (LUAS)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C9133	C0279557	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Lung Squamous Cell Carcinoma (LUSC)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C3493	C0149782	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	NUT Carcinoma of the Lung (NUTCL)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	NA	NA	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Pleomorphic Carcinoma of the Lung (LUPC)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C45542	C1711397	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Poorly Differentiated Non-Small Cell Lung Cancer (NSCLCPD)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	NA	NA	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Salivary Gland-Type Tumor of the Lung (SGTTL)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	NA	NA	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Salivary Gland-Type Tumor of the Lung (SGTTL)	Adenoid Cystic Carcinoma of the Lung (LUACC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C5666	C1334439	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Salivary Gland-Type Tumor of the Lung (SGTTL)	Mucoepidermoid Carcinoma of the Lung (LUMEC)	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C45544	C1708778	NA
+Lung (LUNG)	Non-Small Cell Lung Cancer (NSCLC)	Spindle Cell Carcinoma of the Lung (SPCC)	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C45541	C1708784	SpCC
+Lung (LUNG)	Pleuropulmonary Blastoma (PPB)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C5669	C1266144	NA
+Lung (LUNG)	Pulmonary Lymphangiomyomatosis (LAM)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C38153	C0349649	NA
+Lung (LUNG)	Sarcomatoid Carcinoma of the Lung (SARCL)	NA	NA	NA	NA	NA	Non-Small Cell Lung Cancer	Gainsboro	C45540	C1708781	NA
+Lymphoid (LYMPH)	NA	NA	NA	NA	NA	NA	Lymphatic Cancer, NOS	LimeGreen	C13252	C0024202	NA
+Lymphoid (LYMPH)	Lymphoid Atypical (LATL)	NA	NA	NA	NA	NA	Lymphatic Cancer, NOS	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Benign (LBGN)	NA	NA	NA	NA	NA	Lymphatic Cancer, NOS	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	NA	NA	NA	NA	NA	Lymphatic Cancer, NOS	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	NA	NA	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	ALL,BALL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	NA	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with Hyperdiploidy (BLLHYPER)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with Hypodiploidy (BLLHYPO)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with iAMP21 (BLLIAMP21)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1 (BLLETV6RUNX1)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3);TCF3-PBX1 (BLLTCF3PBX1)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with t(5;14)(q31.1;q32.3) IL3-IGH (BLLIL3IGH)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2);BCR-ABL1 (BLLBCRABL1)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged (BLLKMT2A)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities (BLLRGA)	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like (BLLBCRABL1L)	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	B-Lymphoblastic Leukemia/Lymphoma (BLL)	B-Lymphoblastic Leukemia/Lymphoma, NOS (BLLNOS)	NA	NA	NA	B-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	NA	NA	NA	NA	Hodgkin Lymphoma	LimeGreen	C9357	C0019829	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	Classical Hodgkin Lymphoma (CHL)	NA	NA	NA	Hodgkin Lymphoma	LimeGreen	C7164	C1333064	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	Classical Hodgkin Lymphoma (CHL)	Lymphocyte-Depleted Classical Hodgkin Lymphoma (LDCHL)	NA	NA	Hodgkin Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	Classical Hodgkin Lymphoma (CHL)	Lymphocyte-Rich Classical Hodgkin Lymphoma (LRCHL)	NA	NA	Hodgkin Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	Classical Hodgkin Lymphoma (CHL)	Mixed Cellularity Classical Hodgkin Lymphoma (MCCHL)	NA	NA	Hodgkin Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	Classical Hodgkin Lymphoma (CHL)	Nodular Sclerosis Classical Hodgkin Lymphoma (NSCHL)	NA	NA	Hodgkin Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Hodgkin Lymphoma (HL)	Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)	NA	NA	NA	Hodgkin Lymphoma	LimeGreen	C7258	C1334968	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	NA	NA	NA	NA	Non-Hodgkin Lymphoma	LimeGreen	C3211	C0024305	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	NA	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C3457	CL448793	BCL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	ALK Positive Large B-Cell Lymphoma (ALKLBCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Alpha Heavy-Chain Disease (AHCD)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	B-Cell Lymphoma, Unclassifiable, with Features Intermediate between DLBCL and Classical Hodgkin lymphoma (BCLU)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	B-Cell Prolymphocytic Leukemia (BPLL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Burkitt Lymphoma (BL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C2912	C0006413	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Burkitt-Like Lymphoma with 11q Aberration (BLL11Q)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLLSLL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C7540	C0855095	CLL,SLL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	DLBCL Associated with Chronic Inflammation (DLBCLCI)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Diffuse Large B-Cell Lymphoma, NOS (DLBCLNOS)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	DLBCL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Diffuse Large B-Cell Lymphoma, NOS (DLBCLNOS)	Activated B-cell Type (ABC)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Diffuse Large B-Cell Lymphoma, NOS (DLBCLNOS)	Germinal Center B-Cell Type (GCB)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	EBV Positive DLBCL, NOS (EBVDLBCLNOS)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	EBV Positive Mucocutaneous Ulcer (EBVMCU)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Extraosseous Plasmacytoma (EP)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Follicular Lymphoma (FL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C3209	C0024301	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Follicular Lymphoma (FL)	Duodenal-Type Follicular Lymphoma (DFL)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Follicular Lymphoma (FL)	In Situ Follicular Neoplasia (ISFN)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Gamma Heavy-Chain Disease (GHCD)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	HHV8 Positive DLBCL, NOS (HHV8DLBCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Hairy Cell Leukemia (HCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C7402	C0023443	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	High-Grade B-Cell Lymphoma, NOS (HGBCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements (HGBCLMYCBCL2)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Intravascular Large B-Cell Lymphoma (IVBCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Large B-Cell Lymphoma with IRF4 Rearrangement (LBLIRF4)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Lymphomatoid Granulomatosis (LYG)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Lymphoplasmacytic Lymphoma (LPL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Lymphoplasmacytic Lymphoma (LPL)	Waldenstrom Macroglobulinemia (WM)	NA	Mature B-Cell Neoplasms	LimeGreen	C80307	C0024419	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Mantle Cell Lymphoma (MCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C4337	C0334634	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Mantle Cell Lymphoma (MCL)	In Situ Mantle Cell Neoplasia (ISMCL)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Marginal Zone Lymphoma (MZL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C4341	C1367654	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Marginal Zone Lymphoma (MZL)	Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma) (EMALT)	NA	Mature B-Cell Neoplasms	LimeGreen	C3898	C0242647	MALTL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Marginal Zone Lymphoma (MZL)	Nodal Marginal Zone Lymphoma (NMZL)	NA	Mature B-Cell Neoplasms	LimeGreen	C8863	C0855139	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Marginal Zone Lymphoma (MZL)	Splenic Marginal Zone Lymphoma (SMZL)	NA	Mature B-Cell Neoplasms	LimeGreen	C4663	C0349632	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal B-Cell Lymphocytosis (MCBCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Gammopathy of Undetermined Significance (MGUS)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Gammopathy of Undetermined Significance (MGUS)	IgA (MGUSIGA)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Gammopathy of Undetermined Significance (MGUS)	IgG (MGUSIGG)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Gammopathy of Undetermined Significance (MGUS)	IgM (MGUSIGM)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Immunoglobulin Deposition Diseases (MIDD)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Immunoglobulin Deposition Diseases (MIDD)	Amyloidosis (MIDDA)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Monoclonal Immunoglobulin Deposition Diseases (MIDD)	Monoclonal Immunoglobulin Deposition Diseases, Other (MIDDO)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Mu Heavy-Chain Disease (MHCD)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Pediatric-Type Follicular Lymphoma (PTFL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Plasma Cell Myeloma (PCM)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C3242	C0026764	MM
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Plasmablastic Lymphoma (PLBL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Primary Cutaneous DLBCL, Leg Type (PCLBCLLT)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Primary Cutaneous Follicle Center Lymphoma (PCFCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Primary DLBCL of the central nervous system (PCNSL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C9301	C0280803	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Primary Effusion Lymphoma (PEL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C6915	C1292753	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Primary Mediastinal (Thymic) Large B-Cell Lymphoma (PMBL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	C9280	C1292754	MBCL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Solitary Plasmacytoma of Bone (SPB)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Splenic B-Cell Lymphoma/Leukemia, Unclassifiable (SBLU)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Splenic B-Cell Lymphoma/Leukemia, Unclassifiable (SBLU)	Hairy Cell Leukemia-Variant (HCL-V)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	Splenic B-Cell Lymphoma/Leukemia, Unclassifiable (SBLU)	Splenic Diffuse Red Pulp Small B-Cell Lymphoma (SDRPL)	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature B-Cell Neoplasms (MBN)	T-Cell/Histiocyte-Rich Large B-Cell Lymphoma (THRLBCL)	NA	NA	Mature B-Cell Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	NA	NA	NA	Mature T and NK Neoplasms	LimeGreen	C3466	C0079772	TNKL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Adult T-Cell Leukemia/Lymphoma (ATLL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Aggressive NK-Cell Leukemia (ANKL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Anaplastic Large Cell Lymphoma (ALCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	C3720	C0206180	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Anaplastic Large Cell Lymphoma (ALCL)	Anaplastic Large-Cell Lymphoma ALK Negative (ALCLALKN)	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Anaplastic Large Cell Lymphoma (ALCL)	Anaplastic Large-Cell Lymphoma ALK Positive (ALCLALKP)	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Anaplastic Large Cell Lymphoma (ALCL)	Breast Implant-Associated Anaplastic Large-Cell Lymphoma (BIALCL)	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Angioimmunoblastic T-Cell Lymphoma (AITL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	C7528	C0020981	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Chronic Lymphoproliferative Disorder of NK Cells (CLPDNK)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Enteropathy-Associated T-Cell Lymphoma (EATL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Extranodal NK-/T-Cell Lymphoma, Nasal Type (ENKL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Follicular T-Cell Lymphoma (FTCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Hepatosplenic T-cell Lymphoma (HSTCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Hydroa Vacciniforme Like Lymphoproliferative Disorder (HVLL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Indolent T-Cell Lymphoproliferative Disorder of the GI Tract (ITLPDGI)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma (MEITL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	MEATL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Mycosis Fungoides (MYCF)	NA	NA	Mature T and NK Neoplasms	LimeGreen	C3246	C0026948	CTCL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Nodal Peripheral T-Cell Lymphoma with TFH Phenotype (NPTLTFH)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Peripheral T-Cell lymphoma, NOS (PTCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	PTCLNOS
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous Acral CD8 Positive T-Cell Lymphoma (PCATCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders (PCLPD)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders (PCLPD)	Lymphomatoid Papulosis (LYP)	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders (PCLPD)	Primary Cutaneous Anaplastic Large Cell Lymphoma (PCALCL)	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous CD4 Positive Small/Medium T-Cell Lymphoproliferative Disorder (PCSMTPLD)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma (PCAECTCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Primary Cutaneous Gamma Delta T-Cell Lymphoma (PCGDTCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Sezary Syndrome (SS)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	SEZS
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Subcutaneous Panniculitis-Like T-Cell Lymphoma (SPTCL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	Systemic EBV Positive T-Cell Lymphoma of Childhood (SEBVTLC)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	T-Cell Large Granular Lymphocytic Leukemia (TLGL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	C4664	C1955861	LGLL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Non-Hodgkin Lymphoma (NHL)	Mature T and NK Neoplasms (MTNN)	T-Cell Prolymphocytic Leukemia (TPLL)	NA	NA	Mature T and NK Neoplasms	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	NA	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	Classical Hodgkin Lymphoma PTLD (CHLPTLD)	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	Florid Follicular Hyperplasia PTLD (FHPTLD)	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	Infectious Mononucleosis PTLD (IMPTLD)	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	Monomorphic PTLD (B- and T-/NK-cell types) (MPTLD)	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	Plasmacytic Hyperplasia PTLD (PHPTLD)	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	Posttransplant Lymphoproliferative Disorders (PTLD)	Polymorphic PTLD (PPTLD)	NA	NA	NA	Posttransplant Lymphoproliferative Disorders	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	T-Lymphoblastic Leukemia/Lymphoma (TLL)	NA	NA	NA	NA	T-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	ALL,TALL
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	T-Lymphoblastic Leukemia/Lymphoma (TLL)	Early T-Cell Precursor Lymphoblastic Leukemia (ETPLL)	NA	NA	NA	T-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Lymphoid (LYMPH)	Lymphoid Neoplasm (LNM)	T-Lymphoblastic Leukemia/Lymphoma (TLL)	Natural Killer (NK) Cell Lymphoblastic Leukemia/Lymphoma (NKCLL)	NA	NA	NA	T-Lymphoblastic Leukemia/Lymphoma	LimeGreen	NA	NA	NA
+Myeloid (MYELOID)	NA	NA	NA	NA	NA	NA	Blood Cancer, NOS	LightSalmon	C12434	C0005767	BLOOD
+Myeloid (MYELOID)	Myeloid Atypical (MATPL)	NA	NA	NA	NA	NA	Blood Cancer, NOS	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Benign (MBGN)	NA	NA	NA	NA	NA	Blood Cancer, NOS	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	NA	NA	NA	NA	NA	Blood Cancer, NOS	LightSalmon	NA	NA	LEUK
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Leukemias of Ambiguous Lineage (ALAL)	NA	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Leukemias of Ambiguous Lineage (ALAL)	Acute Undifferentiated Leukemia (AUL)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Leukemias of Ambiguous Lineage (ALAL)	Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1 (MPALBCRABL1)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Leukemias of Ambiguous Lineage (ALAL)	Mixed Phenotype Acute Leukemia with t(v;11q23.3); KMT2A Rearranged (MPALKMT2A)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Leukemias of Ambiguous Lineage (ALAL)	Mixed Phenotype Acute Leukemia, B/Myeloid, NOS (MPALBNOS)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Leukemias of Ambiguous Lineage (ALAL)	Mixed Phenotype Acute Leukemia, T/Myeloid, NOS (MPALTNOS)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	NA	NA	NA	NA	Leukemia	LightSalmon	C3171	C0023467	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Myelodysplasia-Related Changes (AMLMRC)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML (megakaryoblastic) with t(1;22)(p13.3;q13.3);RBM15-MKL1 (AMLRBM15MKL1)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with BCR-ABL1 (AMLBCRABL1)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with Biallelic Mutations of CEBPA (AMLCEBPA)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with Mutated NPM1 (AMLNPM1)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with Mutated RUNX1 (AMLRUNX1)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with Variant RARA translocation (AMLRARA)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22);CBFB-MYH11 (AMLCBFBMYH11)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM (AMLGATA2MECOM)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with t(6;9)(p23;q34.1);DEK-NUP214 (AMLDEKNUP214)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1 (AMLRUNX1RUNX1T1)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	AML with t(9;11)(p21.3;q23.3);MLLT3-KMT2A (AMLMLLT3KMT2A)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML with Recurrent Genetic Abnormalities (AMLRGA)	APL with PML-RARA (APLPMLRARA)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	AML with Maturation (AM)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	AML with Minimal Differentiation (AMLMD)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	AML without Maturation (AWM)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	Acute Basophilic Leukemia (ABL)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	Acute Megakaryoblastic Leukemia (AMKL)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	Acute Monoblastic/Monocytic Leukemia (AMOL)	NA	NA	Leukemia	LightSalmon	C4861	C0023465	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	Acute Myelomonocytic Leukemia (AMML)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	Acute Panmyelosis with Myelofibrosis (APMF)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	AML, NOS (AMLNOS)	Pure Erythroid Leukemia (PERL)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Myeloid Proliferations Related to Down Syndrome (MPRDS)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Myeloid Proliferations Related to Down Syndrome (MPRDS)	Myeloid Leukemia Associated with Down Syndrome (MLADS)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Myeloid Proliferations Related to Down Syndrome (MPRDS)	Transient Abnormal Myelopoiesis (TAM)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Myeloid Sarcoma (MS)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Therapy-Related Myeloid Neoplasms (TMN)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Therapy-Related Myeloid Neoplasms (TMN)	Therapy-Related Acute Myeloid Leukemia (TAML)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Acute Myeloid Leukemia (AML)	Therapy-Related Myeloid Neoplasms (TMN)	Therapy-Related Myelodysplastic Syndrome (TMDS)	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Blastic Plasmacytoid Dendritic Cell Neoplasm (BPDCN)	NA	NA	NA	NA	Blastic Plasmacytoid Dendritic Cell Neoplasm	LightSalmon	C7203	C1301363	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	NA	NA	NA	NA	Histiocytosis	LightSalmon	C3106	C0019618	HIST
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Disseminated Juvenile Xanthogranuloma (JXG)	NA	NA	NA	Histiocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Erdheim-Chester Disease (ECD)	NA	NA	NA	Histiocytosis	LightSalmon	C53972	C0878675	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Fibroblastic Reticular Cell Tumor (FRCT)	NA	NA	NA	Histiocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Follicular Dendritic Cell Sarcoma (FDCS)	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C9281	C1260325	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Histiocytic Sarcoma (HS)	NA	NA	NA	Histiocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Indeterminate Dendritic Cell Tumor (IDCT)	NA	NA	NA	Histiocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Interdigitating Dendritic Cell Sarcoma (IDCS)	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C9282	C1260326	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Langerhans Cell Histiocytosis (LCH)	NA	NA	NA	Histiocytosis	LightSalmon	C3107	C0019621	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Langerhans Cell Sarcoma (LCS)	NA	NA	NA	Histiocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Histiocytic and Dendritic Cell Neoplasms (HDCN)	Rosai-Dorfman Disease (RDD)	NA	NA	NA	Histiocytosis	LightSalmon	C36075	C0019625	RD
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	NA	NA	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Cutaneous Mastocytosis (CMCD)	NA	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Mast Cell Sarcoma (MCSL)	NA	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Systemic Mastocytosis (SM)	NA	NA	NA	Mastocytosis	LightSalmon	C9235	C0221013	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Systemic Mastocytosis (SM)	Aggressive Systemic Mastocytosis (ASM)	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Systemic Mastocytosis (SM)	Indolent Systemic Mastocytosis (ISM)	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Systemic Mastocytosis (SM)	Mast Cell Leukemia (SMMCL)	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Systemic Mastocytosis (SM)	Smoldering Systemic Mastocytosis (SSM)	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Mastocytosis (MCD)	Systemic Mastocytosis (SM)	Systemic Mastocytosis with an Associated Hematological Neoplasm (SMAHN)	NA	NA	Mastocytosis	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	NA	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	C3247	C3463824	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Excess Blasts (MDSEB)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Excess Blasts (MDSEB)	MDS with excess blasts-1 (MDSEB1)	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Excess Blasts (MDSEB)	MDS with excess blasts-2 (MDSEB2)	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Isolated Del(5q) (MDSID5Q)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Multilineage Dysplasia (MDSMD)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Ring Sideroblasts (MDSRS)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Ring Sideroblasts (MDSRS)	MDS with Ring Sideroblasts and Multilineage Dysplasia (MDSRSMD)	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Ring Sideroblasts (MDSRS)	MDS with Ring Sideroblasts and Single Lineage Dysplasia (MDSRSSLD)	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS with Single Lineage Dysplasia (MDSSLD)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	MDS, Unclassifiable (MDSU)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic Syndromes (MDS)	Refractory Cytopenia of Childhood (RCYC)	NA	NA	NA	Myelodysplastic Syndromes	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	NA	NA	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	Atypical Chronic Myeloid Leukemia, BCR-ABL1- (ACML)	NA	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	aCML
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	Chronic Myelomonocytic Leukemia (CMML)	NA	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	C3178	C0023480	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	Chronic Myelomonocytic Leukemia (CMML)	Chronic Myelomonocytic Leukemia-0 (CMML0)	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	Chronic Myelomonocytic Leukemia (CMML)	Chronic Myelomonocytic Leukemia-1 (CMML1)	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	Chronic Myelomonocytic Leukemia (CMML)	Chronic Myelomonocytic Leukemia-2 (CMML2)	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	Juvenile Myelomonocytic Leukemia (JMML)	NA	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	MDS/MPN with Ring Sideroblasts and Thrombocytosis (MDSMPNRST)	NA	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN)	MDS/MPN, Unclassifiable (MDSMPNU)	NA	NA	NA	Myelodysplastic/Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloid Neoplasms with Germ Line Predisposition (MNGLP)	NA	NA	NA	NA	Myeloid Neoplasms with Germ Line Predisposition	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2 (MLNER)	NA	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2 (MLNER)	Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement (MLNFGFR1)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2 (MLNER)	Myeloid/Lymphoid Neoplasms with PCM1-JAK2 (MLNPCM1JAK2)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2 (MLNER)	Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement (MLNPDGFRA)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2 (MLNER)	Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement (MLNPDGFRB)	NA	NA	NA	Leukemia	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	NA	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	C4345	C1292778	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Chronic Eosinophilic Leukemia, NOS (CELNOS)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Chronic Myelogenous Leukemia (CML)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	C3172	C0023470	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Chronic Myelogenous Leukemia (CML)	Chronic Myeloid Leukemia, BCR-ABL1+ (CMLBCRABL1)	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Chronic Neutrophilic Leukemia (CNL)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Essential Thrombocythemia (ET)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	ETC
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Essential Thrombocythemia (ET)	Essential Thrombocythemia Myelofibrosis (ETMF)	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Myeloproliferative Neoplasms, Unclassifiable (MPNU)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Polycythemia Vera (PV)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	PCV
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Polycythemia Vera (PV)	Polycythaemia Vera Myelofibrosis (PVMF)	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Primary Myelofibrosis (PMF)	NA	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	MYF
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Primary Myelofibrosis (PMF)	Primary Myelofibrosis, Prefibrotic/Early Stage (PMFPES)	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Myeloid (MYELOID)	Myeloid Neoplasm (MNM)	Myeloproliferative Neoplasms (MPN)	Primary Myelofibrosis (PMF)	Primary Myelofibrosis,Overt Fibrotic Stage (PMFOFS)	NA	NA	Myeloproliferative Neoplasms	LightSalmon	NA	NA	NA
+Other (OTHER)	NA	NA	NA	NA	NA	NA	Other Cancer, NOS	Black	C17649	C0205394	NA
+Other (OTHER)	Adenocarcinoma In Situ (AIS)	NA	NA	NA	NA	NA	Adenocarcinoma In Situ	Black	C4123	C0334276	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	NA	NA	NA	NA	NA	Cancer of Unknown Primary	Black	C3812	C0220647	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Acinar Cell Carcinoma, NOS (ACN)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Adenocarcinoma, NOS (ADNOS)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Cancer of Unknown Primary, NOS (CUPNOS)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Neuroendocrine Carcinoma, NOS (NECNOS)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Neuroendocrine Tumor, NOS (NETNOS)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Poorly Differentiated Carcinoma, NOS (PDC)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Small Cell Carcinoma of Unknown Primary (SCUP)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Squamous Cell Carcinoma, NOS (SCCNOS)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Other (OTHER)	Cancer of Unknown Primary (CUP)	Undifferentiated Malignant Neoplasm (UDMN)	NA	NA	NA	NA	Cancer of Unknown Primary	Black	C36051	C1336860	NA
+Other (OTHER)	Extra Gonadal Germ Cell Tumor (EGCT)	NA	NA	NA	NA	NA	Germ Cell Tumor	Black	NA	NA	NA
+Other (OTHER)	Mixed Cancer Types (MIXED)	NA	NA	NA	NA	NA	Cancer of Unknown Primary	Black	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	NA	NA	NA	NA	NA	NA	Ovarian/Fallopian Tube Cancer, NOS	LightBlue	C12404	C0029939	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Cancer, Other (OOVC)	NA	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Cancer, Other (OOVC)	High-Grade Neuroendocrine Carcinoma of the Ovary (HGONEC)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Cancer, Other (OOVC)	High-Grade Serous Fallopian Tube Cancer (HGSFT)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Cancer, Other (OOVC)	Ovarian Choriocarcinoma, NOS (OCNOS)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	NA	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C4381	C0341823	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Brenner Tumor (BTOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C39954	CL323981	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Brenner Tumor (BTOV)	Brenner Tumor, Benign (BTBEOV)	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Brenner Tumor (BTOV)	Brenner Tumor, Borderline (BTBOV)	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Brenner Tumor (BTOV)	Brenner Tumor, Malignant (BTMOV)	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Clear Cell Borderline Ovarian Tumor (CCBOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C40080	C0279676	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Clear Cell Ovarian Cancer (CCOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C40076	C0346164	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Endometrioid Borderlin Ovarian Tumor (EBOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C7983	C0334338	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Endometrioid Ovarian Cancer (EOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C7979	C0346163	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Mixed Ovarian Carcinoma (MXOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C40090	C0279392	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Mucinous Borderline Ovarian Tumor (MBOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C40036	C0279664	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Mucinous Ovarian Cancer (MOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C5242	C1335168	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor (OCS)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C9192	C0392998	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Ovarian Seromucinous Adenoma (OSMAD)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Ovarian Seromucinous Borderline Tumor (OSMBT)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C40038	C1511264	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Ovarian Seromucinous Carcinoma (OSMCA)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C40090	C0279392	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Serous Borderline Ovarian Tumor (SBOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	C0279662	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Serous Borderline Ovarian Tumor, Micropapillary (SBMOV)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	NA	NA	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Serous Ovarian Cancer (SOC)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C7550	C1335177	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Serous Ovarian Cancer (SOC)	High-Grade Serous Ovarian Cancer (HGSOC)	NA	NA	NA	Ovarian Cancer	LightBlue	NA	CL446431	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Serous Ovarian Cancer (SOC)	Low-Grade Serous Ovarian Cancer (LGSOC)	NA	NA	NA	Ovarian Cancer	LightBlue	NA	CL446432	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Epithelial Tumor (OVT)	Small Cell Carcinoma of the Ovary (SCCO)	NA	NA	NA	NA	Ovarian Cancer	LightBlue	C27390	C2212006	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	NA	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C3873	C0238324	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Dysgerminoma (ODYS)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C8106	C0346185	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Embryonal Carcinoma (OEC)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C8108	C0346183	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Immature Teratoma (OIMT)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C8111	C0346182	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Mature Teratoma (OMT)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C8112	C1334637	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Mixed Germ Cell Tumor (OMGCT)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C8114	C0280135	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Polyembryoma (OPE)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C39990	C1514199	NA
+Ovary/Fallopian Tube (OVARY)	Ovarian Germ Cell Tumor (OGCT)	Yolk Sac Tumor (OYST)	NA	NA	NA	NA	Germ Cell Tumor	LightBlue	C8107	C0346188	NA
+Ovary/Fallopian Tube (OVARY)	Sex Cord Stromal Tumor (SCST)	NA	NA	NA	NA	NA	Sex Cord Stromal Tumor	LightBlue	C4862	C0600113	NA
+Ovary/Fallopian Tube (OVARY)	Sex Cord Stromal Tumor (SCST)	Fibrothecoma (FT)	NA	NA	NA	NA	Sex Cord Stromal Tumor	LightBlue	NA	NA	MFT
+Ovary/Fallopian Tube (OVARY)	Sex Cord Stromal Tumor (SCST)	Gonadoblastoma (OGBL)	NA	NA	NA	NA	Sex Cord Stromal Tumor	LightBlue	C39985	C1518716	NA
+Ovary/Fallopian Tube (OVARY)	Sex Cord Stromal Tumor (SCST)	Granulosa Cell Tumor (GRCT)	NA	NA	NA	NA	Sex Cord Stromal Tumor	LightBlue	C3070	C0018206	NA
+Ovary/Fallopian Tube (OVARY)	Sex Cord Stromal Tumor (SCST)	Sertoli-Leydig Cell Tumor (SLCT)	NA	NA	NA	NA	Sex Cord Stromal Tumor	LightBlue	C2880	C0003810	NA
+Ovary/Fallopian Tube (OVARY)	Sex Cord Stromal Tumor (SCST)	Steroid Cell Tumor, NOS (SCT)	NA	NA	NA	NA	Sex Cord Stromal Tumor	LightBlue	NA	NA	NA
+Pancreas (PANCREAS)	NA	NA	NA	NA	NA	NA	Pancreatic Cancer, NOS	Purple	C12393	C0030274	NA
+Pancreas (PANCREAS)	Acinar Cell Carcinoma of the Pancreas (PAAC)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C7977	C0279661	NA
+Pancreas (PANCREAS)	Adenosquamous Carcinoma of the Pancreas (PAASC)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C5721	C1335299	NA
+Pancreas (PANCREAS)	Cystic Tumor of the Pancreas (PACT)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C41247	C1518872	NA
+Pancreas (PANCREAS)	Cystic Tumor of the Pancreas (PACT)	Intraductal Oncocytic Papillary Neoplasm (IOPN)	NA	NA	NA	NA	Pancreatic Cancer	Purple	NA	NA	NA
+Pancreas (PANCREAS)	Cystic Tumor of the Pancreas (PACT)	Intraductal Papillary Mucinous Neoplasm (IPMN)	NA	NA	NA	NA	Pancreatic Cancer	Purple	C38342	C1518869	NA
+Pancreas (PANCREAS)	Cystic Tumor of the Pancreas (PACT)	Intraductal Tubulopapillary Neoplasm (ITPN)	NA	NA	NA	NA	Pancreatic Cancer	Purple	NA	NA	NA
+Pancreas (PANCREAS)	Cystic Tumor of the Pancreas (PACT)	Mucinous Cystic Neoplasm (MCN)	NA	NA	NA	NA	Pancreatic Cancer	Purple	C41247	C1518872	NA
+Pancreas (PANCREAS)	Cystic Tumor of the Pancreas (PACT)	Serous Cystadenoma of the Pancreas (PSC)	NA	NA	NA	NA	Pancreatic Cancer	Purple	C5712	C1335316	NA
+Pancreas (PANCREAS)	Pancreatic Adenocarcinoma (PAAD)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C8294	C0281361	NA
+Pancreas (PANCREAS)	Pancreatic Neuroendocrine Tumor (PANET)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C27720	C1337011	NA
+Pancreas (PANCREAS)	Pancreatoblastoma (PB)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C4265	C0334489	NA
+Pancreas (PANCREAS)	Solid Pseudopapillary Neoplasm of the Pancreas (SPN)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C37212	C1336030	NA
+Pancreas (PANCREAS)	Undifferentiated Carcinoma of the Pancreas (UCP)	NA	NA	NA	NA	NA	Pancreatic Cancer	Purple	C5722	C1336861	NA
+Pancreas (PANCREAS)	Undifferentiated Carcinoma of the Pancreas (UCP)	Osteoclastic Giant Cell Tumor (OSGCT)	NA	NA	NA	NA	Pancreatic Cancer	Purple	NA	NA	NA
+Penis (PENIS)	NA	NA	NA	NA	NA	NA	Penile Cancer, NOS	Blue	C12409	C0030851	NA
+Penis (PENIS)	Penile Squamous Cell Carcinoma (PSCC)	NA	NA	NA	NA	NA	Penile Cancer	Blue	C7729	C0238348	NA
+Penis (PENIS)	Penile Squamous Cell Carcinoma (PSCC)	Basaloid Penile Squamous Cell Carcinoma (BPSCC)	NA	NA	NA	NA	Penile Cancer	Blue	C6980	C1332462	NA
+Penis (PENIS)	Penile Squamous Cell Carcinoma (PSCC)	Verrucous Penile Squamous Cell Carcinoma (VPSCC)	NA	NA	NA	NA	Penile Cancer	Blue	C6982	C1336955	NA
+Penis (PENIS)	Penile Squamous Cell Carcinoma (PSCC)	Warty Penile Squamous Cell Carcinoma (WPSCC)	NA	NA	NA	NA	Penile Cancer	Blue	C6981	C1337009	NA
+Peripheral Nervous System (PNS)	NA	NA	NA	NA	NA	NA	Peripheral Nervous System Cancer, NOS	Gray	C12465	C0206417	NA
+Peripheral Nervous System (PNS)	Ganglioneuroblastoma (GNBL)	NA	NA	NA	NA	NA	Peripheral Nervous System	Gray	C3790	C0206718	NA
+Peripheral Nervous System (PNS)	Ganglioneuroma (GN)	NA	NA	NA	NA	NA	Peripheral Nervous System	Gray	NA	NA	NA
+Peripheral Nervous System (PNS)	Nerve Sheath Tumor (NST)	NA	NA	NA	NA	NA	Nerve Sheath Tumor	Gray	C4972	C0206727	NA
+Peripheral Nervous System (PNS)	Nerve Sheath Tumor (NST)	Malignant Peripheral Nerve Sheath Tumor (MPNST)	NA	NA	NA	NA	Nerve Sheath Tumor	Gray	C3798	C0751690	NA
+Peripheral Nervous System (PNS)	Nerve Sheath Tumor (NST)	Neurofibroma (NFIB)	NA	NA	NA	NA	Nerve Sheath Tumor	Gray	C3272	C0027830	NA
+Peripheral Nervous System (PNS)	Nerve Sheath Tumor (NST)	Schwannoma (SCHW)	NA	NA	NA	NA	Nerve Sheath Tumor	Gray	C3269	C0027809	NA
+Peripheral Nervous System (PNS)	Nerve Sheath Tumor (NST)	Schwannoma (SCHW)	Cellular Schwannoma (CSCHW)	NA	NA	NA	Nerve Sheath Tumor	Gray	C4724	C0431124	NA
+Peripheral Nervous System (PNS)	Nerve Sheath Tumor (NST)	Schwannoma (SCHW)	Melanotic Schwannoma (MSCHW)	NA	NA	NA	Nerve Sheath Tumor	Gray	C6970	C1306247	NA
+Peripheral Nervous System (PNS)	Neuroblastoma (NBL)	NA	NA	NA	NA	NA	Peripheral Nervous System	Gray	C3270	C0027819	NA
+Peritoneum (PERITONEUM)	NA	NA	NA	NA	NA	NA	Peritoneal Cancer, NOS	Green	C12770	C0031153	NA
+Peritoneum (PERITONEUM)	Peritoneal Mesothelioma (PEMESO)	NA	NA	NA	NA	NA	Mesothelioma	Green	C7633	C1377610	NA
+Peritoneum (PERITONEUM)	Peritoneal Serous Carcinoma (PSEC)	NA	NA	NA	NA	NA	Peritoneal Cancer, NOS	Green	NA	NA	NA
+Pleura (PLEURA)	NA	NA	NA	NA	NA	NA	Pleural Cancer, NOS	Blue	C12469	C0032225	NA
+Pleura (PLEURA)	Pleural Mesothelioma (PLMESO)	NA	NA	NA	NA	NA	Mesothelioma	Blue	C9351	C1377913	NA
+Pleura (PLEURA)	Pleural Mesothelioma (PLMESO)	Pleural Mesothelioma, Biphasic Type (PLBMESO)	NA	NA	NA	NA	Mesothelioma	Blue	NA	NA	NA
+Pleura (PLEURA)	Pleural Mesothelioma (PLMESO)	Pleural Mesothelioma, Epithelioid Type (PLEMESO)	NA	NA	NA	NA	Mesothelioma	Blue	NA	NA	NA
+Pleura (PLEURA)	Pleural Mesothelioma (PLMESO)	Pleural Mesothelioma, Sarcomatoid Type (PLSMESO)	NA	NA	NA	NA	Mesothelioma	Blue	NA	NA	NA
+Prostate (PROSTATE)	NA	NA	NA	NA	NA	NA	Prostate Cancer, NOS	Cyan	C12410	C0033572	NA
+Prostate (PROSTATE)	Basal Cell Carcinoma of Prostate (BCCP)	NA	NA	NA	NA	NA	Prostate Cancer	Cyan	NA	NA	NA
+Prostate (PROSTATE)	Prostate Adenocarcinoma (PRAD)	NA	NA	NA	NA	NA	Prostate Cancer	Cyan	C2919	C0007112	NA
+Prostate (PROSTATE)	Prostate Neuroendocrine Carcinoma (PRNE)	NA	NA	NA	NA	NA	Prostate Cancer	Cyan	C5545	C1335515	NA
+Prostate (PROSTATE)	Prostate Small Cell Carcinoma (PRSCC)	NA	NA	NA	NA	NA	Prostate Cancer	Cyan	C6766	C1300585	NA
+Prostate (PROSTATE)	Prostate Squamous Cell Carcinoma (PRSC)	NA	NA	NA	NA	NA	Prostate Cancer	Cyan	C5536	C1302530	NA
+Skin (SKIN)	NA	NA	NA	NA	NA	NA	Skin Cancer, NOS	Black	C12470	C1123023	NA
+Skin (SKIN)	Aggressive Digital Papillary Adenocarcinoma (ADPA)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C27534	C1367789	NA
+Skin (SKIN)	Atypical Fibroxanthoma (AFX)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C4246	C0346053	NA
+Skin (SKIN)	Atypical Nevus (AN)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	NA	NA	NA
+Skin (SKIN)	Basal Cell Carcinoma (BCC)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C2921	C0007117	NA
+Skin (SKIN)	Cutaneous Squamous Cell Carcinoma (CSCC)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C4819	C0553723	NA
+Skin (SKIN)	Dermatofibroma (DF)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C6801	C0002991	NA
+Skin (SKIN)	Dermatofibrosarcoma Protuberans (DFSP)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C4683	C0392784	NA
+Skin (SKIN)	Desmoplastic Trichoepithelioma (DTE)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C27524	C0432526	NA
+Skin (SKIN)	Endocrine Mucin Producing Sweat Gland Carcinoma (EMPSGC)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	NA	NA	NA
+Skin (SKIN)	Extramammary Paget Disease (EMPD)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C3302	C0030186	NA
+Skin (SKIN)	Melanoma (MEL)	NA	NA	NA	NA	NA	Melanoma	Black	C3224	C0025202	NA
+Skin (SKIN)	Melanoma (MEL)	Acral Melanoma (ACRM)	NA	NA	NA	NA	Melanoma	Black	C4022	C0346037	NA
+Skin (SKIN)	Melanoma (MEL)	Congenital Nevus (SKCN)	NA	NA	NA	NA	Melanoma	Black	C3944	C1318558	NA
+Skin (SKIN)	Melanoma (MEL)	Cutaneous Melanoma (SKCM)	NA	NA	NA	NA	Melanoma	Black	C3510	C0151779	NA
+Skin (SKIN)	Melanoma (MEL)	Desmoplastic Melanoma (DESM)	NA	NA	NA	NA	Melanoma	Black	C37257	C0334439	NA
+Skin (SKIN)	Melanoma (MEL)	Lentigo Maligna Melanoma (SKLMM)	NA	NA	NA	NA	Melanoma	Black	C9151	C2739810	NA
+Skin (SKIN)	Melanoma (MEL)	Melanoma of Unknown Primary (MUP)	NA	NA	NA	NA	Melanoma	Black	NA	NA	NA
+Skin (SKIN)	Melanoma (MEL)	Spitzoid Melanoma (SPZM)	NA	NA	NA	NA	Melanoma	Black	NA	NA	NA
+Skin (SKIN)	Merkel Cell Carcinoma (MCC)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C9231	C0007129	NA
+Skin (SKIN)	Microcystic Adnexal Carcinoma (MAC)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C7581	C0346027	NA
+Skin (SKIN)	Porocarcinoma/Spiroadenocarcinoma (POCA)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C5560	C1266065	NA
+Skin (SKIN)	Poroma/Acrospiroma (PORO)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C27273	C1533161	NA
+Skin (SKIN)	Proliferating Pilar Cystic Tumor (PPCT)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	NA	C0345992	NA
+Skin (SKIN)	Sebaceous Carcinoma (SEBA)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C40310	C0206684	NA
+Skin (SKIN)	Skin Adnexal Carcinoma (SKAC)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C3775	C0206697	NA
+Skin (SKIN)	Spiroma/Spiradenoma (SPIR)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C4170	C0334347	NA
+Skin (SKIN)	Sweat Gland Adenocarcinoma (SGAD)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C3682	C1883403	NA
+Skin (SKIN)	Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma (AECA)	NA	NA	NA	NA	NA	Skin Cancer, Non-Melanoma	Black	C6938	C1412016	NA
+Soft Tissue (SOFT_TISSUE)	NA	NA	NA	NA	NA	NA	Soft Tissue Cancer, NOS	LightYellow	C12471	C0225317	NA
+Soft Tissue (SOFT_TISSUE)	Aggressive Angiomyxoma (AA)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C6936	C1306242	NA
+Soft Tissue (SOFT_TISSUE)	Alveolar Soft Part Sarcoma (ASPS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3750	C0206657	NA
+Soft Tissue (SOFT_TISSUE)	Angiomatoid Fibrous Histiocytoma (AFH)	NA	NA	NA	NA	NA	Angiomatoid Fibrous Histiocytoma	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Angiosarcoma (ANGS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3088	C0018923	NA
+Soft Tissue (SOFT_TISSUE)	Atypical Lipomatous Tumor (ALT)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Clear Cell Sarcoma (CCS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3745	C0206651	NA
+Soft Tissue (SOFT_TISSUE)	Dendritic Cell Sarcoma (DCS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C9294	C1334030	NA
+Soft Tissue (SOFT_TISSUE)	Dendritic Cell Sarcoma (DCS)	Histiocytic Dendritic Cell Sarcoma (HDCS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C27349	C0334663	NA
+Soft Tissue (SOFT_TISSUE)	Desmoid/Aggressive Fibromatosis (DES)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C9182	C0079218	NA
+Soft Tissue (SOFT_TISSUE)	Desmoplastic Small-Round-Cell Tumor (DSRCT)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C8300	C0281508	NA
+Soft Tissue (SOFT_TISSUE)	Epithelioid Hemangioendothelioma (EHAE)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3800	C0206732	NA
+Soft Tissue (SOFT_TISSUE)	Epithelioid Sarcoma (EPIS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3714	C0205944	NA
+Soft Tissue (SOFT_TISSUE)	Epithelioid Sarcoma (EPIS)	Proximal-Type Epithelioid Sarcoma (PTES)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C27472	C1335563	NA
+Soft Tissue (SOFT_TISSUE)	Ewing Sarcoma of Soft Tissue (ESST)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Fibrosarcoma (FIBS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3043	C0016057	NA
+Soft Tissue (SOFT_TISSUE)	Fibrosarcoma (FIBS)	Sclerosing Epithelioid Fibrosarcoma (SEF)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C49027	C1710026	NA
+Soft Tissue (SOFT_TISSUE)	Gastrointestinal Stromal Tumor (GIST)	NA	NA	NA	NA	NA	Gastrointestinal Stromal Tumor	LightYellow	C3868	C0238198	NA
+Soft Tissue (SOFT_TISSUE)	Glomangiosarcoma (GS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C4221	C1266111	NA
+Soft Tissue (SOFT_TISSUE)	Hemangioma (HEMA)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3085	C0018916	NA
+Soft Tissue (SOFT_TISSUE)	Infantile Fibrosarcoma (IFS)	NA	NA	NA	NA	NA	Infantile Fibrosarcoma	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Inflammatory Myofibroblastic Tumor (IMT)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C6481	C0334121	NA
+Soft Tissue (SOFT_TISSUE)	Intimal Sarcoma (INTS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C53677	C1708550	NA
+Soft Tissue (SOFT_TISSUE)	Leiomyoma (LM)	NA	NA	NA	NA	NA	Soft Tissue Cancer	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Leiomyosarcoma (LMS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3158	C0023269	NA
+Soft Tissue (SOFT_TISSUE)	Liposarcoma (LIPO)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3194	C0023827	NA
+Soft Tissue (SOFT_TISSUE)	Liposarcoma (LIPO)	Dedifferentiated Liposarcoma (DDLS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3704	C0205824	NA
+Soft Tissue (SOFT_TISSUE)	Liposarcoma (LIPO)	Myxoid/Round-Cell Liposarcoma (MRLS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C27781	C0206634	NA
+Soft Tissue (SOFT_TISSUE)	Liposarcoma (LIPO)	Pleomorphic Liposarcoma (PLLS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3705	C0205825	NA
+Soft Tissue (SOFT_TISSUE)	Liposarcoma (LIPO)	Well-Differentiated Liposarcoma (WDLS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C4250	C1370889	NA
+Soft Tissue (SOFT_TISSUE)	Low-Grade Fibromyxoid Sarcoma (LGFMS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C45202	C1275282	NA
+Soft Tissue (SOFT_TISSUE)	Malignant Glomus Tumor (MGST)	NA	NA	NA	NA	NA	Malignant Glomus Tumor	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Myofibroma (MF)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C7052	C1266121	NA
+Soft Tissue (SOFT_TISSUE)	Myofibromatosis (IMS)	NA	NA	NA	NA	NA	Myofibromatosis	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Myopericytoma (MPC)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C50401	C1302808	NA
+Soft Tissue (SOFT_TISSUE)	Myxofibrosarcoma (MFS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C6496	C0334454	NA
+Soft Tissue (SOFT_TISSUE)	Myxoma (MYXO)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C6577	C0027149	NA
+Soft Tissue (SOFT_TISSUE)	Myxoma (MYXO)	Ossifying Fibromyxoid Tumor (OFMT)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C6582	C1266128	NA
+Soft Tissue (SOFT_TISSUE)	Paraganglioma (PGNG)	NA	NA	NA	NA	NA	Miscellaneous Neuroepithelial Tumor	Gray	C3308	C0030421	NA
+Soft Tissue (SOFT_TISSUE)	Perivascular Epithelioid Cell Tumor (PECOMA)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C38150	C1300127	NA
+Soft Tissue (SOFT_TISSUE)	Pseudomyogenic Hemangioendothelioma (PMHE)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	NA	CL479537	NA
+Soft Tissue (SOFT_TISSUE)	Radiation-Associated Sarcoma (RAS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C93125	C2985448	NA
+Soft Tissue (SOFT_TISSUE)	Rhabdomyosarcoma (RMS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3359	C0035412	NA
+Soft Tissue (SOFT_TISSUE)	Rhabdomyosarcoma (RMS)	Alveolar Rhabdomyosarcoma (ARMS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3749	C0206655	NA
+Soft Tissue (SOFT_TISSUE)	Rhabdomyosarcoma (RMS)	Embryonal Rhabdomyosarcoma (ERMS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C8971	C0206656	NA
+Soft Tissue (SOFT_TISSUE)	Rhabdomyosarcoma (RMS)	Pleomorphic Rhabdomyosarcoma (PLRMS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C4258	C0334480	NA
+Soft Tissue (SOFT_TISSUE)	Rhabdomyosarcoma (RMS)	Spindle Cell Rhabdomyosarcoma (SCRMS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C6519	C1266134	NA
+Soft Tissue (SOFT_TISSUE)	Rhabdomyosarcoma (RMS)	Spindle Cell/Sclerosing Rhabdomyosarcoma (SCSRMS)	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	NA	CL494117	NA
+Soft Tissue (SOFT_TISSUE)	Round Cell Sarcoma, NOS (RCSNOS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Sarcoma, NOS (SARCNOS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	NA	NA	NA
+Soft Tissue (SOFT_TISSUE)	Soft Tissue Myoepithelial Carcinoma (STMYEC)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C7596	C0334699	NA
+Soft Tissue (SOFT_TISSUE)	Solitary Fibrous Tumor/Hemangiopericytoma (SFT)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C7634	C1266119	NA
+Soft Tissue (SOFT_TISSUE)	Synovial Sarcoma (SYNS)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3400	C0039101	NA
+Soft Tissue (SOFT_TISSUE)	Tenosynovial Giant Cell Tumor Diffuse Type (TGCT)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C3401	C0039106	NA
+Soft Tissue (SOFT_TISSUE)	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma (MFH)	NA	NA	NA	NA	NA	Soft Tissue Sarcoma	LightYellow	C4247	C0334463	NA
+Testis (TESTIS)	NA	NA	NA	NA	NA	NA	Testicular Cancer, NOS	Red	C12412	C0039597	NA
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	NA	NA	NA	NA	NA	Germ Cell Tumor	Red	NA	CL480935	NA
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	Choriocarcinoma (TCCA)	NA	NA	NA	NA	Germ Cell Tumor	Red	C7733	C0238449	NA
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	Embryonal Carcinoma (EMBCA)	NA	NA	NA	NA	Germ Cell Tumor	Red	C6341	C0238448	NA
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	Germ Cell Tumor with Somatic-Type Malignancy (GCTSTM)	NA	NA	NA	NA	Germ Cell Tumor	Red	NA	NA	TMT
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	Mixed Germ Cell Tumor (MGCT)	NA	NA	NA	NA	Germ Cell Tumor	Red	C6347	C1336720	NA
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	Teratoma (TT)	NA	NA	NA	NA	Germ Cell Tumor	Red	C3877	C0238451	NA
+Testis (TESTIS)	Non-Seminomatous Germ Cell Tumor (NSGCT)	Yolk Sac Tumor (TYST)	NA	NA	NA	NA	Germ Cell Tumor	Red	C8000	C0279708	NA
+Testis (TESTIS)	Seminoma (SEM)	NA	NA	NA	NA	NA	Germ Cell Tumor	Red	C9309	C0036631	NA
+Testis (TESTIS)	Sex Cord Stromal Tumor (TSCST)	NA	NA	NA	NA	NA	Sex Cord Stromal Tumor	Red	NA	C1336728	NA
+Testis (TESTIS)	Testicular Lymphoma (TLYM)	NA	NA	NA	NA	NA	Non-Hodgkin Lymphoma	Red	C6810	C0349644	NA
+Testis (TESTIS)	Testicular Mesothelioma (TMESO)	NA	NA	NA	NA	NA	Mesothelioma	Red	NA	NA	NA
+Thymus (THYMUS)	NA	NA	NA	NA	NA	NA	Thymic Cancer, NOS	Purple	C12433	C0040113	NA
+Thymus (THYMUS)	Thymic Epithelial Tumor (TET)	NA	NA	NA	NA	NA	Thymic Tumor	Purple	C6450	C1266101	NA
+Thymus (THYMUS)	Thymic Epithelial Tumor (TET)	Thymic Carcinoma (THYC)	NA	NA	NA	NA	Thymic Tumor	Purple	C7569	C0205969	NA
+Thymus (THYMUS)	Thymic Epithelial Tumor (TET)	Thymoma (THYM)	NA	NA	NA	NA	Thymic Tumor	Purple	C3411	C0040100	NA
+Thymus (THYMUS)	Thymic Neuroendocrine Tumor (TNET)	NA	NA	NA	NA	NA	Thymic Tumor	Purple	NA	NA	NA
+Thyroid (THYROID)	NA	NA	NA	NA	NA	NA	Thyroid Cancer, NOS	Teal	C12400	C0040132	NA
+Thyroid (THYROID)	Anaplastic Thyroid Cancer (THAP)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	C3878	C0238461	NA
+Thyroid (THYROID)	Hurthle Cell Thyroid Cancer (THHC)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	C4946	C0749424	NA
+Thyroid (THYROID)	Hyalinizing Trabecular Adenoma of the Thyroid (HTAT)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	C6846	C1266049	NA
+Thyroid (THYROID)	Medullary Thyroid Cancer (THME)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	C3879	C0238462	NA
+Thyroid (THYROID)	Oncocytic Adenoma of the Thyroid (OAT)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	NA	NA	NA
+Thyroid (THYROID)	Poorly Differentiated Thyroid Cancer (THPD)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	C6040	C1266050	NA
+Thyroid (THYROID)	Well-Differentiated Thyroid Cancer (WDTC)	NA	NA	NA	NA	NA	Thyroid Cancer	Teal	C7153	C1337013	NA
+Thyroid (THYROID)	Well-Differentiated Thyroid Cancer (WDTC)	Follicular Thyroid Cancer (THFO)	NA	NA	NA	NA	Thyroid Cancer	Teal	C8054	C0206682	NA
+Thyroid (THYROID)	Well-Differentiated Thyroid Cancer (WDTC)	Papillary Thyroid Cancer (THPA)	NA	NA	NA	NA	Thyroid Cancer	Teal	C4035	C0238463	NA
+Uterus (UTERUS)	NA	NA	NA	NA	NA	NA	Uterine Cancer, NOS	PeachPuff	C12405	C0042149	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	NA	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C7558	C0476089	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Poorly Differentiated Carcinoma of the Uterus (UPDC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Adenosquamous Carcinoma (UASC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C4519	C0346202	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor (UCS)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C42700	C0280630	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Clear Cell Carcinoma (UCCC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C6344	C1332912	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Dedifferentiated Carcinoma (UDDC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Endometrioid Carcinoma (UEC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C6287	C1336905	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Mesonephric Carcinoma (UMNC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Mixed Endometrial Carcinoma (UMEC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Mucinous Carcinoma (UMC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C40144	C0854923	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Neuroendocrine Carcinoma (UNEC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma (USC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C27838	C0854924	NA
+Uterus (UTERUS)	Endometrial Carcinoma (UCEC)	Uterine Undifferentiated Carcinoma (UUC)	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	C6345	C0850327	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	NA	NA	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C4699	C1135868	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Choriocarcinoma (UCCA)	NA	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C27246	C0279677	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Epithelioid Trophoblastic Tumor (ETT)	NA	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C6900	C1266159	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Molar Pregnancy (MP)	NA	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C3110	C0020217	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Molar Pregnancy (MP)	Complete Hydatidiform Mole (CHM)	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C4871	C0678213	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Molar Pregnancy (MP)	Invasive Hydatidiform Mole (IHM)	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C6985	C0008493	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Molar Pregnancy (MP)	Partial Hydatidiform Mole (PHM)	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C4293	C0334529	NA
+Uterus (UTERUS)	Gestational Trophoblastic Disease (GTD)	Placental Site Trophoblastic Tumor (PSTT)	NA	NA	NA	NA	Gestational Trophoblastic Disease	PeachPuff	C3757	C0206666	NA
+Uterus (UTERUS)	Other Uterine Tumor (OUTT)	NA	NA	NA	NA	NA	Endometrial Cancer	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	NA	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	C6339	C0338113	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Endometrial Stromal Sarcoma (ESS)	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	C8973	C0206630	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Endometrial Stromal Sarcoma (ESS)	High-Grade Endometrial Stromal Sarcoma (HGESS)	NA	NA	NA	Uterine Sarcoma	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Endometrial Stromal Sarcoma (ESS)	Low-Grade Endometrial Stromal Sarcoma (LGESS)	NA	NA	NA	Uterine Sarcoma	PeachPuff	C4263	C0334486	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Undifferentiated Uterine Sarcoma (UUS)	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	C8972	CL033042	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Adenosarcoma (UAS)	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	C6336	C1336917	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Perivascular Epithelioid Cell Tumor (UPECOMA)	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	C40180	C1519862	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Sarcoma, Other (OUSARC)	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	NA	NA	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Smooth Muscle Tumor (USMT)	NA	NA	NA	NA	Uterine Sarcoma	PeachPuff	C40176	C1519863	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Smooth Muscle Tumor (USMT)	Uterine Epithelioid Leiomyosarcoma (UELMS)	NA	NA	NA	Uterine Sarcoma	PeachPuff	C40174	C1519851	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Smooth Muscle Tumor (USMT)	Uterine Leiomyoma (ULM)	NA	NA	NA	Uterine Sarcoma	PeachPuff	C3434	C0042133	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Smooth Muscle Tumor (USMT)	Uterine Leiomyosarcoma (ULMS)	NA	NA	NA	Uterine Sarcoma	PeachPuff	C6340	C0280631	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Smooth Muscle Tumor (USMT)	Uterine Myxoid Leiomyosarcoma (UMLMS)	NA	NA	NA	Uterine Sarcoma	PeachPuff	C40175	C1519861	NA
+Uterus (UTERUS)	Uterine Sarcoma/Mesenchymal (USARC)	Uterine Smooth Muscle Tumor (USMT)	Uterine Smooth Muscle Tumor of Uncertain Malignant Potential (USTUMP)	NA	NA	NA	Uterine Sarcoma	PeachPuff	C40177	C1519864	NA
+Vulva/Vagina (VULVA)	NA	NA	NA	NA	NA	NA	Vulvar/Vaginal Cancer, NOS	Purple	C12408	C0042993	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	NA	NA	NA	NA	NA	Germ Cell Tumor	Purple	NA	NA	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Dysgerminoma (VDYS)	NA	NA	NA	NA	Germ Cell Tumor	Purple	C8106	C0346185	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Embryonal Carcinoma (VOEC)	NA	NA	NA	NA	Germ Cell Tumor	Purple	NA	NA	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Immature Teratoma (VIMT)	NA	NA	NA	NA	Germ Cell Tumor	Purple	C4286	C0334520	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Mature Teratoma (VMT)	NA	NA	NA	NA	Germ Cell Tumor	Purple	C9015	C1368910	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Mixed Germ Cell Tumor (VMGCT)	NA	NA	NA	NA	Germ Cell Tumor	Purple	C4290	C0334524	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Polyembryoma (VPE)	NA	NA	NA	NA	Germ Cell Tumor	Purple	NA	NA	NA
+Vulva/Vagina (VULVA)	Germ Cell Tumor of the Vulva (VGCT)	Yolk Sac Tumor (VYST)	NA	NA	NA	NA	Germ Cell Tumor	Purple	C6379	C1336945	NA
+Vulva/Vagina (VULVA)	Mucinous Adenocarcinoma of the Vulva/Vagina (VMA)	NA	NA	NA	NA	NA	Vulvar Carcinoma	Purple	C40252	C1519925	NA
+Vulva/Vagina (VULVA)	Mucosal Melanoma of the Vulva/Vagina (VMM)	NA	NA	NA	NA	NA	Melanoma	Purple	C27394	C2004576	NA
+Vulva/Vagina (VULVA)	Poorly Differentiated Vaginal Carcinoma (VPDC)	NA	NA	NA	NA	NA	Vaginal Cancer	Purple	NA	NA	NA
+Vulva/Vagina (VULVA)	Squamous Cell Carcinoma of the Vulva/Vagina (VSC)	NA	NA	NA	NA	NA	Vaginal Cancer	Purple	C7736	C0238518	NA
+Vulva/Vagina (VULVA)	Vaginal Adenocarcinoma (VA)	NA	NA	NA	NA	NA	Vaginal Cancer	Purple	C7981	C0279668	NA

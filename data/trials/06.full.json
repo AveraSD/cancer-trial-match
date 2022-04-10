@@ -1,0 +1,95 @@
+{
+    "info": [
+      {
+        "protocol_no": "06",
+        "NCT": "NCT04265534",
+        "jit": "Tempus",
+        "trial_name": "KEAPSAKE"
+      }
+    ],
+    "disease": [
+      {
+        "summary": "Nonsquamous NSCLC",
+        "occurence": "",
+        "details": [
+          {
+            "code": "NSCLC",
+            "selection": "include"
+          }
+        ]
+      }
+    ],
+    "query": [
+      {
+        "nct": "NCT04265534",
+        "title": "KEAPSAKE: A Study of Telaglenastat (CB-839) With Standard-of-Care Chemoimmunotherapy in 1L KEAP1/NRF2-Mutated, Nonsquamous NSCLC",
+        "current_status": "Recruiting",
+        "status_verif_date": "February 2021",
+        "last_update_date": "February 24, 2021",
+        "trial_hold_status": "",
+        "sponsor": "Calithera Biosciences, Inc",
+        "brief_summary": "This is a Phase 2, randomized, multicenter, double-blind study of the glutaminase inhibitor telaglenastat with standard-of-care pembrolizumab and chemotherapy versus placebo with standard-of-care pembrolizumab and chemotherapy for first line treatment of metastatic disease in patients with KEAP1/NRF2-mutated, stage IV, nonsquamous, non-small cell lung cancer (NSCLC). The study primary endpoints are PFS per RECIST v. 1.1 and safety. KEAP1/NRF2 mutation status (for eligibility) and STK11/LKB1 status (for stratification) will be determined by next generation sequencing. A commercial liquid biopsy (circulating tumor DNA) NGS test will be provided to study participants free of charge.",
+        "conditiions": "Non-Small Cell Lung Cancer | Non-squamous Non-small-cell Lung Cancer | Non-Squamous Non-Small Cell Neoplasm of Lung | KEAP1 Gene Mutation | NRF2 Gene Mutation | NFE2L2 Gene Mutation",
+        "type": "Interventional",
+        "phase": "Phase 2",
+        "arm": [
+          {
+            "cohortlabel": "Telaglenastat with Pembrolizumab and Chemotherapy",
+            "drug": "Telaglenastat | Carboplatin Chemotherapy | Pemetrexed Chemotherapy | Pembrolizumab Immunotherapy | Folic acid 400 -1000 μg | Vitamin B12 1000 μg | Dexamethasone 4 mg",
+            "arm_type": "Experimental",
+            "line_of_therapy": "",
+            "arm_hold_status": "",
+            "biomarker": [
+                {
+                    "summary": "KEAP1 mut",
+                    "gene": "KEAP1",
+                    "type": "mutation",
+                    "variant": "",
+                    "function": "",
+                    "selection": "include"
+                },
+                {
+                  "summary": "NRF2 mut",
+                    "gene": "NRF2",
+                    "type": "mutation",
+                    "variant": "",
+                    "function": "",
+                    "selection": "include"
+                }
+            ]
+          },
+          {
+            "cohortlabel": "Placebo with Pembrolizumab and Chemotherapy",
+            "drug": "Carboplatin Chemotherapy | Pemetrexed Chemotherapy | Pembrolizumab Immunotherapy | Placebo | Folic acid 400 -1000 μg | Vitamin B12 1000 μg | Dexamethasone 4 mg",
+            "arm_type": "Placebo Comparator",
+            "line_of_therapy": "",
+            "arm_hold_status": "",
+            "biomarker": [
+                {
+                    "summary": "KEAP1 mut",
+                    "gene": "KEAP1",
+                    "type": "mutation",
+                    "variant": "",
+                    "function": "",
+                    "selection": "include"
+                },
+                {
+                  "summary": "NRF2 mut",
+                    "gene": "NRF2",
+                    "type": "mutation",
+                    "variant": "",
+                    "function": "",
+                    "selection": "include"
+                }
+            ]
+          }
+        ],
+        "docs": "",
+        "min_age": "18 Years",
+        "criteria": "Inclusion Criteria:\n\nHistologically or cytologically documented nonsquamous NSCLC\n\nStage IV (M1a-c, AJCC 8th Edition) disease not previously treated with systemic therapy for metastatic NSCLC\n\na. Patients who received adjuvant or neoadjuvant therapy (with or without immunotherapy) for localized NSCLC are eligible if all adjuvant/neoadjuvant therapy (including immunotherapy) was completed at least 6 months prior to the development of metastatic disease.\n\nNo known actionable mutation in EGFR, ALK, ROS1, BRAF, NTRK or other known actionable mutation for which there is approved therapy.\nMeasurable disease per RECIST 1.1.\nLife expectancy of at least 3 months.\nMutation in KEAP1 or NRF2 documented by NGS from a CAP-accredited and/or CLIA-certified laboratory and STK11/LKB1 mutation status is known for the purpose of stratification.\nAdequate hepatic, renal, cardiac and hematologic function.\nWillingness to use adequate contraception as defined in the study protocol\n\nExclusion Criteria:\n\nSquamous cell histology and mixed histology tumors with any small-cell component (other mixed histology and large cell neuroendocrine histology is allowed).\nKnown history of malignancy within the past three years except for adequately treated basal cell or squamous cell skin cancer, carcinoma in situ of the cervix or other neoplasm that, in the opinion of the principal investigator and with the agreement of the medical monitor, will not interfere with study-specific endpoints.\nHad radiation therapy to the lung > 30 Gy within 6 months prior to randomization.\nHas active autoimmune disease that has required systemic treatment in past 2 years.\nIs currently receiving chronic systemic steroids and/or immunosuppressive drugs.\nIs unable to interrupt aspirin or other nonsteroidal anti-inflammatory drugs (NSAIDs), other than an aspirin dose ≤1.3 g per day, for a 5-day period (8-day period for long-acting agents, such as piroxicam).\nUnable to swallow oral medications.\nPreviously had a severe hypersensitivity reaction to treatment with another monoclonal antibody (mAb).\nKnown positivity for Hepatitis B or C.\nIs unable or unwilling to take folic acid or vitamin B12 supplementation.\nInterstitial lung disease or a history of pneumonitis that required oral or intravenous glucocorticoid treatment.\nUnable or unwilling to discontinue proton pump inhibitors (PPI) at least 5 days before randomization.\nMajor surgery within 3 weeks of randomization.\nSymptomatic ascites or pleural effusion.\nAny condition that may preclude adequate absorption of oral study drug.\n\nPatients with active and/or untreated central nervous system metastasis including carcinomatous meningitis (leptomeningeal disease) are not eligible. Patients with previously treated brain metastases are eligible if they meet the following criteria:\n\nReceived definitive treatment with stereotactic radiosurgery (SRS) or surgery to all known central nervous system (CNS) lesions (whole brain radiotherapy is not an eligible modality)\nAre at least 7 days post SRS and 4 weeks post-surgical resection of CNS disease, symptomatically stable and off steroids before randomization",
+        "gender": "All",
+        "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT04265534\" target=\"_blank\">NCT04265534<\/a>"
+      }
+    ]
+  }
+  

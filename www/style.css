@@ -1,0 +1,9 @@
+:root {
+    /* colors */
+    --primary-color: #246725;
+    --background-color: FFFFFF;
+}
+
+.navbar-default {
+    background-color: var(--primary-color);
+}
