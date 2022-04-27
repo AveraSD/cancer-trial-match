@@ -154,7 +154,6 @@ server <- function(input, output, session) {
   
   observeEvent(
     input$lev4,
-    
     updateSelectInput(session, "lev5", "Level5",
                       choices = oncotree$level_5[oncotree$level_4==input$lev4 & oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
   
@@ -388,24 +387,16 @@ server <- function(input, output, session) {
   })
   
   ##### Panel 4: Documentation 
-  volumes = getVolumes()
-  observe({  
-    shinyFileChoose(input, "Btn_chooseFile", roots = volumes, session = session)
-    
-    if(!is.null(input$Btn_chooseFile)){
-      file_selected <- parseFilePaths(volumes, input$Btn_chooseFile)
-      output$Path_to_file <- renderText(as.character(file_selected$datapath))
-    }
-  }) 
-  
   # Open the Document Tab and display the UI on Update
   observeEvent(input$bioMrk,{
     updateTabsetPanel(session, "inNav", selected = "Documents")
+    output$doc_link <- renderText({input$doc})
     output$DisDoc = renderUI({
       docuOut 
     })
   })
   
+  #observe(input$doc, {renderText(input$doc)})
   
   ##### Panel 5: View Trial
   observeEvent(input$move_brow,{
@@ -474,7 +465,7 @@ server <- function(input, output, session) {
                      type = infoDis$type,
                      phase = infoDis$phase,
                      arm = list(armForBioMk),
-                     docs = "",
+                     docs = glue("<a href=\\", input$doc, "\\", "target=\"_blank\">site-documentation</a>"),
                      min_age = infoDis$min_age,
                      gender = infoDis$gender,
                      link = infoDis$link

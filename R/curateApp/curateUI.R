@@ -77,7 +77,7 @@ seondhfUI = fluidPage(
     div(style = "margin-top: 20px;"),
     br(),
     
-    ### Indivial disease code + selection
+    ### Individual disease code + selection
     h5("Please choose each disease you wish to record"), 
     h6(em("Choose levels according to Oncotree with as much detail as possible")),
     br(),
@@ -221,17 +221,12 @@ docuOut <- fluidPage(
   br(),
   br(),
 
-  h5("Please add trial documentation"),
+  # add link to trial documentation
+  textInput(inputId = "doc", 
+            label = "Please add link to (site) trial documentation"),
   br(),
-
-  # file selection
-  wellPanel(
-    shinyFilesButton("Btn_chooseFile", "Add file" ,
-                     title = "select a file:", multiple = FALSE,
-                     buttonType = "default", class = NULL),
-
-    textOutput("Path_to_file")
-  )
+  h5("Link added: "), 
+  textOutput("doc_link")
 )
 
 ##### Panel 5: View Trial
