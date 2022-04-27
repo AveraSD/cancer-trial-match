@@ -46,13 +46,13 @@ input_form <- fluidRow(
 )
 
 ##### Panel 2: Disease
-dise_form = fluidPage(
+dise_form <- fluidPage(
   fluidRow(
     uiOutput("secondhalf")
   )
 )
 
-seondhfUI = fluidPage(
+secondhalfUI <- fluidPage(
   fluidRow(
     shinyjs::useShinyjs(),
     br(),
@@ -238,7 +238,7 @@ dis_form <- fluidPage(
 
 browserOut <- fluidPage(
   br(),
-  column(2, actionButton("confrim1", "CONFIRM")),
+  column(2, actionButton("confirm1", "CONFIRM")),
   
  # query specific populate 
  reactableOutput("displayBio")

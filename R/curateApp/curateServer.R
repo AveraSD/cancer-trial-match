@@ -1,7 +1,7 @@
 ## server side utils
 
 # for additional info adding 
-firsthalfUI = fluidRow(
+firsthalfUI <- fluidRow(
   br(),
   column(12,
          column(6, br()),
@@ -16,7 +16,7 @@ disAd <- shiny::reactiveValues(
   armDfInfo = tibble(), # cohort + arm info
   armDfBiomarker = tibble(), # cohort + arm info + biomarker
   dfAdd = tibble(), # cohort + biomarker
-  add_or_edit = NULL,  # confriming the button selection
+  add_or_edit = NULL,  # confirming the button selection
   allbrws = tibble(), # all together
   resultsdf = tibble(), # individual 
   rsdf = tibble()
@@ -180,7 +180,7 @@ modal_biomarker <- function(gene1, typ, var, selec, func) {
 
 
 # Browse table final confirmation dialogue box 
-modal_confrim = function(){
+modal_confirm <- function(){
   shiny::modalDialog(
     title = "Final confirmation",
     div(

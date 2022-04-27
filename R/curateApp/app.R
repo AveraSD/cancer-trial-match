@@ -18,7 +18,7 @@ library(config)
 
 # source necessary files
 source(here("R", "curateApp", "curateGlobal.R")) 
-source(here("R", "curateApp", "queryNCT.R"))
+source(here("R", "queryNCT.R"))
 source(here("R", "nct_to_json.R"))
 source(here("R", "curateApp", "curateUI.R"))
 source(here("R", "curateApp", "curateServer.R"))
@@ -86,7 +86,7 @@ server <- function(input, output, session) {
   
   # Display the Query Information Table
   output$responses <- renderReactable({
-    info = displatAPI() %>% 
+    info <- displatAPI() %>% 
       select(!(arm)) %>% 
       select(!(criteria)) %>% 
       select(!(link))
@@ -128,7 +128,7 @@ server <- function(input, output, session) {
   observeEvent(input$next1,{
     updateTabsetPanel(session, "inNav",selected = "Disease")
     output$secondhalf = renderUI({
-      seondhfUI
+      secondhalfUI
     })
   })
   
@@ -171,14 +171,14 @@ server <- function(input, output, session) {
   
   # Display the selected Disease and selection 
   observeEvent(input$addDis, {
-    allInputDise = c(input$dise,input$lev2,input$lev3,input$lev4,input$lev5,input$lev6,input$lev7)
-    lastInput = allInputDise[allInputDise != "NA"]
-    lenlast = length(lastInput)
+    allInputDise <- c(input$dise,input$lev2,input$lev3,input$lev4,input$lev5,input$lev6,input$lev7)
+    lastInput <- allInputDise[allInputDise != "NA"]
+    lenlast <- length(lastInput)
     
     addDisBtn <- tibble(code = lastInput[lenlast], 
                         selection = input$certir)
     
-    disAd$indisAd = disAd$indisAd %>% bind_rows(addDisBtn)
+    disAd$indisAd <- disAd$indisAd %>% bind_rows(addDisBtn)
     output$dt_dise <- renderDT({
       datatable(disAd$indisAd, 
                 filter = 'none', 
@@ -192,7 +192,7 @@ server <- function(input, output, session) {
   # Open the Biomarker Tab and display the UI on Move to Biomarker
   observeEvent(input$disDis,{
     updateTabsetPanel(session, "inNav", selected = "Biomarker")
-    output$bioDis = renderUI({
+    output$bioDis <- renderUI({
       biom_display
     })
   })
@@ -221,7 +221,7 @@ server <- function(input, output, session) {
     if (!is.null(input$current_id) & stringr::str_detect(input$current_id, pattern = "arminfo")) {
       selRow <- disAd$armDf[input$dt_table_arm_rows_selected, ]
       cohotLb = selRow[[1]]
-      output$TEXTA_arminfo = renderText({
+      output$TEXTA_arminfo <- renderText({
         cohotLb
       })
       modal_arminfo(lineTx = "", armStatus = "")
@@ -309,7 +309,7 @@ server <- function(input, output, session) {
   
   # Opening the dialogue box to the correct  arm label 
   observeEvent(input$add_allBio,{
-    output$TEXTA = renderText({
+    output$TEXTA <- renderText({
       "Enter biomarkers common to all cohort arms"
     })
     modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
@@ -391,7 +391,7 @@ server <- function(input, output, session) {
   observeEvent(input$bioMrk,{
     updateTabsetPanel(session, "inNav", selected = "Documents")
     output$doc_link <- renderText({input$doc})
-    output$DisDoc = renderUI({
+    output$DisDoc <- renderUI({
       docuOut 
     })
   })
@@ -410,12 +410,12 @@ server <- function(input, output, session) {
   output$displayBio <- renderReactable({
     
     # save all the variables to their appropiate values 
-    infoDis = displatAPI() %>% 
+    infoDis <- displatAPI() %>% 
       select(!(arm))
     
     # save the arm info from query output
     armTb <- inner_join(disAd$armDf, disAd$armDfInfo, by = "cohortlabel")
-    armTb <-  armTb %>% rownames_to_column(var = "ArmID")
+    armTb <- armTb %>% rownames_to_column(var = "ArmID")
     armTb <- tibble(
       ArmID = armTb$ArmID,
       cohortlabel = armTb$cohortlabel,
@@ -525,7 +525,7 @@ server <- function(input, output, session) {
     #reset("armsOnly")
   }
   
-  observeEvent(input$confrim1,{
+  observeEvent(input$confirm1,{
     outSubmit()
     alert("Submitted successfully!")
     refresh()
@@ -535,9 +535,9 @@ server <- function(input, output, session) {
   })
   
   
-  observeEvent(input$final_confirm,{
-    print(disAd$resultsdf)
-  })
+  # observeEvent(input$final_confirm,{
+  #   print(disAd$resultsdf)
+  # })
 
   ### remove edit modal when close button is clicked or submit button
   shiny::observeEvent(input$final_cancel, {

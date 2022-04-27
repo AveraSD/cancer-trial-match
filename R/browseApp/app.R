@@ -13,7 +13,7 @@ library(tidyverse)
 
 # source global file
 source(here("R", "browseApp", "global.R"))
-source(here("R", "curateApp", "queryNCT.R"))
+source(here("R", "queryNCT.R"))
 source(here("R", "nct_to_json.R"))
 source(here("R", "browseApp", "panel_browse.R"))
 source(here("R", "browseApp", "panel_match_gen.R"))
