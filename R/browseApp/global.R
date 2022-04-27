@@ -1,9 +1,9 @@
 
-source(here("R", "curateApp", "queryNCT.R"))
-source(here("R", "nct_to_json.R"))
-
 ## run all the things 
-trialspath <- here("data", "trials")
+trial_data_dir <- config::get("trial_data_dir") %>% here()
+pt_data_file <- config::get("pt_data_file") %>% here()
+
+trialspath <- trial_data_dir
 resultfile <- fs::path(trialspath, "result.RData")
 #writeTrialJson(trialspath) 
 
@@ -13,7 +13,6 @@ resultfile <- fs::path(trialspath, "result.RData")
 load(resultfile)
 
 
-source(here("R", "browseApp", "panel_browse.R"))
-source(here("R", "browseApp", "panel_match_gen.R"))
+
 
 

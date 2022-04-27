@@ -1,24 +1,24 @@
 
+# get config params
+trial_data_dir <- config::get("trial_data_dir")
+pt_data_file <- config::get("pt_data_file") %>% here()
 
 
-
-trialspath <- here("data", "trials")
+# get existing trial data
+trialspath <- trial_data_dir %>% here()
 resultfile <- fs::path(trialspath, "result.RData")
 load(resultfile)
-#writeTrialJson(trialspath) # toggling on and off for dev 
-#result <- aggregateTrials(trialspath) 
-#save(result, file = resultfile) # toggling on and off for dev 
 
-# oncoT = here("data", "oncotree")
-# oncotree = fs::path(oncoT, "oncotree.tsv") 
+
+# get oncotree data
 oncotree <- read.delim2(file = fs::path(here("data", "oncotree"), "oncotree.tsv"), 
                         header = TRUE, 
                         sep = "\t", 
                         quote = "", 
                         na.strings = 'NA')
-#oncotree= oncotree %>% mutate(across(where(~ anyNA(.) & is.character(.)), ~ replace_na(., "Nothing"))) 
 
 
+# get gene and variant lists
 readfileT = here("data", "metadata")
 allgeneR = fs::path(readfileT, "allgenes.txt")
 allvarR = fs::path(readfileT, "allvariants.txt")

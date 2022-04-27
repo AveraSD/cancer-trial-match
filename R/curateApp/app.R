@@ -12,6 +12,7 @@ library(shinyWidgets)
 library(shinyFiles)
 library(DT)
 library(shinyjs)
+library(config)
 
 # NCT03037385
 

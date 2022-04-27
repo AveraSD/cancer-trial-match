@@ -1,0 +1,7 @@
+default:
+  trial_data_dir: "data/trials/"
+  pt_data_file: "data/pt/ptdata.tsv"
+  
+production:
+  trial_data_dir: "/data/trials/"
+  pt_data_file: "/data/pt/ptdata.tsv"

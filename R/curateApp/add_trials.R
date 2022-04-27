@@ -4,7 +4,7 @@ outSubmit <- function() {
   # print(tr)
   tr2 <- isolate(disAd$rsdf)
   #print(tr2)
-  outjson <- here("data", "trials", 
+  outjson <- here(trial_data_dir, 
                   paste0(tr2 %>% unnest(c(info, disease, query)) %>% select(NCT) %>% as.character(), ".ndjson"))
   # writeLines(tr %>% toJSON(pretty = F), outjson)
   # writeLines(tr %>% toJSON(pretty = T), here("data", "trials", paste0(tr$NCT, ".full.ndjson")))
