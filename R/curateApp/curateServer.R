@@ -17,6 +17,7 @@ disAd <- shiny::reactiveValues(
   armDfBiomarker = tibble(), # cohort + arm info + biomarker
   dfAdd = tibble(), # cohort + biomarker
   add_or_edit = NULL,  # confirming the button selection
+  add_or_edit_arminfo = NULL, 
   allbrws = tibble(), # all together
   resultsdf = tibble(), # individual 
   rsdf = tibble()
