@@ -153,10 +153,18 @@ biom_display <- fluidPage(
     ), 
   ),
    
-    # add arm information
-    div(style = "margin-top: 20px;"),
-    h5("1. Please select a cohort arm to add line of therapy and arm recruitment status"),
-    
+  ## PART 1 - cohort arm LoT and recruitemtnt status
+  # TABLE 1 to add arm information
+  div(style = "margin-top: 20px;"),
+  h5("1. Please select a cohort arm to add line of therapy and arm recruitment status"),
+
+  div(
+    class = "container",
+    style = "margin-top: 10px;",
+    DT::dataTableOutput(outputId = "dt_table_arm", 
+                        width = "100%")
+  ),
+  
   # add common LoT + Arm Status
   div(
     style = "margin-top: 20px;",
@@ -166,28 +174,31 @@ biom_display <- fluidPage(
       icon = shiny::icon("plus"),
       class = "btn-primary")
   ),
-  br(),
-  
-    div(
-      class = "container",
-      style = "margin-top: 10px;",
-      DT::dataTableOutput(outputId = "dt_table_arm", 
-                          width = "100%")
-    ),
-    
-    div(style = "margin-top: 60px;"),
-    h5(strong("A: Cohort level line of therapy and recruitement status")),
+  br(),  
 
-    div(
-      class = "container",
-      style = "margin-top: 10px;",
-      DT::DTOutput(outputId = "dt_table_arm_display",
-                   width = "100%"),
-      br()
-    ),
+  # TABLE A to show LoT and Status
+  div(style = "margin-top: 30px;"),
+  h5(strong("A: Cohort level line of therapy and recruitement status")),
 
+  div(
+    class = "container",
+    style = "margin-top: 10px;",
+    DT::DTOutput(outputId = "dt_table_arm_display",
+                 width = "100%"),
+    br()
+  ),
+
+  ## PART 2: cohort arm biomarkers
   div(style = "margin-top: 20px;"),
   h5("2. Please select a cohort arm to add corresponding biomarker(s)"),
+  
+  # TABLE 2 to add biomarker information
+  div(
+    class = "container",
+    style = "margin-top: 10px;",
+    DT::dataTableOutput(outputId = "dt_table",
+                        width = "100%")
+  ),
   
   # add common biomarker
   div(
@@ -199,15 +210,9 @@ biom_display <- fluidPage(
       class = "btn-primary")
   ),
   br(),
-  
-  div(
-    class = "container",
-    style = "margin-top: 10px;",
-    DT::dataTableOutput(outputId = "dt_table",
-                        width = "100%")
-  ),
 
-  div(style = "margin-top: 60px;"),
+  # TABLE B to show LoT, arm status and biomarkers
+  div(style = "margin-top: 30px;"),
   h5(strong("B: Cohort level biomarker information")),
 
   div(

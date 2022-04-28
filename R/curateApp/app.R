@@ -124,7 +124,7 @@ server <- function(input, output, session) {
   
   
   ##### Panel 2: Disease
-  # Open the Disease Table and display the UI on Next Hit 
+  # TABLE 1: Open the Disease Table and display the UI on Next Hit 
   observeEvent(input$next1,{
     updateTabsetPanel(session, "inNav",selected = "Disease")
     output$secondhalf = renderUI({
@@ -136,21 +136,17 @@ server <- function(input, output, session) {
   observeEvent(
     input$dise,
     updateSelectInput(session, "lev2", "Level2", 
-                      choices = oncotree$level_2[oncotree$level_1==input$dise])
-  )
+                      choices = oncotree$level_2[oncotree$level_1==input$dise]))
   
   observeEvent(
     input$lev2,
     updateSelectInput(session, "lev3", "Level3",
-                      choices = oncotree$level_3[oncotree$level_2==input$lev2 & oncotree$level_1==input$dise])
-    
-  )
+                      choices = oncotree$level_3[oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
   
   observeEvent(
     input$lev3,
     updateSelectInput(session, "lev4", "Level4",
-                      choices = oncotree$level_4[oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise])
-  )
+                      choices = oncotree$level_4[oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
   
   observeEvent(
     input$lev4,
@@ -169,7 +165,7 @@ server <- function(input, output, session) {
                       choices = oncotree$level_7[oncotree$level_6==input$lev6 & oncotree$level_5==input$lev5 & oncotree$level_4==input$lev4 & oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
   
   
-  # Display the selected Disease and selection 
+  # TABLE A: Display the selected Disease and selection 
   observeEvent(input$addDis, {
     allInputDise <- c(input$dise,input$lev2,input$lev3,input$lev4,input$lev5,input$lev6,input$lev7)
     lastInput <- allInputDise[allInputDise != "NA"]
@@ -197,7 +193,18 @@ server <- function(input, output, session) {
     })
   })
   
-  # table shows cohort arms to enter line of therapy and arm status
+  ## ADD LoT and Status
+  # observe and open modal to add common LoT and Status for all cohort arms
+  observeEvent(input$add_allArmLotStatus,{
+    output$TEXTA_arminfo <- renderText({
+      "Enter Line of Therapy and recruitment status"
+    })
+    modal_arminfo(lineTx = "", armStatus = "")
+    disAd$add_or_edit_arminfo <- 1
+    
+  })
+  
+  # TABLE 1: table shows cohort arms to enter line of therapy and arm status
   output$dt_table_arm <- renderDataTable({
     butns_arminfo <- create_btns_arminfo(nrow(disAd$armDf))
     arm_info <- disAd$armDf %>% 
@@ -217,10 +224,11 @@ server <- function(input, output, session) {
               )
   })
   
+  # TABLE A: when specific row is selected - add LoT & Status
   observeEvent(input$current_id, {
     if (!is.null(input$current_id) & stringr::str_detect(input$current_id, pattern = "arminfo")) {
       selRow <- disAd$armDf[input$dt_table_arm_rows_selected, ]
-      cohotLb = selRow[[1]]
+      cohotLb <- selRow[["cohortlabel"]]
       output$TEXTA_arminfo <- renderText({
         cohotLb
       })
@@ -231,83 +239,56 @@ server <- function(input, output, session) {
   observeEvent(input$final_edit_arminfo, {
     armdf <- disAd$armDf %>% rownames_to_column(var = "ArmID")
     selarm <- armdf[input$dt_table_arm_rows_selected, ]
-    cohortID <- selarm[[1]]
-    cohort <- selarm[[2]]
+    cohortID <- selarm[["ArmID"]]
+    cohort <- selarm[["cohortlabel"]]
     dt_row <- tibble(
       armID = cohortID,
       cohortlabel = cohort,
-      LineTherapy = input$lineTx,
-      ArmStatus = input$armStatus
+      lineTx = input$lineTx,
+      armStatus = input$armStatus
       )
-    disAd$armDfInfo <- disAd$armDfInfo %>% bind_rows(dt_row)
+    disAd$armDfInfo <- disAd$armDfInfo %>% bind_rows(dt_row) %>% distinct()
+    
    #disAd$armDfInfo <- inner_join(disAd$armDfInfo, dt_row, by = "cohortlabel")
     output$dt_table_arm_display <- renderDT({
       datatable(disAd$armDfInfo, 
                 rownames = F,
                 options = list(dom = 't'))
     })
+    
+    proxy <- dataTableProxy("dt_table_arm_display")
+    proxy %>% selectRows(NULL)
   })
   
-  # table showing list of cohort arms to be used for entering corresponding biomarkers
-  output$dt_table <- renderDataTable({
-    butns_biomarker <- create_btns_biomarker(nrow(disAd$armDfInfo))
-    armterm <- disAd$armDfInfo %>% 
-      #rownames_to_column(var = "ArmID") %>% 
-      bind_cols(tibble("Buttons" = butns_biomarker))
-    datatable(armterm, 
-              escape = F,
-              selection ='single',
-              rownames = FALSE,
-              colnames = c('Cohort(s)' = 'cohortlabel',
-                           'Line of Therapy' = 'LineTherapy',
-                           'Arm Status' = 'ArmStatus', 
-                           'Add Biomarker' = 'Buttons'), 
-              options = list(processing = FALSE, 
-                             dom = 't')
-    )
-  })
-  
-  
-  # Opening the dialogue box to the correct arm label 
-  observeEvent(input$current_id,{
-    if (!is.null(input$current_id) & stringr::str_detect(input$current_id, pattern = "edit")) {
-      selRow <- disAd$armDfInfo[input$dt_table_rows_selected,]
-      cohotLb = selRow[[1]]
-      output$TEXTA = renderText({
-        cohotLb
-      })
-      modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
+  # TABLE A: when (+Add common LoT & Status) is chosen
+  observeEvent(input$final_edit_arminfo, {
+    shiny::req(disAd$add_or_edit_arminfo == 1)
+    armdf <- disAd$armDf %>% rownames_to_column(var = "ArmID")
+    nArm <- nrow(armdf)
+    for(e in 1:nArm){
+      dt_rowall <- tibble(
+        armID = as.character(e),
+        lineTx = input$lineTx,
+        armStatus = input$armStatus,
+        cohortlabel = as.character(armdf[e,2]))
+      
+      disAd$armDfInfo <- disAd$armDfInfo %>% bind_rows(dt_rowall) %>% distinct()
     }
-  })
-  
-  # adding the biomarker info to the correct label - either by the name or the number 
-  observeEvent(input$final_edit, {
-    armdf <- disAd$armDfInfo %>% rownames_to_column(var = "ArmID")
-    selarm <- armdf[input$dt_table_rows_selected,]
-    cohortID <- selarm[["armID"]]
-    cohort <- selarm[["Label"]]
-    lineTx <- selarm[["LineTherapy"]]
-    armSt <- selarm[["armStatus"]]
-    dt_row <- tibble(
-      armID = cohortID,
-      Label = cohort,
-      LineTherapy = lineTx,
-      armStatus = armSt,
-      Gene = input$gene1,
-      Type = input$typ, 
-      Variant = input$var,
-      Selection = input$selec,
-      Function = input$func)
-    disAd$dfAdd <- disAd$dfAdd %>% bind_rows(dt_row)
-    output$dt_biomark <- renderDT({
-      datatable(disAd$dfAdd, 
-                rownames = F,
+    
+    output$dt_table_arm_display <- renderDT({
+      datatable(disAd$armDfInfo, 
+                rownames = FALSE,
+                colnames = c('Arm #' = 'armID',
+                             'Cohort' = 'cohortlabel'),
                 options = list(dom = 't'))
     })
+    
+    proxy <- dataTableProxy("dt_table_arm_display")
+    proxy %>% selectRows(NULL)
   })
   
-  
-  # Opening the dialogue box to the correct  arm label 
+  ## ADD biomarker
+  # observe and open modal to add common biomarker to cohort arms
   observeEvent(input$add_allBio,{
     output$TEXTA <- renderText({
       "Enter biomarkers common to all cohort arms"
@@ -317,75 +298,109 @@ server <- function(input, output, session) {
     
   })
   
+  # TABLE 2: table shows cohort arms to enter corresponding biomarkers
+  output$dt_table <- renderDataTable({
+    butns_biomarker <- create_btns_biomarker(nrow(disAd$armDf))
+    armterm <- disAd$armDf %>% 
+      bind_cols(tibble("Buttons" = butns_biomarker))
+    datatable(armterm, 
+              escape = F,
+              selection ='single',
+              rownames = FALSE,
+              colnames = c('Add Biomarker' = 'Buttons'),
+              options = list(processing = FALSE, 
+                             dom = 't')
+    )
+  })
+  
+  
+  # TABLE B: when specific row is selected - add biomarker
+  observeEvent(input$current_id,{
+    if (!is.null(input$current_id) & stringr::str_detect(input$current_id, pattern = "edit")) {
+      selRow <- disAd$armDfInfo[input$dt_table_rows_selected,]
+      cohotLb <- selRow[["cohortlabel"]]
+      output$TEXTA <- renderText({
+        cohotLb
+      })
+      modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
+    }
+  })
+  
+  
   observeEvent(input$final_edit, {
-    shiny::req(disAd$add_or_edit==1)
-    armdf <- disAd$armDfInfo %>% rownames_to_column(var = "ArmID")
+    armdf <- disAd$armDfInfo 
+    #selarm <- armdf[input$dt_table_rows_selected,] # change to select by cohortlabel
+    selarm <- armdf %>% filter(cohortlabel %in% armdf[input$dt_table_rows_selected, "cohortlabel"])
+    armID <- selarm[["armID"]]
+    cohortlabel <- selarm[["cohortlabel"]]
+    lineTx <- selarm[["lineTx"]]
+    armSt <- selarm[["armStatus"]]
+    dt_row <- tibble(
+      armID = armID,
+      cohortlabel = cohortlabel,
+      lineTx = lineTx,
+      armStatus = armSt,
+      Gene = input$gene1,
+      Type = input$typ, 
+      Variant = input$var,
+      Selection = input$selec,
+      Function = input$func)
+    
+    disAd$dfAdd <- disAd$dfAdd %>% bind_rows(dt_row) %>% distinct()
+    
+    output$dt_biomark <- renderDT({
+      datatable(disAd$dfAdd, 
+                rownames = F,
+                options = list(dom = 't'))
+    })
+    
+    proxy <- dataTableProxy("dt_biomark")
+    proxy %>% selectRows(NULL)
+  })
+
+  
+  # TABLE B: when (+Add common biomarker) is chosen
+  observeEvent(input$final_edit, {
+    shiny::req(disAd$add_or_edit == 1)
+    armdf <- disAd$armDfInfo 
     nArm <- nrow(armdf)
     for(e in 1:nArm){
       dt_rowall <- tibble(
-        armID = as.character(e),
-        Label = as.character(armdf[e, "cohortlabel"]),
-        LineTherapy = as.character(armdf[e, "LineTherapy"]),
-        armStatus = as.character(armdf[e, "ArmStatus"]),
+        armID = as.character(armdf[e, "armID"]),
+        cohortlabel = as.character(armdf[e, "cohortlabel"]),
+        lineTx = as.character(armdf[e, "lineTx"]),
+        armStatus = as.character(armdf[e, "armStatus"]),
         Gene = input$gene1,
         Type = input$typ, 
         Variant = input$var, 
         Selection = input$selec, 
         Function = input$func)
-      disAd$dfAdd <- disAd$dfAdd %>% 
-        bind_rows(dt_rowall)
+      
+      disAd$dfAdd <- disAd$dfAdd %>% bind_rows(dt_rowall) %>% distinct()
     }
     
-    # table showing results after adding biomarkers to cohort arms
     output$dt_biomark <- renderDT({
       datatable(disAd$dfAdd, 
                 rownames = FALSE,
-                colnames = c('Arm #' = 'armID',
-                             'Cohort' = 'Label'),
                 options = list(dom = 't'))
     })
-  })
-  
-  
-  observeEvent(input$final_edit_arminfo, {
-    shiny::req(disAd$add_or_edit==1)
-    armdf <- disAd$armDfInfo %>% rownames_to_column(var = "ArmID")
-    nArm <- nrow(armdf)
-    for(e in 1:nArm){
-      dt_rowall <- tibble(
-        armID = as.character(e),
-        LineTherapy = input$lineTx,
-        armStatus = input$armStatus,
-        Gene = input$gene1,
-        Type = input$typ, 
-        Variant = input$var, 
-        Selection = input$selec, 
-        Function = input$func, 
-        Label = as.character(armdf[e,2]))
-      disAd$dfAdd <- disAd$dfAdd %>% 
-        bind_rows(dt_rowall)
-    }
     
-    # table showing results after adding biomarkers to cohort arms
-    output$dt_biomark <- renderDT({
-      datatable(disAd$dfAdd, 
-                rownames = FALSE,
-                colnames = c('Arm #' = 'armID',
-                             'Cohort' = 'Label'),
-                options = list(dom = 't'))
-    })
+    proxy <- dataTableProxy("dt_biomark")
+    proxy %>% selectRows(NULL)
   })
   
 
-  ### remove edit modal when close button is clicked or submit button
-  shiny::observeEvent(input$dismiss_modal, {
+  ### remove edit modal when close or submit button is clicked
+  observeEvent(input$dismiss_modal, {
     shiny::removeModal()
   })
   
-  shiny::observeEvent(input$dismiss_modal_arminfo, {
+  observeEvent(input$dismiss_modal_arminfo, {
     shiny::removeModal()
   })
   
+  
+
   ##### Panel 4: Documentation 
   # Open the Document Tab and display the UI on Update
   observeEvent(input$bioMrk,{
@@ -396,7 +411,7 @@ server <- function(input, output, session) {
     })
   })
   
-  #observe(input$doc, {renderText(input$doc)})
+
   
   ##### Panel 5: View Trial
   observeEvent(input$move_brow,{
@@ -421,8 +436,8 @@ server <- function(input, output, session) {
       cohortlabel = armTb$cohortlabel,
       drug = armTb$drug,
       arm_type = armTb$arm_type,
-      line_of_therapy = armTb$LineTherapy,
-      arm_hold_status = armTb$ArmStatus
+      line_of_therapy = armTb$lineTx,
+      arm_hold_status = armTb$armStatus
     )
 
     # save the disease info entered
