@@ -74,6 +74,8 @@ ui <- tagList(
 # Define server logic 
 server <- function(input, output, session) {
   
+  #updateSelectizeInput(session, 'var', choices = allVar, server = TRUE)
+  #updateSelectizeInput(session, 'gene1', choices = allgenes, server = TRUE)
   ##### Panel 1: NCT ID + query trial
   
   # action after clicking submit
@@ -453,10 +455,30 @@ server <- function(input, output, session) {
         filter(armID == bi) %>% 
         select(c(Gene, Type, Variant, Selection, Function)) %>% 
         rename("gene" = Gene, "type" = Type, "variant" = Variant, "selection" = Selection, "function" = Function) %>% 
-        mutate(summary = "")
+        mutate(summary = "") %>% 
+        mutate(
+          summary = case_when(
+            # Mutation
+            type == "Mutation" & variant == " " & `function` != "activating" ~ glue(gene, "mut", .sep = " "),
+            type == "Mutation" & `function` == "activating" ~ glue(gene, "act mut", .sep = " "),
+            type == "Mutation" & `function` == "multiple" ~ glue(gene, variant, "multiple mut", .sep = " "),
+            type == "Mutation" ~ glue(gene, variant, "mut", .sep = " "),
+            
+            # Fusion
+            type == "Fusion" ~ glue(gene, "fus", .sep = " "),
+            
+            # TMB
+            type == "TMB" ~ glue(type, `function`, .sep = " "),
+            
+            # CNA
+            type == "amplification" ~ glue(gene, " amp"),
+            type == "deletion" ~ glue(gene, " del")
+          )
+        )
       armForBioMk$biomarker <- replace(armForBioMk$biomarker,
                                       armForBioMk$ArmID == bi,
                                       list(tb_add))
+        
     }
 
     # final tibble to display 
@@ -469,7 +491,7 @@ server <- function(input, output, session) {
                        details = list(DisTab)
       ),
       query = tibble(nct = input$info_NCT,
-                     title = "",
+                     title = infoDis$title,
                      current_status = infoDis$current_status,
                      status_verif_date = infoDis$status_verif_date,
                      last_update_date = infoDis$last_update_date,

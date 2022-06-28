@@ -39,6 +39,7 @@ queryTrialJson <- function(jsonfile) {
 
 parseFullTrials <- function(autojsonfile) {
   # autojsonfile <- "data/trials/04.full.json"
+  autojsonfile <- "data/trials/NCT04461600.full.ndjson"
   autotrial <- fromJSON(autojsonfile)
   
   # function to create (1 line of) biomarker per cohort

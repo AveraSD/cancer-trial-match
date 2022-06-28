@@ -10,7 +10,7 @@ firsthalfUI <- fluidRow(
   )
 )
 
-disAd <- shiny::reactiveValues(
+disAd <- reactiveValues(
   indisAd = tibble(), # disease  
   armDf = tibble(), # cohort 
   armDfInfo = tibble(), # cohort + arm info
@@ -56,20 +56,20 @@ modal_arminfo <- function(lineTx, armStatus) {
       class = "text-center",
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectInput(
           inputId = "lineTx",
           label = "Line of Therapy",
-          choices = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+          choices = c("Not available", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
           multiple = F,
           width = "200px"
         )
       ),
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectInput(
           inputId = "armStatus",
           label = "Arm status for the site",
-          choices = c("open", "on hold", "closed"),
+          choices = c("Not available", "open", "on hold", "closed"),
           multiple = F,
           width = "200px"
         )
@@ -80,19 +80,19 @@ modal_arminfo <- function(lineTx, armStatus) {
     easyClose = TRUE,
     footer = div(
       class = "pull-right container",
-      shiny::actionButton(
+      actionButton(
         inputId = "final_edit_arminfo",
         label = " Arm Information",
         icon = shiny::icon("plus"),
         class = "btn-primary"
       ),
-      shiny::actionButton(
+      actionButton(
         inputId = "dismiss_modal_arminfo",
         label = "Close",
         class = "btn-danger"
       )
     )
-  ) %>% shiny::showModal()
+  ) %>% showModal()
 }
 
 
@@ -100,46 +100,47 @@ modal_arminfo <- function(lineTx, armStatus) {
 # biomarker modal - keys and values
 modal_biomarker <- function(gene1, typ, var, selec, func) {
 
-  shiny::modalDialog(
-    #title = "Add Arm Information",
+  modalDialog(
     h4(textOutput("TEXTA", container = span)),
     div(
       class = "text-center",
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectizeInput(
           inputId = "gene1",
-          label = "Gene",
-          choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
-          #choices = c(" ",unique(allgenes$x)),
+          label = "Gene", 
+          #choices = NULL,
+          #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
+          choices = allgenes$x,
           multiple = F,
           width = "200px"
         )
       ),
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectInput(
           inputId = "typ",
           label = "Type",
-          choices = c("Missense","Mutation","TMB","Frame Shift","Amplification"),
+          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Wild-Type", "Amplification", "Deletion", "TMB", "MSI", "PD-L1", "RNA fusion", "RNA expr", "HRD", "MMR", "ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
           multiple = F,
           width = "200px"
         )
       ),
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectizeInput(
           inputId = "var",
           label = "Variant",
-          choices = c("V600E", "G12C", "G12D", "R43H"),
-          #choices = c(" ",unique(allVar$x)),
+          #choices = NULL,
+          #choices = c("V600E", "G12C", "G12D", "R43H"),
+          choices = allVar$x,
           multiple = F,
           width = "200px"
         )
       ),
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectInput(
           inputId = "selec",
           label = "selection",
           choices = c("include","exclude"),
@@ -149,10 +150,10 @@ modal_biomarker <- function(gene1, typ, var, selec, func) {
       ),
       div(
         style = "display: inline-block;",
-        shiny::selectInput(
+        selectInput(
           inputId = "func",
           label = "function",
-          choices = c("high", "unstable", "activating"),
+          choices = c("Not available", "high", "low", "positive", "negative", "unstable", "activating"),
           multiple = F,
           width = "200px"
         )
@@ -163,26 +164,26 @@ modal_biomarker <- function(gene1, typ, var, selec, func) {
     easyClose = TRUE,
     footer = div(
       class = "pull-right container",
-      shiny::actionButton(
+      actionButton(
         inputId = "final_edit",
         label = " Biomarker",
         icon = shiny::icon("plus"),
         class = "btn-primary"
       ),
-      shiny::actionButton(
+      actionButton(
         inputId = "dismiss_modal",
         label = "Close",
         class = "btn-danger"
       )
     )
-  ) %>% shiny::showModal()
+  ) %>% showModal()
 }
 
 
 
 # Browse table final confirmation dialogue box 
 modal_confirm <- function(){
-  shiny::modalDialog(
+  modalDialog(
     title = "Final confirmation",
     div(
       h4(em(("Please confirm to add the curated trial information to the database"))),
@@ -191,19 +192,18 @@ modal_confirm <- function(){
     easyClose = TRUE,
     footer = div(
       class = "pull-right container",
-      shiny::actionButton(
+      actionButton(
         inputId = "final_confirm",
         label = " Confirm",
         icon = shiny::icon("check"),
         class = "btn-success"
       ),
-      shiny::actionButton(
+      actionButton(
         inputId = "final_cancel",
         label = "Close",
         class = "btn-danger"
       )
     )
     
-  ) %>% 
-    shiny::showModal()
+  ) %>% showModal()
 }
