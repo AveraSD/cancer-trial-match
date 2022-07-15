@@ -50,7 +50,7 @@ EXPOSE 3838
 
 # Run Shiny app
 COPY --chown=shiny:shiny . /srv/shiny-server/trial-match/
-RUN chmod a+r /srv/shiny-server/trial-match/data/tempus/tempus_current.xlsx
+#RUN chmod a+r /srv/shiny-server/trial-match/data/tempus/tempus_current.xlsx
 RUN chown shiny:shiny /var/lib/shiny-server
 
 # Set user to non-root
