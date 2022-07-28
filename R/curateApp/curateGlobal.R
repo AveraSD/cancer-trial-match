@@ -1,8 +1,8 @@
 
 # get path to trials directory
-trial_data_dir <- config::get("trial_data_dir")
-trialspath <- trial_data_dir %>% here()
-
+t_d_d <- config::get("trial_data_dir")
+trial_data_dir <- if_else(t_d_d %>% fs::is_absolute_path(), t_d_d, t_d_d %>% here())
+trialspath <- trial_data_dir
 
 # get oncotree data
 oncotree <- read.delim2(file = here("data", "oncotree", "oncotree.tsv"), 

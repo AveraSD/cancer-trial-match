@@ -18,8 +18,8 @@ library(config)
 
 # source necessary files
 source(here("R", "curateApp", "curateGlobal.R")) 
-source(here("R", "queryNCT.R"))
-source(here("R", "nct_to_json.R"))
+source(here("R", "curateApp", "queryNCT.R"))
+source(here("R", "curateApp", "nct_to_json.R"))
 source(here("R", "curateApp", "curateUI.R"))
 source(here("R", "curateApp", "curateServer.R"))
 source(here("R", "curateApp", "add_trials.R"))
