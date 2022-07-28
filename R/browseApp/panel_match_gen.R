@@ -2,17 +2,15 @@
 # display all available biomarker + disease based matches for patients with Tempus results
 
 # read in patient summary results
-pt_file <- here("data", "pt", "ptdata.tsv")
+pt_file <- pt_data_file
 pt_data <- read.delim(pt_file, header = TRUE, sep = "\t", quote = "")
 
 # format trial results tibble
-result_ext <- result %>% unnest(disp_cohorts) 
-  # unnest(arm_groups) %>% 
-  # unnest(biomarker)
+result_ext <- result %>% unnest(arms)
 
 # Note: when using the column names function, it is absolutely necessary to quote function in backticks to ensure that dplyr::filter reads it as a variable name and not something in R itself
 
-matchcols <- c("test_id", "patient_id", "matchVal", "matchKey", "Protocol", 'NCT', "JIT", "Name", "Disease", "Status", "StatusUpdate", "Sponsor", "Summary", "Phase", "StudyType", "MinAge", "Gender", "Link", "LastUpdate", "cohortlabel", "drug", "arm_type", "summary")
+matchcols <- c("test_id", "patient_id", "matchVal", "matchKey", 'NCT', "JIT", "Name", "Disease", "Status", "StatusUpdate", "Sponsor", "Summary", "Phase", "StudyType", "MinAge", "Gender", "Link", "LastUpdate", "cohortlabel", "drug", "arm_type", "summary")
 
 ### 1: TMB - high
 

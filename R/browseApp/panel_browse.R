@@ -1,8 +1,6 @@
 ## server side
 ## display all trials
 
-
-
 # browse table
 display_browse_db <- reactable(browse_tbl %>% 
                                  select(Link, Name, Disease, disp_biomarkers, Documentation) %>% 

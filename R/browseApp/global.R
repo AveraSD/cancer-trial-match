@@ -1,5 +1,4 @@
 
-
 ## parse all trial.full.json and curate relevant info for a basic summary table
 
 parseTrials <- function(jsonfile) {
@@ -23,6 +22,7 @@ parseTrials <- function(jsonfile) {
                       arm_hold_status = trial$query$arm[[1]]$arm_hold_status,
                       biomarker = trial$query$arm[[1]]$biomarker)
   
+  
   parsedTrial <- tibble(
     
     # info
@@ -40,7 +40,7 @@ parseTrials <- function(jsonfile) {
     StatusUpdate = trial$query$status_verif_date,
     Sponsor = trial$query$sponsor,
     Summary = trial$query$brief_summary,
-    Conditions = trial$query$conditions,
+    #Conditions = trial$query$conditions,
     Phase = trial$query$phase,
     StudyType = trial$query$type,
     MinAge = if(trial$query$min_age %>% is_empty()) {
@@ -54,8 +54,7 @@ parseTrials <- function(jsonfile) {
     LastUpdate = trial$query$last_update_date,
     
     # query - cohorts w/ drug and biomarker information
-    #arm_groups = list(arm_groups = trial$query$arm[[1]] %>% unnest(biomarker)),
-    #arm_groups = trial$query$arm[[1]] %>% unnest(biomarker),
+    arms = list(arms = trial$query$arm[[1]] %>% unnest(biomarker)),
     
     # query - cohorts only for display table
     disp_cohorts = list(disp_cohorts = bind_cols(arm_groups %>% select(-biomarker),
