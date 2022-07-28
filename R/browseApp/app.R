@@ -13,8 +13,9 @@ library(tidyverse)
 
 # source global file
 source(here("R", "browseApp", "global.R"))
-source(here("R", "queryNCT.R"))
-source(here("R", "nct_to_json.R"))
+source(here("R", "browseApp", "read_data.R"))
+# source(here("R", "queryNCT.R"))
+# source(here("R", "nct_to_json.R"))
 source(here("R", "browseApp", "panel_browse.R"))
 source(here("R", "browseApp", "panel_match_gen.R"))
 
@@ -33,7 +34,7 @@ ui <- tagList(
              reactableOutput("browsetable")),
     
     # MATCH
-    tabPanel("Match", 
+    tabPanel("Match",
              reactableOutput("matchtable")),
     
     theme = bs_theme(version = 5, 

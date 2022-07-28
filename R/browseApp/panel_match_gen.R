@@ -6,9 +6,9 @@ pt_file <- here("data", "pt", "ptdata.tsv")
 pt_data <- read.delim(pt_file, header = TRUE, sep = "\t", quote = "")
 
 # format trial results tibble
-result_ext <- result %>% 
-  unnest(arm_groups) %>% 
-  unnest(biomarker)
+result_ext <- result %>% unnest(disp_cohorts) 
+  # unnest(arm_groups) %>% 
+  # unnest(biomarker)
 
 # Note: when using the column names function, it is absolutely necessary to quote function in backticks to ensure that dplyr::filter reads it as a variable name and not something in R itself
 

@@ -1,7 +1,20 @@
 default:
-  trial_data_dir: "data/trials/"
-  pt_data_file: "data/pt/ptdata.tsv"
+  trial_data_dir: "data/trials/" # path within main repo | absolute path
+  pt_data_file: "data/pt/ptdata.tsv" # path within main repo | absolute path
+  docker: "yes" # yes | no
+  storage: "db" # db | json
+
   
 production:
   trial_data_dir: "/data/trials/"
   pt_data_file: "/data/pt/ptdata.tsv"
+  docker: "no"
+  storage: "json"
+
+
+test: 
+  trial_data_dir: "data/trials/"
+  pt_data_file: "data/pt/ptdata.tsv"
+  docker: "no"
+  storage: "json"
+
