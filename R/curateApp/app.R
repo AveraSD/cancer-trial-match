@@ -445,44 +445,40 @@ server <- function(input, output, session) {
     # save the disease info entered
     DisTab <- as_tibble(disAd$indisAd)
 
+    # save the biomarker info entered
     armForBioMk <- armTb
     armForBioMk$biomarker <- as.list("NA")
     
-    # save the biomarker info entered
     bioMarkTb <- as_tibble(disAd$dfAdd)
-    for(bi in 1:nrow(armTb)){
-      tb_add <- bioMarkTb %>% 
-        filter(armID == bi) %>% 
-        select(c(Gene, Type, Variant, Selection, Function)) %>% 
-        rename("gene" = Gene, "type" = Type, "variant" = Variant, "selection" = Selection, "function" = Function) %>% 
-        mutate(summary = "") %>% 
-        mutate(
-          summary = case_when(
-            # Mutation
-            type == "Mutation" & variant == " " & `function` != "activating" ~ glue(gene, "mut", .sep = " "),
-            type == "Mutation" & `function` == "activating" ~ glue(gene, "act mut", .sep = " "),
-            type == "Mutation" & `function` == "multiple" ~ glue(gene, variant, "multiple mut", .sep = " "),
-            type == "Mutation" ~ glue(gene, variant, "mut", .sep = " "),
-            
-            # Fusion
-            type == "Fusion" ~ glue(gene, "fus", .sep = " "),
-            
-            # TMB
-            type == "TMB" ~ glue(type, `function`, .sep = " "),
-            
-            # CNA
-            type == "amplification" ~ glue(gene, " amp"),
-            type == "deletion" ~ glue(gene, " del")
-          )
+    tb_add <- bioMarkTb %>% 
+      rename("gene" = Gene, "type" = Type, "variant" = Variant, "selection" = Selection, "function" = Function) %>% 
+      mutate(summary = "") %>% 
+      mutate(
+        summary = case_when(
+          # Mutation
+          type == "Mutation" & variant == " " & `function` != "activating" ~ paste(gene, "mut", .sep = " "),
+          type == "Mutation" & `function` == "activating" ~ paste(gene, "act mut", .sep = " "),
+          type == "Mutation" & `function` == "multiple" ~ paste(gene, variant, "multiple mut", .sep = " "),
+          type == "Mutation" ~ paste(gene, variant, "mut", .sep = " "),
+          
+          # Fusion
+          type == "fusion" ~ paste(gene, "fus", .sep = " "),
+          
+          # TMB
+          type == "TMB" ~ paste(type, `function`, .sep = " "),
+          
+          # CNA
+          type == "amplification" ~ paste(gene, " amp"),
+          type == "deletion" ~ paste(gene, " del")
         )
-      armForBioMk$biomarker <- replace(armForBioMk$biomarker,
-                                      armForBioMk$ArmID == bi,
-                                      list(tb_add))
-        
-    }
+      )
+    
+    armForBioMk$biomarker <- list(tb_add)
+    # print(armForBioMk)
 
-    # final tibble to display 
-    disBrw2 <- tibble(
+
+    # final tibble to display  
+    disBrw2 <<- tibble(
       info = tibble(NCT = input$info_NCT,
                     jit = input$info_jit,
                     trial_name = input$info_trial_name
@@ -502,12 +498,19 @@ server <- function(input, output, session) {
                      type = infoDis$type,
                      phase = infoDis$phase,
                      arm = list(armForBioMk),
+                     # docs = if(input$doc %>% is_empty()) {
+                     #   docs = infoDis$link
+                     # } else 
+                     # {
+                     #   docs = glue("<a href=\\", input$doc, "\\", "target=\"_blank\">site-documentation</a>")
+                     # },
                      docs = glue("<a href=\\", input$doc, "\\", "target=\"_blank\">site-documentation</a>"),
                      min_age = infoDis$min_age,
                      gender = infoDis$gender,
                      link = infoDis$link
       )
       )
+    
 
     view_trial_table <- reactable(disBrw2 %>%
                      unnest(c(info, disease, query)) %>%
@@ -525,13 +528,16 @@ server <- function(input, output, session) {
                      tab_arms <- disBrw2 %>%
                        unnest(c(info, disease, query)) %>%
                        select(arm) %>%
-                       unnest(arm) %>%
-                       unnest(biomarker)
+                       unnest(arm) %>% 
+                       select(-cohortlabel) %>% 
+                       unnest(biomarker) %>% 
+                       select(-c(armID, lineTx, armStatus))
 
-                     tab_disease <- disBrw2 %>%
-                       unnest(c(info, disease, query)) %>%
-                       select(summary:details) %>%
-                       unnest(details)
+                     tab_disease <- disBrw2$disease %>% unnest(details)
+                     # tab_disease <- disBrw2 %>%
+                     #   unnest(c(info, disease, query)) %>%
+                     #   select(summary:details) %>%
+                     #   unnest(details)
 
                      htmltools::div(style = "padding: 16px",
                                     reactable(tab %>% t(),
