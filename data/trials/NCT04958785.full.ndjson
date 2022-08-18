@@ -1,0 +1,90 @@
+[
+  {
+    "info": {
+      "NCT": "NCT04958785",
+      "jit": "Optimal",
+      "trial_name": "Gilead GS-US-586-6144"
+    },
+    "disease": {
+      "summary": "TNBC Locally Adv/ met",
+      "details": [
+        {
+          "code": "Breast (BREAST)",
+          "selection": "include"
+        }
+      ]
+    },
+    "query": {
+      "nct": "NCT04958785",
+      "title": "Study to Evaluate the Safety and Efficacy of Magrolimab Combination Therapy in Adults With Unresectable, Locally Advanced or Metastatic Triple-Negative Breast Cancer",
+      "current_status": "Recruiting",
+      "status_verif_date": "August 2022",
+      "last_update_date": "August 12, 2022",
+      "trial_hold_status": "open",
+      "sponsor": "Gilead Sciences",
+      "brief_summary": "The primary objective of this study for the safety run-in cohorts of the study is to evaluate the safety, tolerability, and recommended Phase 2 dose (RP2D) of magrolimab in combination with nab-paclitaxel or paclitaxel (Safety Run-In Cohort 1), and sacituzumab govitecan (Safety Run-In Cohort 2) in metastatic triple-negative breast cancer (mTNBC).\n\nThe primary objective of this study for Phase 2 Cohort 1 is to compare the efficacy of magrolimab in combination with nab-paclitaxel or paclitaxel versus nab-paclitaxel or paclitaxel alone, as determined by progression-free survival (PFS) by investigator assessment.\n\nThe primary objective of this study for Phase 2 Cohort 2 is to evaluate the efficacy of magrolimab in combination with sacituzumab govitecan as determined by confirmed objective response rate (ORR) by investigator assessment.",
+      "conditions": "Triple-Negative Breast Cancer",
+      "type": "Interventional",
+      "phase": "Phase 2",
+      "arm": [
+        {
+          "ArmID": "1",
+          "cohortlabel": "Safety Run-in Cohort 1: Magrolimab + Nab-Paclitaxel or Paclitaxel",
+          "drug": "Magrolimab | Nab-Paclitaxel | Paclitaxel",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": []
+        },
+        {
+          "ArmID": "2",
+          "cohortlabel": "Phase 2 Cohort 1 Arm A: Magrolimab + Nab-Paclitaxel or Paclitaxel",
+          "drug": "Magrolimab | Nab-Paclitaxel | Paclitaxel",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": []
+        },
+        {
+          "ArmID": "3",
+          "cohortlabel": "Phase 2 Cohort 1 Arm B: Nab-Paclitaxel or Paclitaxel",
+          "drug": "Magrolimab | Nab-Paclitaxel | Paclitaxel",
+          "arm_type": "Active Comparator",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": []
+        },
+        {
+          "ArmID": "4",
+          "cohortlabel": "Safety Run-in Cohort 2: Magrolimab + Sacituzumab govitecan",
+          "drug": "Magrolimab | Sacituzumab govitecan | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "1",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "gene": "",
+              "type": "PD-L1",
+              "variant": "",
+              "selection": "include",
+              "function": "positive"
+            }
+          ]
+        },
+        {
+          "ArmID": "5",
+          "cohortlabel": "Phase 2 Cohort 2: Magrolimab + Sacituzumab govitecan",
+          "drug": "Magrolimab | Sacituzumab govitecan | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": []
+        }
+      ],
+      "docs": "<a href=\\Q:\\MCK\\MOA\\Precision Oncology\\JIT Trials\\  Optimal_Working list Optimal Unblinded Study List_FINAL_draft_ 2022.06.07.pdf\\target=\"_blank\">site-documentation<\/a>",
+      "min_age": "18 Years",
+      "gender": "All",
+      "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT04958785\" target=\"_blank\">NCT04958785<\/a>"
+    }
+  }
+]

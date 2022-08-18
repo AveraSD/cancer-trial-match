@@ -1,0 +1,166 @@
+[
+  {
+    "info": {
+      "NCT": "NCT03847519",
+      "jit": "Tempus",
+      "trial_name": "Advaxis ADXS-503-101"
+    },
+    "disease": {
+      "summary": "Metastatic Squamous or Non-Squamous Non-Small Cell Lung Cancer",
+      "details": [
+        {
+          "code": "Non-Small Cell Lung Cancer (NSCLC)",
+          "selection": "include"
+        }
+      ]
+    },
+    "query": {
+      "nct": "NCT03847519",
+      "title": "Study of ADXS-503 With or Without Pembro in Subjects With Metastatic Non-Small Cell Lung Cancer",
+      "current_status": "Recruiting",
+      "status_verif_date": "July 2021",
+      "last_update_date": "January 20, 2022",
+      "trial_hold_status": "open",
+      "sponsor": "Advaxis, Inc.",
+      "brief_summary": "A Phase 1/2, Open-Label Study of ADXS-503 Alone and in Combination with Pembrolizumab in Subjects with Metastatic Squamous or Non-Squamous Non-Small Cell Lung Cancer",
+      "conditions": "Lung Cancer, Non-Small Cell | Metastatic Squamous Cell Carcinoma | Metastatic Non-Squamous Cell Carcinoma",
+      "type": "Interventional",
+      "phase": "Phase 1 | Phase 2",
+      "arm": [
+        {
+          "ArmID": "1",
+          "cohortlabel": "Safety Phase Part A",
+          "drug": "ADXS-503 | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "armID": "1",
+              "cohortlabel": "Safety Phase Part A",
+              "lineTx": "2",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            },
+            {
+              "armID": "2",
+              "cohortlabel": "Safety Phase Part B",
+              "lineTx": "2",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            },
+            {
+              "armID": "3",
+              "cohortlabel": "Efficacy Phase Part C",
+              "lineTx": "1",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        },
+        {
+          "ArmID": "2",
+          "cohortlabel": "Safety Phase Part B",
+          "drug": "ADXS-503 | Pembrolizumab",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "armID": "1",
+              "cohortlabel": "Safety Phase Part A",
+              "lineTx": "2",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            },
+            {
+              "armID": "2",
+              "cohortlabel": "Safety Phase Part B",
+              "lineTx": "2",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            },
+            {
+              "armID": "3",
+              "cohortlabel": "Efficacy Phase Part C",
+              "lineTx": "1",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        },
+        {
+          "ArmID": "3",
+          "cohortlabel": "Efficacy Phase Part C",
+          "drug": "ADXS-503 | Pembrolizumab",
+          "arm_type": "Experimental",
+          "line_of_therapy": "1",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "armID": "1",
+              "cohortlabel": "Safety Phase Part A",
+              "lineTx": "2",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            },
+            {
+              "armID": "2",
+              "cohortlabel": "Safety Phase Part B",
+              "lineTx": "2",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            },
+            {
+              "armID": "3",
+              "cohortlabel": "Efficacy Phase Part C",
+              "lineTx": "1",
+              "armStatus": "open",
+              "gene": "Not available",
+              "type": "Not available",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        }
+      ],
+      "docs": "<a href=\\Q:\\MCK\\MOA\\Precision Oncology\\JIT Trials\\Tempus JIT_2022-08-08.docx\\target=\"_blank\">site-documentation<\/a>",
+      "min_age": "18 Years",
+      "gender": "All",
+      "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT03847519\" target=\"_blank\">NCT03847519<\/a>"
+    }
+  }
+]
