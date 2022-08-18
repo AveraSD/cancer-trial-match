@@ -166,6 +166,12 @@ server <- function(input, output, session) {
     updateSelectInput(session, "lev7", "Level7", 
                       choices = oncotree$level_7[oncotree$level_6==input$lev6 & oncotree$level_5==input$lev5 & oncotree$level_4==input$lev4 & oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
   
+  # event for clearing the disease table 
+  
+  observeEvent(input$clr_Dis,{
+    disAd$indisAd = tibble()
+  })
+  
   
   # TABLE A: Display the selected Disease and selection 
   observeEvent(input$addDis, {
@@ -251,6 +257,11 @@ server <- function(input, output, session) {
       )
     disAd$armDfInfo <- disAd$armDfInfo %>% bind_rows(dt_row) %>% distinct()
     
+    # event for clearing arm selection 
+    observeEvent(input$clr_Arm,{
+      disAd$armDfInfo = tibble()
+    })
+    
    #disAd$armDfInfo <- inner_join(disAd$armDfInfo, dt_row, by = "cohortlabel")
     output$dt_table_arm_display <- renderDT({
       datatable(disAd$armDfInfo, 
@@ -326,6 +337,11 @@ server <- function(input, output, session) {
       })
       modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
     }
+  })
+  
+  # event for clearing Biomarker arm selection 
+  observeEvent(input$clr_Arm,{
+    disAd$dfAdd = tibble()
   })
   
   
