@@ -125,6 +125,17 @@ secondhalfUI <- fluidPage(
     div(style = "margin-top: 40px;"),
     h5(strong("A: Cohort level disease information")),
     div(style = "margin-top: 20px;"),
+    # add clear button for disease
+    
+    div(
+      style = "margin-top: 40px;",
+      shiny::actionButton(
+        inputId = "clr_Dis",
+        label = "Clear",
+        #icon = shiny::icon("plus"),
+        class = "btn-primary")
+    ),
+    br(),
     
     DTOutput(outputId = "dt_dise",
                  width = "100%"),
@@ -179,7 +190,17 @@ biom_display <- fluidPage(
   # TABLE A to show LoT and Status
   div(style = "margin-top: 30px;"),
   h5(strong("A: Cohort level line of therapy and recruitement status")),
-
+  # add clear button arm info
+  
+  div(
+    style = "margin-top: 40px;",
+    shiny::actionButton(
+      inputId = "clr_Arm",
+      label = "Clear",
+      #icon = shiny::icon("plus"),
+      class = "btn-primary")
+  ),
+  br(),
   div(
     class = "container",
     style = "margin-top: 10px;",
@@ -214,7 +235,19 @@ biom_display <- fluidPage(
   # TABLE B to show LoT, arm status and biomarkers
   div(style = "margin-top: 30px;"),
   h5(strong("B: Cohort level biomarker information")),
-
+  
+  
+  # add clear button here biomaker 
+  div(
+    style = "margin-top: 40px;",
+    shiny::actionButton(
+      inputId = "clr_Bio",
+      label = "Clear",
+      #icon = shiny::icon("plus"),
+      class = "btn-primary")
+  ),
+  br(),
+  
   div(
     class = "container",
     style = "margin-top: 10px;",
