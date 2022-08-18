@@ -340,7 +340,7 @@ server <- function(input, output, session) {
   })
   
   # event for clearing Biomarker arm selection 
-  observeEvent(input$clr_Arm,{
+  observeEvent(input$allBio,{
     disAd$dfAdd = tibble()
   })
   
