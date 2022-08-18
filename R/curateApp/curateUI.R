@@ -227,7 +227,7 @@ biom_display <- fluidPage(
     shiny::actionButton(
       inputId = "add_allBio",
       label = "Add common biomarker",
-      icon = shiny::icon("plus"),
+      #icon = shiny::icon("plus"),
       class = "btn-primary")
   ),
   br(),
