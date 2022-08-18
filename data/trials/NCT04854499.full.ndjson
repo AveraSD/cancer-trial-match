@@ -1,0 +1,168 @@
+[
+  {
+    "info": {
+      "NCT": "NCT04854499",
+      "jit": "Optimal",
+      "trial_name": "Gilead GS-US-548-5916"
+    },
+    "disease": {
+      "summary": "Head and Neck Squamous Cell Carcinoma",
+      "details": [
+        {
+          "code": "Head and Neck (HEAD_NECK)",
+          "selection": "include"
+        }
+      ]
+    },
+    "query": {
+      "nct": "NCT04854499",
+      "title": "Study of Magrolimab Combination Therapy in Participants With Head and Neck Squamous Cell Carcinoma",
+      "current_status": "Recruiting",
+      "status_verif_date": "May 2022",
+      "last_update_date": "June 29, 2022",
+      "trial_hold_status": "open",
+      "sponsor": "Gilead Sciences",
+      "brief_summary": "The study consists of Safety Run-in and Phase 2 Cohorts.\n\nThe primary objectives of the safety run-in cohorts of this study are to evaluate the safety, tolerability, and recommended Phase 2 dose (RP2D) of magrolimab in combination with pembrolizumab + 5-fluorouracil (5-FU) + platinum chemotherapy, and docetaxel in combination with magrolimab in participants with head and neck squamous cell carcinoma (HNSCC).\n\nPhase 2 Cohorts 1: To evaluate the progression-free survival (PFS) with magrolimab in combination with pembrolizumab + 5-FU + platinum versus pembrolizumab + 5-FU + platinum as assessed by independent central review.\n\nPhase 2 Cohorts 2 and 3: To evaluate the efficacy of magrolimab in combination with pembrolizumab and magrolimab in combination with docetaxel as determined by the investigator-assessed objective response rate (ORR).",
+      "conditions": "Head and Neck Squamous Cell Carcinoma",
+      "type": "Interventional",
+      "phase": "Phase 2",
+      "arm": [
+        {
+          "ArmID": "1",
+          "cohortlabel": "Safety Run-in Cohort 1, Magrolimab + Pembrolizumab + 5-FU + Platinum",
+          "drug": "Magrolimab | Pembrolizumab | 5-FU | Cisplatin | Carboplatin",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "gene": "Not available",
+              "type": "PD-L1",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        },
+        {
+          "ArmID": "2",
+          "cohortlabel": "Safety Run-in Cohort 2, Magrolimab + Docetaxel",
+          "drug": "Magrolimab | Docetaxel | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "1",
+          "arm_hold_status": "open",
+          "biomarker": []
+        },
+        {
+          "ArmID": "3",
+          "cohortlabel": "Safety Run-in Cohort 2, Magrolimab + Docetaxel",
+          "drug": "Magrolimab | Docetaxel | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "gene": "Not available",
+              "type": "PD-L1",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        },
+        {
+          "ArmID": "4",
+          "cohortlabel": "Pre-expansion Safety Run-in Cohort, Magrolimab + Pembrolizumab",
+          "drug": "Magrolimab | Pembrolizumab | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "gene": "Not available",
+              "type": "PD-L1",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        },
+        {
+          "ArmID": "5",
+          "cohortlabel": "Phase 2 Cohort 1, Magrolimab + Pembrolizumab + 5-FU + Platinum (Arm A)",
+          "drug": "Magrolimab | Pembrolizumab | 5-FU | Cisplatin | Carboplatin",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "gene": "Not available",
+              "type": "PD-L1",
+              "variant": "Not available",
+              "selection": "include",
+              "function": "Not available"
+            }
+          ]
+        },
+        {
+          "ArmID": "6",
+          "cohortlabel": "Phase 2 Cohort 1, Pembrolizumab + 5-FU + Platinum (Arm B)",
+          "drug": "Pembrolizumab | 5-FU | Cisplatin | Carboplatin | NA",
+          "arm_type": "Active Comparator",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "open",
+          "biomarker": []
+        },
+        {
+          "ArmID": "7",
+          "cohortlabel": "Phase 2 Cohort 1, Magrolimab + Zimberelimab + 5-FU + Platinum (Arm C)",
+          "drug": "Magrolimab | 5-FU | Cisplatin | Carboplatin | Zimberelimab",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "open",
+          "biomarker": []
+        },
+        {
+          "ArmID": "8",
+          "cohortlabel": "Phase 2 Cohort 2, Magrolimab + Pembrolizumab",
+          "drug": "Magrolimab | Pembrolizumab | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "open",
+          "biomarker": []
+        },
+        {
+          "ArmID": "9",
+          "cohortlabel": "Phase 2 Cohort 3, Magrolimab + Docetaxel",
+          "drug": "Magrolimab | Docetaxel | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "1",
+          "arm_hold_status": "open",
+          "biomarker": []
+        },
+        {
+          "ArmID": "10",
+          "cohortlabel": "Phase 2 Cohort 3, Magrolimab + Docetaxel",
+          "drug": "Magrolimab | Docetaxel | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": []
+        },
+        {
+          "ArmID": "11",
+          "cohortlabel": "Phase 2 Cohort 3, Magrolimab + Docetaxel",
+          "drug": "Magrolimab | Docetaxel | NA | NA | NA",
+          "arm_type": "Experimental",
+          "line_of_therapy": "3",
+          "arm_hold_status": "open",
+          "biomarker": []
+        }
+      ],
+      "docs": "<a href=\\Q:\\MCK\\MOA\\Precision Oncology\\JIT Trials\\  Optimal_Working list Optimal Unblinded Study List_FINAL_draft_ 2022.06.07.pdf\\target=\"_blank\">site-documentation<\/a>",
+      "min_age": "18 Years",
+      "gender": "All",
+      "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT04854499\" target=\"_blank\">NCT04854499<\/a>"
+    }
+  }
+]
