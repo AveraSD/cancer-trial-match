@@ -108,7 +108,19 @@ modal_biomarker <- function(gene1, typ, var, selec, func) {
         style = "display: inline-block;",
         selectizeInput(
           inputId = "gene1",
-          label = "Gene", 
+          label = "Gene1", 
+          #choices = NULL,
+          #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
+          choices = allgenes$x,
+          multiple = F,
+          width = "200px"
+        )
+      ),
+      div(
+        style = "display: inline-block;",
+        selectizeInput(
+          inputId = "gene2",
+          label = "Gene2", 
           #choices = NULL,
           #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
           choices = allgenes$x,

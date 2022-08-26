@@ -311,7 +311,9 @@ server <- function(input, output, session) {
     output$TEXTA <- renderText({
       "Enter biomarkers common to all cohort arms"
     })
-    modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
+    #modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
+    #added gene2 for fusion in biomarker summary 
+    modal_biomarker(gene1 = "", gene2 = "",typ = "", var = "", selec = "", func = "")
     disAd$add_or_edit <- 1
     
   })
@@ -364,7 +366,9 @@ server <- function(input, output, session) {
       cohortlabel = cohortlabel,
       lineTx = lineTx,
       armStatus = armSt,
-      Gene = input$gene1,
+      #Gene = input$gene1,
+      Gene1 = input$gene1,
+      Gene2 = input$gene2,
       Type = input$typ, 
       Variant = input$var,
       Selection = input$selec,
