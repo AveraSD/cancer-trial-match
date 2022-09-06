@@ -59,7 +59,9 @@ secondhalfUI <- fluidPage(
     
     div(style = "margin-top: 20px;"),
     
-    column(2, actionButton("disDis", "Move to Biomarker")),
+    column(width = 4,
+           offset = 8,
+           actionButton("disDis", "Move to Biomarker",class = "btn-warning")),
     br(),
     
     div(style = "margin-top: 20px;"),
@@ -94,7 +96,7 @@ secondhalfUI <- fluidPage(
       fluidRow(
         column(9,
                #style = "display: inline-block;",
-               selectInput("dise", "Tissue Site", choices = unique(oncotree$level_1), multiple = FALSE)
+               selectInput("dise", "Tissue Site", choices = c(unique(oncotree$level_1),"All Cancer","Solid Tumors"), multiple = FALSE)
         ),
         column(4,
                selectInput("lev2", "Level2", choices = "", selected = "", multiple = FALSE)
@@ -155,11 +157,12 @@ biom_display <- fluidPage(
   div(
     class = "container",
     br(),
-    div(
-      shiny::actionButton(
-        inputId = "bioMrk",
-        label = "Move to Documents",
-        class = "btn-secondary"),
+    column(width = 4,
+           offset = 8,
+           shiny::actionButton(
+             inputId = "bioMrk",
+             label = "Move to Documents",
+             class = "btn-warning"),
       br(),
     ), 
   ),
@@ -268,7 +271,9 @@ doc_form <- fluidPage(
 docuOut <- fluidPage(
   
   div(style = "margin-top: 40px;"),
-  actionButton("move_brow", "Move to Browser"),
+  column(width = 4,
+         offset = 8,
+         actionButton("move_brow", "Move to Browser",class="btn-warning")),
   br(),
   br(),
 

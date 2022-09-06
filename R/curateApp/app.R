@@ -13,13 +13,14 @@ library(shinyFiles)
 library(DT)
 library(shinyjs)
 library(config)
+library(data.table)
 
 # NCT03037385
 
 # source necessary files
 source(here("R", "curateApp", "curateGlobal.R")) 
 source(here("R", "curateApp", "queryNCT.R"))
-source(here("R", "curateApp", "nct_to_json.R"))
+#source(here("R", "curateApp", "nct_to_json.R"))
 source(here("R", "curateApp", "curateUI.R"))
 source(here("R", "curateApp", "curateServer.R"))
 source(here("R", "curateApp", "add_trials.R"))
@@ -229,9 +230,10 @@ server <- function(input, output, session) {
                            'Arm Type' = 'arm_type',
                            'Add Arm Info' = 'armadd'),
               options = list(processing = FALSE, 
-                             dom = 't')
-              )
+                             dom = 't',pageLength = 15)
+    )
   })
+  
   
   
   # event for clearing arm selection 
@@ -253,6 +255,7 @@ server <- function(input, output, session) {
   })
   
   observeEvent(input$final_edit_arminfo, {
+    shiny::removeModal()
     armdf <- disAd$armDf %>% rownames_to_column(var = "ArmID")
     selarm <- armdf[input$dt_table_arm_rows_selected, ]
     cohortID <- selarm[["ArmID"]]
@@ -262,7 +265,7 @@ server <- function(input, output, session) {
       cohortlabel = cohort,
       lineTx = input$lineTx,
       armStatus = input$armStatus
-      )
+    )
     disAd$armDfInfo <- disAd$armDfInfo %>% bind_rows(dt_row) %>% distinct()
     
    
@@ -281,6 +284,7 @@ server <- function(input, output, session) {
   # TABLE A: when (+Add common LoT & Status) is chosen
   observeEvent(input$final_edit_arminfo, {
     shiny::req(disAd$add_or_edit_arminfo == 1)
+    shiny::removeModal()
     armdf <- disAd$armDf %>% rownames_to_column(var = "ArmID")
     nArm <- nrow(armdf)
     for(e in 1:nArm){
@@ -292,13 +296,12 @@ server <- function(input, output, session) {
       
       disAd$armDfInfo <- disAd$armDfInfo %>% bind_rows(dt_rowall) %>% distinct()
     }
-    
     output$dt_table_arm_display <- renderDT({
       datatable(disAd$armDfInfo, 
                 rownames = FALSE,
                 colnames = c('Arm #' = 'armID',
                              'Cohort' = 'cohortlabel'),
-                options = list(dom = 't'))
+                options = list(dom = 't',pageLength = 15))
     })
     
     proxy <- dataTableProxy("dt_table_arm_display")
@@ -320,14 +323,19 @@ server <- function(input, output, session) {
   output$dt_table <- renderDataTable({
     butns_biomarker <- create_btns_biomarker(nrow(disAd$armDf))
     armterm <- disAd$armDf %>% 
+      rownames_to_column(var = "ArmID") %>% 
       bind_cols(tibble("Buttons" = butns_biomarker))
     datatable(armterm, 
               escape = F,
               selection ='single',
               rownames = FALSE,
-              colnames = c('Add Biomarker' = 'Buttons'),
+              colnames = c('Arm #' = 'ArmID',
+                           'Cohort(s)' = 'cohortlabel',
+                           'Drugs(s)' = 'drug',
+                           'Arm Type' = 'arm_type',
+                           'Add Biomarker' = 'Buttons'),
               options = list(processing = FALSE, 
-                             dom = 't')
+                             dom = 't',pageLength = 15)
     )
   })
   
@@ -352,6 +360,7 @@ server <- function(input, output, session) {
   
   
   observeEvent(input$final_edit, {
+    shiny::removeModal()
     armdf <- disAd$armDfInfo 
     #selarm <- armdf[input$dt_table_rows_selected,] # change to select by cohortlabel
     selarm <- armdf %>% filter(cohortlabel %in% armdf[input$dt_table_rows_selected, "cohortlabel"])
@@ -375,7 +384,7 @@ server <- function(input, output, session) {
     output$dt_biomark <- renderDT({
       datatable(disAd$dfAdd, 
                 rownames = F,
-                options = list(dom = 't'))
+                options = list(dom = 't',pageLength = 15))
     })
     
     proxy <- dataTableProxy("dt_biomark")
@@ -386,6 +395,7 @@ server <- function(input, output, session) {
   # TABLE B: when (+Add common biomarker) is chosen
   observeEvent(input$final_edit, {
     shiny::req(disAd$add_or_edit == 1)
+    shiny::removeModal()
     armdf <- disAd$armDfInfo 
     nArm <- nrow(armdf)
     for(e in 1:nArm){
@@ -406,7 +416,7 @@ server <- function(input, output, session) {
     output$dt_biomark <- renderDT({
       datatable(disAd$dfAdd, 
                 rownames = FALSE,
-                options = list(dom = 't'))
+                options = list(dom = 't',pageLength = 15))
     })
     
     proxy <- dataTableProxy("dt_biomark")
@@ -453,7 +463,7 @@ server <- function(input, output, session) {
       select(!(arm))
     
     # save the arm info from query output
-    armTb <- inner_join(disAd$armDf, disAd$armDfInfo, by = "cohortlabel")
+    armTb <- left_join(disAd$armDf, disAd$armDfInfo, by = "cohortlabel")
     armTb <- armTb %>% rownames_to_column(var = "ArmID")
     armTb <- tibble(
       ArmID = armTb$ArmID,
@@ -463,42 +473,44 @@ server <- function(input, output, session) {
       line_of_therapy = armTb$lineTx,
       arm_hold_status = armTb$armStatus
     )
-
+    
     # save the disease info entered
     DisTab <- as_tibble(disAd$indisAd)
 
     # save the biomarker info entered
-    armForBioMk <- armTb
-    armForBioMk$biomarker <- as.list("NA")
     
     bioMarkTb <- as_tibble(disAd$dfAdd)
-    tb_add <- bioMarkTb %>% 
-      rename("gene" = Gene, "type" = Type, "variant" = Variant, "selection" = Selection, "function" = Function) %>% 
-      mutate(summary = "") %>% 
-      mutate(
-        summary = case_when(
-          # Mutation
-          type == "Mutation" & variant == " " & `function` != "activating" ~ paste(gene, "mut", .sep = " "),
-          type == "Mutation" & `function` == "activating" ~ paste(gene, "act mut", .sep = " "),
-          type == "Mutation" & `function` == "multiple" ~ paste(gene, variant, "multiple mut", .sep = " "),
-          type == "Mutation" ~ paste(gene, variant, "mut", .sep = " "),
-          
-          # Fusion
-          type == "fusion" ~ paste(gene, "fus", .sep = " "),
-          
-          # TMB
-          type == "TMB" ~ paste(type, `function`, .sep = " "),
-          
-          # CNA
-          type == "amplification" ~ paste(gene, " amp"),
-          type == "deletion" ~ paste(gene, " del")
-        )
+    tb_add <- bioMarkTb %>%  mutate(summary = "") %>% mutate(
+      summary = case_when(
+        # Mutation variant based
+        Gene != "Not available" & Type != "Not available" & Variant != "Not available" & Function != "Not available"~ paste(Gene, Variant, Function, .sep = " "),
+        Gene != "Not available" & Type != "Not available" & Variant != "Not available" & Function == "Not available"~ paste(Gene, Variant, .sep = " "),
+        
+        # Expression, fusion, CNA, etc  
+        Gene != "Not available" & Type != "Not available" & Variant == "Not available" & Function != "Not available" ~ paste(Gene, Type, Function, .sep = " "),
+        Gene != "Not available" & Type != "Not available" & Variant == "Not available" & Function == "Not available" ~ paste(Gene, Type, .sep = " "),
+        # without gene 
+        Gene == "Not available" & Type != "Not available" & Variant == "Not available" ~ paste(Type, Function, .sep = " "),
+        # when empty 
+        Gene == "Not available" & Type == "Not available" & Variant == "Not available" & Function == "Not available" ~ paste("absent")
+        
       )
+    )
+    tb_add = tb_add[,c(1:2,5:10)]
     
-    armForBioMk$biomarker <- list(tb_add)
-    # print(armForBioMk)
+    # adding the biomarker tibble to the respective cohort 
+    alltoAmBK = left_join(armTb, tb_add, by = c('ArmID' = 'armID'))
+    #print(colnames(alltoAmBK))
+    colnames(alltoAmBK) = c("ArmID", "cohortlabel", "drug" ,"arm_type" ,"line_of_therapy", "arm_hold_status",          
+                            "cohort", "Gene" , "Type" , "Variant","Selection", "Function" ,"summary" )
+    
+    armForBioMk = alltoAmBK %>% group_by(ArmID, cohortlabel, drug ,arm_type ,line_of_therapy, arm_hold_status ) %>% nest()
+    armForBioMk = setnames(armForBioMk, "data", "biomarker")
 
 
+    # ----------------------------------------------------------------------------------------- # 
+    # making the data tibble for each trial entry
+    
     # final tibble to display  
     disBrw2 <<- tibble(
       info = tibble(NCT = input$info_NCT,
@@ -522,7 +534,7 @@ server <- function(input, output, session) {
                      arm = list(armForBioMk),
                      # docs = if(input$doc %>% is_empty()) {
                      #   docs = infoDis$link
-                     # } else 
+                     # } else
                      # {
                      #   docs = glue("<a href=\\", input$doc, "\\", "target=\"_blank\">site-documentation</a>")
                      # },
@@ -531,46 +543,47 @@ server <- function(input, output, session) {
                      gender = infoDis$gender,
                      link = infoDis$link
       )
-      )
+    )
+    
     
 
     view_trial_table <- reactable(disBrw2 %>%
-                     unnest(c(info, disease, query)) %>%
-                     select(NCT:trial_name),
-                   resizable = TRUE,
-                   style = list(minWidth = 800),
-                   fullWidth = TRUE,
-                   defaultExpanded = TRUE,
-                   details = function(index) {
-
-                     tab <- disBrw2 %>%
-                       unnest(c(info, disease, query)) %>%
-                       select(-(NCT:nct), -arm)
-
-                     tab_arms <- disBrw2 %>%
-                       unnest(c(info, disease, query)) %>%
-                       select(arm) %>%
-                       unnest(arm) %>% 
-                       select(-cohortlabel) %>% 
-                       unnest(biomarker) %>% 
-                       select(-c(armID, lineTx, armStatus))
-
-                     tab_disease <- disBrw2$disease %>% unnest(details)
-                     # tab_disease <- disBrw2 %>%
-                     #   unnest(c(info, disease, query)) %>%
-                     #   select(summary:details) %>%
-                     #   unnest(details)
-
-                     htmltools::div(style = "padding: 16px",
-                                    reactable(tab %>% t(),
-                                              #columns = c("Key", "Value"),
-                                              #rownames = FALSE,
-                                              outlined = TRUE,
-                                              pagination = FALSE),
-                                    reactable(tab_arms, outlined = TRUE),
-                                    reactable(tab_disease, outlined = TRUE)
-                     )
-                   }
+                                    unnest(c(info, disease, query)) %>%
+                                    select(NCT:trial_name),
+                                  resizable = TRUE,
+                                  style = list(minWidth = 800),
+                                  fullWidth = TRUE,
+                                  defaultExpanded = TRUE,
+                                  details = function(index) {
+                                    
+                                    tab <- disBrw2 %>%
+                                      unnest(c(info, disease, query)) %>%
+                                      select(-(NCT:nct), -arm)
+                                    
+                                    tab_arms <- disBrw2 %>%
+                                      unnest(c(info, disease, query)) %>%
+                                      select(arm) %>%
+                                      unnest(arm) %>%
+                                      select(-cohortlabel) %>%
+                                      unnest(biomarker) %>%
+                                      select(-c(ArmID, line_of_therapy, arm_hold_status))
+                                    
+                                    tab_disease <- disBrw2$disease %>% unnest(details)
+                                    # tab_disease <- disBrw2 %>%
+                                    #   unnest(c(info, disease, query)) %>%
+                                    #   select(summary:details) %>%
+                                    #   unnest(details)
+                                    
+                                    htmltools::div(style = "padding: 16px",
+                                                   reactable(tab %>% t(),
+                                                             #columns = c("Key", "Value"),
+                                                             #rownames = FALSE,
+                                                             outlined = TRUE,
+                                                             pagination = FALSE),
+                                                   reactable(tab_arms, outlined = TRUE),
+                                                   reactable(tab_disease, outlined = TRUE)
+                                    )
+                                  }
     )
     
     disAd$rsdf <- disBrw2
@@ -584,22 +597,31 @@ server <- function(input, output, session) {
     reset("info_jit")
     reset("info_trial_name")
     #firsthalfUI <- NULL
-    #reset("infoquery")
-    #displatAPI() <- NULL
+    reset("infoquery")
+    
     #responses <- NULL
-    #reset("armsOnly")
+    reset("armsOnly")
+    disAd$indisAd = tibble() # disease  
+    disAd$armDf = tibble() # cohort 
+    disAd$armDfInfo = tibble() # cohort + arm info
+    disAd$armDfBiomarker = tibble() # cohort + arm info + biomarker
+    disAd$dfAdd = tibble() # cohort + biomarker
+    add_or_edit = NULL  # confirming the button selection
+    add_or_edit_arminfo = NULL
+    disAd$rsdf = tibble() 
   }
+  
   
   observeEvent(input$confirm1,{
     outSubmit()
+    #disAd$allbrws = disAd$allbrws %>% dplyr::bind_rows(disAd$rsdf) 
     alert("Submitted successfully!")
     refresh()
-    #resetAll()
+    resetAll()
+    
     #updateReactable("responses", data = NULL)
     #updateTabsetPanel(session = session, inputId = "inNav", selected = "NCT ID")
   })
-  
-  
   # observeEvent(input$final_confirm,{
   #   print(disAd$resultsdf)
   # })

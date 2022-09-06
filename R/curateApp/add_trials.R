@@ -9,7 +9,7 @@ outSubmit <- function() {
   
   outjson <- paste0(here(trial_data_dir), 
                     paste0(tr2 %>% unnest(c(info, disease, query)) %>% select(NCT) %>% as.character(), ".full.ndjson"))
-  writeLines(tr2 %>% toJSON(pretty = T), outjson)
+  writeLines(tr2 %>% toJSON(pretty = T), outjson,keep_vec_names=TRUE)
   message(paste0("Written to file: ", outjson))
 }
 

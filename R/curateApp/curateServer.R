@@ -3,10 +3,12 @@
 # for additional info adding 
 firsthalfUI <- fluidRow(
   br(),
-  column(12,
-         column(6, br()),
-         column(2, 
-                actionButton("next1", "Move to Disease"))
+  div(class = "container",
+      br(),
+      column(width = 4,
+             offset = 8, 
+             actionButton("next1", "Move to Disease",
+                          class = "btn-warning"))
   )
 )
 
@@ -19,8 +21,8 @@ disAd <- reactiveValues(
   add_or_edit = NULL,  # confirming the button selection
   add_or_edit_arminfo = NULL, 
   allbrws = tibble(), # all together
-  resultsdf = tibble(), # individual 
-  rsdf = tibble()
+  #resultsdf = tibble(), # individual 
+  rsdf = tibble() # individual 
 )
 
 
