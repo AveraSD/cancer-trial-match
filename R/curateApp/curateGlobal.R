@@ -11,6 +11,14 @@ oncotree <- read.delim2(file = here("data", "oncotree", "oncotree.tsv"),
                         quote = "", 
                         na.strings = 'NA')
 
+###add All Cancers and Solid Tumor entries
+
+oncotree_dup<-oncotree
+#oncotree_addrows<- oncotree_dup %>% add_row(level_1  = "All Cancers",level_2 = "NA",level_3 = "NA", level_4 = "NA", level_5 = "NA", level_6 = "NA", level_7 = "NA")
+oncotree_addrows<- oncotree_dup %>% add_row(level_1  = "All Cancers")
+#oncotree_addrows1<- oncotree_addrows %>% add_row(level_1  = "Solid Tumors",level_2 = "NA",level_3 = "NA", level_4 = "NA", level_5 = "NA", level_6 = "NA", level_7 = "NA")
+oncotree_addrows1<- oncotree_addrows %>% add_row(level_1  = "Solid Tumors")
+### ends
 
 # get gene and variant lists
 allgeneR <- here("data", "metadata", "allgenes.txt")
