@@ -146,7 +146,7 @@ secondhalfUI <- fluidPage(
     br(),
     div(style = "margin-top: 50px;")
   )
-)
+))
 
 
 ##### Panel 3: Biomarker
