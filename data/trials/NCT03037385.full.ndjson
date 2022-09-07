@@ -1,0 +1,68 @@
+[
+  {
+    "info": {
+      "NCT": "NCT03037385",
+      "jit": "Tempus",
+      "trial_name": "sxads"
+    },
+    "disease": {
+      "summary": "sdfsefsdf",
+      "details": [
+        {
+          "code": "Adrenal Gland (ADRENAL_GLAND)",
+          "selection": "include"
+        }
+      ]
+    },
+    "query": {
+      "nct": "NCT03037385",
+      "title": "Phase 1/2 Study of the Highly-selective RET Inhibitor, Pralsetinib (BLU-667), in Participants With Thyroid Cancer, Non-Small Cell Lung Cancer, and Other Advanced Solid Tumors",
+      "current_status": "Active, not recruiting",
+      "status_verif_date": "July 2022",
+      "last_update_date": "July 8, 2022",
+      "trial_hold_status": "open",
+      "sponsor": "Hoffmann-La Roche",
+      "brief_summary": "This is a Phase 1/2, open-label, first-in-human (FIH) study designed to evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and preliminary antineoplastic activity of pralsetinib (BLU-667) administered orally in participants with medullary thyroid cancer (MTC), RET-altered NSCLC and other RET-altered solid tumors.",
+      "conditions": "RET-altered Non Small Cell Lung Cancer | Medullary Thyroid Cancer | RET-altered Papillary Thyroid Cancer | RET-altered Colon Cancer | RET-altered Solid Tumors | Lung Neoplasm | Carcinoma, Non-Small-Cell Lung | Thyroid Diseases | Thyroid Neoplasm | Thyroid Cancer, Papillary | Carcinoma, Neuroendocrine | Respiratory Tract Neoplasms | Thoracic Neoplasms | Neoplasms by Site | Neoplasms | Lung Diseases | Respiratory Tract Disease | Carcinoma, Bronchogenic | Bronchial Neoplasms | Endocrine System Diseases | Endocrine Gland Neoplasm | Head and Neck Neoplasms | Adenocarcinoma, Papillary | Adenocarcinoma | Carcinoma | Neoplasms, Glandular and Epithelial | Neoplasms by Histologic Type | Neuroendocrine Tumors | Neuroectodermal Tumors | Neoplasms, Germ Cell and Embryonal | Neoplasms, Nerve Tissue | Colonic Neoplasms | Colorectal Neoplasms | Intestinal Neoplasms | Gastrointestinal Neoplasms | Digestive System Neoplasm | Digestive System Disease | Gastrointestinal Disease | Colonic Diseases | Intestinal Disease",
+      "type": "Interventional",
+      "phase": "Phase 1 | Phase 2",
+      "arm": [
+        {
+          "ArmID": "1",
+          "cohortlabel": "Phase 1 Dose Escalation",
+          "drug": "pralsetinib (BLU-667)",
+          "arm_type": "Experimental",
+          "line_of_therapy": "3",
+          "arm_hold_status": "Not available",
+          "biomarker": [
+            {
+              "cohort": "Phase 1 Dose Escalation",
+              "Gene": "ABL2",
+              "Gene2": "AKT1",
+              "Type": "Fusion",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "Not available",
+		"summary": "ABL2-AKT1 Fusion"
+            }
+          ]
+        },
+        {
+          "ArmID": "2",
+          "cohortlabel": "Phase 2 Dose Expansion",
+          "drug": "pralsetinib (BLU-667)",
+          "arm_type": "Experimental",
+          "line_of_therapy": "3",
+          "arm_hold_status": "Not available",
+          "biomarker": [
+            {}
+          ]
+        }
+      ],
+      "docs": "<a href=\\dafffffff\\target=\"_blank\">site-documentation<\/a>",
+      "min_age": "18 Years",
+      "gender": "All",
+      "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT03037385\" target=\"_blank\">NCT03037385<\/a>"
+    }
+  }
+]

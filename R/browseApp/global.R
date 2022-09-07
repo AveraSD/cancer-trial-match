@@ -2,17 +2,17 @@
 ## parse all trial.full.json and curate relevant info for a basic summary table
 
 parseTrials <- function(jsonfile) {
-  #jsonfile <- "data/trials/01.full.ndjson"
+  #jsonfile <- trialsfiles[1]
   trial <- fromJSON(jsonfile)
   
-  # function to create (1 line of) biomarker per cohort
-  processBiomarker <- function(x) {
-    b <- arm_groups[x,]$biomarker[[1]] %>% 
-      select(summary) %>% 
-      unlist() %>% 
-      glue_collapse(sep = " | ")
-    return(b)
-  }
+  #unction to create (1 line of) biomarker per cohort
+  # processBiomarker <- function(x) {
+  #   b <- arm_groups[x,]$biomarker[[1]] %>%
+  #     select(summary) %>%
+  #     unlist() %>%
+  #     glue_collapse(sep = " | ")
+  #   return(b)
+  # }
   
   # pulling out trial arms
   arm_groups = tibble(cohortlabel = trial$query$arm[[1]]$cohortlabel,
@@ -56,18 +56,17 @@ parseTrials <- function(jsonfile) {
     # query - cohorts w/ drug and biomarker information
     arms = list(arms = trial$query$arm[[1]] %>% unnest(biomarker)),
     
-    # query - cohorts only for display table
-    disp_cohorts = list(disp_cohorts = bind_cols(arm_groups %>% select(-biomarker),
-                                                 biomarker = lapply(1:nrow(arm_groups), function(x) processBiomarker(x)) %>%
-                                                   unlist())),
-    
+    #query - cohorts only for display table
+    disp_cohorts = list(disp_cohorts = bind_cols(arm_groups %>% select(-biomarker))),
+
     # query - biomarkers only for display table
-    disp_biomarkers = trial$query$arm[[1]]$biomarker %>% 
-      bind_rows() %>% 
-      select(summary) %>% 
+    disp_biomarkers = trial$query$arm[[1]]$biomarker %>%
+      bind_rows() %>%
+      select(summary) %>%
+      do.call(paste, summary) %>%
       unlist() %>%
-      unique() %>% 
-      glue_collapse(sep = " | "),
+      unique(),
+      #do.call(paste, summary),
     
     HoldStatus = trial$query$trial_hold_status,
     Documentation = trial$query$docs

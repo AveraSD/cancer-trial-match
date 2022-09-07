@@ -67,7 +67,8 @@
               "type": "PD-L1",
               "variant": "",
               "selection": "include",
-              "function": "positive"
+              "function": "positive",
+		"summary": "PD-L1 positive"
             }
           ]
         },

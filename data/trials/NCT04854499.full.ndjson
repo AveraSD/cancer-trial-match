@@ -40,7 +40,8 @@
               "type": "PD-L1",
               "variant": "Not available",
               "selection": "include",
-              "function": "Not available"
+              "function": "Not available",
+		"summary": "PD-L1"
             }
           ]
         },
@@ -66,7 +67,8 @@
               "type": "PD-L1",
               "variant": "Not available",
               "selection": "include",
-              "function": "Not available"
+              "function": "Not available",
+		"summary": "PD-L1"
             }
           ]
         },
@@ -83,7 +85,8 @@
               "type": "PD-L1",
               "variant": "Not available",
               "selection": "include",
-              "function": "Not available"
+              "function": "Not available",
+		"summary": "PD-L1"
             }
           ]
         },
@@ -100,7 +103,8 @@
               "type": "PD-L1",
               "variant": "Not available",
               "selection": "include",
-              "function": "Not available"
+              "function": "Not available",
+		"summary": "PD-L1"
             }
           ]
         },
