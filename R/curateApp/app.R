@@ -605,7 +605,7 @@ server <- function(input, output, session) {
     disAd$indisAd = tibble() # disease  
     disAd$armDf = tibble() # cohort 
     disAd$armDfInfo = tibble() # cohort + arm info
-    disAd$armDfBiomarker = tibble() # cohort + arm info + biomarker
+    #disAd$armDfBiomarker = tibble() # cohort + arm info + biomarker
     disAd$dfAdd = tibble() # cohort + biomarker
     add_or_edit = NULL  # confirming the button selection
     add_or_edit_arminfo = NULL
