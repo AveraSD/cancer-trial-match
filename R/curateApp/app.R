@@ -315,7 +315,7 @@ server <- function(input, output, session) {
     output$TEXTA <- renderText({
       "Enter biomarkers common to all cohort arms"
     })
-    modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
+    modal_biomarker(selec = "", gene1 = "",   typ = "", var = "", func = "", gene2 = "")
     disAd$add_or_edit <- 1
     
   })
@@ -353,7 +353,7 @@ server <- function(input, output, session) {
       output$TEXTA <- renderText({
         cohotLb
       })
-      modal_biomarker(gene1 = "", typ = "", var = "", selec = "", func = "")
+      modal_biomarker(selec = "", gene1 = "",  typ = "", var = "",  func = "" , gene2 = "")
     }
   })
   
@@ -375,6 +375,7 @@ server <- function(input, output, session) {
       lineTx = lineTx,
       armStatus = armSt,
       Gene = input$gene1,
+      Gene2 = input$gene2,
       Type = input$typ, 
       Variant = input$var,
       Selection = input$selec,
@@ -406,6 +407,7 @@ server <- function(input, output, session) {
         lineTx = as.character(armdf[e, "lineTx"]),
         armStatus = as.character(armdf[e, "armStatus"]),
         Gene = input$gene1,
+        Gene2 = input$gene2,
         Type = input$typ, 
         Variant = input$var, 
         Selection = input$selec, 
@@ -481,29 +483,34 @@ server <- function(input, output, session) {
     # save the biomarker info entered
     
     bioMarkTb <- as_tibble(disAd$dfAdd)
+    
     tb_add <- bioMarkTb %>%  mutate(summary = "") %>% mutate(
       summary = case_when(
         # Mutation variant based
         Gene != "Not available" & Type != "Not available" & Variant != "Not available" & Function != "Not available"~ paste(Gene, Variant, Function, .sep = " "),
-        Gene != "Not available" & Type != "Not available" & Variant != "Not available" & Function == "Not available"~ paste(Gene, Variant, .sep = " "),
+        Gene != "Not available" & Type != "Not available" & Variant != "Not available" & Function == "Not available"~ paste(Gene, Variant, Type, .sep = " "),
         
         # Expression, fusion, CNA, etc  
         Gene != "Not available" & Type != "Not available" & Variant == "Not available" & Function != "Not available" ~ paste(Gene, Type, Function, .sep = " "),
-        Gene != "Not available" & Type != "Not available" & Variant == "Not available" & Function == "Not available" ~ paste(Gene, Type, .sep = " "),
+        Gene != "Not available" & Type != "Fusion" & Variant == "Not available" & Function == "Not available" ~ paste(Gene, Type, .sep = " "),
+        Type == "Fusion" & Gene != "Not available" & Gene2 != "Not available" & Variant == "Not available" ~ paste0(Gene,"-", Gene2," ", Type),
+        
         # without gene 
         Gene == "Not available" & Type != "Not available" & Variant == "Not available" ~ paste(Type, Function, .sep = " "),
+        
         # when empty 
         Gene == "Not available" & Type == "Not available" & Variant == "Not available" & Function == "Not available" ~ paste("absent")
         
       )
     )
-    tb_add = tb_add[,c(1:2,5:10)]
+    #colnames(tb_add)
+    tb_add = tb_add[,c(1:2,5:11)]
     
     # adding the biomarker tibble to the respective cohort 
     alltoAmBK = left_join(armTb, tb_add, by = c('ArmID' = 'armID'))
     #print(colnames(alltoAmBK))
     colnames(alltoAmBK) = c("ArmID", "cohortlabel", "drug" ,"arm_type" ,"line_of_therapy", "arm_hold_status",          
-                            "cohort", "Gene" , "Type" , "Variant","Selection", "Function" ,"summary" )
+                            "cohort", "Gene" , "Gene2", "Type" , "Variant","Selection", "Function" ,"summary" )
     
     armForBioMk = alltoAmBK %>% group_by(ArmID, cohortlabel, drug ,arm_type ,line_of_therapy, arm_hold_status ) %>% nest()
     armForBioMk = setnames(armForBioMk, "data", "biomarker")

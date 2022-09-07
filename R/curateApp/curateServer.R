@@ -100,21 +100,38 @@ modal_arminfo <- function(lineTx, armStatus) {
 
 
 # biomarker modal - keys and values
-modal_biomarker <- function(gene1, typ, var, selec, func) {
+modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
 
   modalDialog(
     h4(textOutput("TEXTA", container = span)),
     div(
       class = "text-center",
+      shinyjs::useShinyjs(),
       div(
         style = "display: inline-block;",
-        selectizeInput(
+        selectInput(
           inputId = "gene1",
           label = "Gene", 
           #choices = NULL,
           #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
           choices = allgenes$x,
           multiple = F,
+          #selected = NULL,
+          #options = list(`actions-box` = TRUE,`live-search` = TRUE,size=10),
+          width = "200px"
+        )
+      ),
+      div(
+        style = "display: inline-block;",
+        selectizeInput(
+          inputId = "gene2",
+          label = "Gene2", 
+          #choices = NULL,
+          #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
+          choices = allgenes$x,
+          multiple = F,
+          #selected = NULL,
+          #options = list(`actions-box` = TRUE,`live-search` = TRUE,size=10),
           width = "200px"
         )
       ),
@@ -123,7 +140,7 @@ modal_biomarker <- function(gene1, typ, var, selec, func) {
         selectInput(
           inputId = "typ",
           label = "Type",
-          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Wild-Type", "Amplification", "Deletion", "TMB", "MSI", "PD-L1", "fusion", "RNA expr", "HRD", "MMR", "ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
+          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Wild-Type", "Amplification", "Deletion", "TMB", "MSI", "PD-L1", "Fusion", "RNA expr", "HRD", "MMR", "ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
           multiple = F,
           width = "200px"
         )
