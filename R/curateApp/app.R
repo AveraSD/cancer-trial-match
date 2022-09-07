@@ -139,33 +139,34 @@ server <- function(input, output, session) {
   observeEvent(
     input$dise,
     updateSelectInput(session, "lev2", "Level2", 
-                      choices = oncotree$level_2[oncotree$level_1==input$dise]))
+                      #choices = oncotree$level_2[oncotree$level_1==input$dise]))
+  choices = oncotree_addrows1$level_2[oncotree_addrows1$level_1==input$dise]))
   
   observeEvent(
     input$lev2,
     updateSelectInput(session, "lev3", "Level3",
-                      choices = oncotree$level_3[oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
+                      choices = oncotree_addrows1$level_3[oncotree_addrows1$level_2==input$lev2 & oncotree_addrows1$level_1==input$dise]))
   
   observeEvent(
     input$lev3,
     updateSelectInput(session, "lev4", "Level4",
-                      choices = oncotree$level_4[oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
+                      choices = oncotree_addrows1$level_4[oncotree_addrows1$level_3==input$lev3 & oncotree_addrows1$level_2==input$lev2 & oncotree_addrows1$level_1==input$dise]))
   
   observeEvent(
     input$lev4,
     updateSelectInput(session, "lev5", "Level5",
-                      choices = oncotree$level_5[oncotree$level_4==input$lev4 & oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
+                      choices = oncotree_addrows1$level_5[oncotree_addrows1$level_4==input$lev4 & oncotree_addrows1$level_3==input$lev3 & oncotree_addrows1$level_2==input$lev2 & oncotree_addrows1$level_1==input$dise]))
   
   
   observeEvent(
     input$lev5,
     updateSelectInput(session, "lev6", "Level6", 
-                      choices = oncotree$level_6[oncotree$level_5==input$lev5 & oncotree$level_4==input$lev4 & oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
+                      choices = oncotree_addrows1$level_6[oncotree_addrows1$level_5==input$lev5 & oncotree_addrows1$level_4==input$lev4 & oncotree_addrows1$level_3==input$lev3 & oncotree_addrows1$level_2==input$lev2 & oncotree_addrows1$level_1==input$dise]))
   
   observeEvent(
     input$lev6,
     updateSelectInput(session, "lev7", "Level7", 
-                      choices = oncotree$level_7[oncotree$level_6==input$lev6 & oncotree$level_5==input$lev5 & oncotree$level_4==input$lev4 & oncotree$level_3==input$lev3 & oncotree$level_2==input$lev2 & oncotree$level_1==input$dise]))
+                      choices = oncotree_addrows1$level_7[oncotree_addrows1$level_6==input$lev6 & oncotree_addrows1$level_5==input$lev5 & oncotree_addrows1$level_4==input$lev4 & oncotree_addrows1$level_3==input$lev3 & oncotree_addrows1$level_2==input$lev2 & oncotree_addrows1$level_1==input$dise]))
   
   
   # event for clearing the disease table 

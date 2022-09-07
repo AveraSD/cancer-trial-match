@@ -96,8 +96,9 @@ secondhalfUI <- fluidPage(
       fluidRow(
         column(9,
                #style = "display: inline-block;",
-               selectInput("dise", "Tissue Site", choices = c(unique(oncotree$level_1),"All Cancer","Solid Tumors"), multiple = FALSE)
-        ),
+               #selectInput("dise", "Tissue Site", choices = c(unique(oncotree$level_1),"All Cancer","Solid Tumors"), multiple = FALSE)
+               selectInput("dise", "Tissue Site", choices = c(unique(oncotree_addrows1$level_1), multiple = FALSE)
+               ),
         column(4,
                selectInput("lev2", "Level2", choices = "", selected = "", multiple = FALSE)
         ),
