@@ -1,0 +1,99 @@
+[
+  {
+    "info": {
+      "NCT": "NCT05330429",
+      "jit": "Optimal",
+      "trial_name": "Gilead GS-US-587-6156"
+    },
+    "disease": {
+      "summary": "Metastatic Colorectal Cancer",
+      "details": [
+        {
+          "code": "Mucinous Adenocarcinoma of the Colon and Rectum (MACR)",
+          "selection": "include"
+        }
+      ]
+    },
+    "query": {
+      "nct": "NCT05330429",
+      "title": "Study of Magrolimab Given Together With FOLFIRI/BEV in Participants With Previously Treated Advanced Inoperable Metastatic Colorectal Cancer (mCRC)",
+      "current_status": "Recruiting",
+      "status_verif_date": "September 2022",
+      "last_update_date": "September 8, 2022",
+      "trial_hold_status": "open",
+      "sponsor": "Gilead Sciences",
+      "brief_summary": "The primary objectives of this study are: (safety run-in cohort) to evaluate safety and tolerability, and the recommended Phase 2 dose (RP2D) and (randomized cohort) to evaluate the efficacy of magrolimab in combination with bevacizumab and 5-fluorouracil, irinotecan, and leucovorin (FOLFIRI) in previously treated participants with advanced inoperable metastatic colorectal cancer (mCRC).",
+      "conditions": "Metastatic Colorectal Cancer",
+      "type": "Interventional",
+      "phase": "Phase 2",
+      "arm": [
+        {
+          "ArmID": "1",
+          "cohortlabel": "Safety Run-in Cohort: Magrolimab + Bevacizumab + FOLFIRI",
+          "drug": "Magrolimab | Bevacizumab | Irinotecan | Fluorouracil | Leucovorin",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "cohort": "Safety Run-in Cohort: Magrolimab + Bevacizumab + FOLFIRI",
+              "Gene": "BRAF",
+              "Gene2": "Not available",
+              "Type": "Mutation",
+              "Variant": "V600E",
+              "Selection": "include",
+              "Function": "Not available",
+              "summary": "BRAF V600E Mutation  "
+            },
+            {
+              "cohort": "Safety Run-in Cohort: Magrolimab + Bevacizumab + FOLFIRI",
+              "Gene": "Not available",
+              "Gene2": "Not available",
+              "Type": "MSI",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "high",
+              "summary": "MSI high  "
+            },
+            {
+              "cohort": "Safety Run-in Cohort: Magrolimab + Bevacizumab + FOLFIRI",
+              "Gene": "Not available",
+              "Gene2": "Not available",
+              "Type": "MMR",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "unstable",
+              "summary": "MMR unstable  "
+            }
+          ]
+        },
+        {
+          "ArmID": "2",
+          "cohortlabel": "Randomized Cohort: Magrolimab + Bevacizumab + FOLFIRI",
+          "drug": "Magrolimab | Bevacizumab | Irinotecan | Fluorouracil | Leucovorin",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": [
+            {}
+          ]
+        },
+        {
+          "ArmID": "3",
+          "cohortlabel": "Randomized Cohort: Bevacizumab + FOLFIRI",
+          "drug": "Bevacizumab | Irinotecan | Fluorouracil | Leucovorin | NA",
+          "arm_type": "Active Comparator",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": [
+            {}
+          ]
+        }
+      ],
+      "docs": "<a href=\\Q:/MCK/MOA/Precision Oncology/JIT Trials/Optimal_Working list Optimal Unblinded Study List_FINAL_draft_2022.08.11.pdf\\target=\"_blank\">site-documentation<\/a>",
+      "min_age": "18 Years",
+      "gender": "All",
+      "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT05330429\" target=\"_blank\">NCT05330429<\/a>"
+    }
+  }
+]
