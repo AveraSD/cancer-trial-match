@@ -15,7 +15,7 @@ storage <- config::get("storage")
 if (storage == "json") {
   # create a combined tibble
   trialsfiles <- dir(path = trial_data_dir, pattern = "*.full.ndjson", full.names = T)
-  trialsfiles = trialsfiles[7:9]
+  trialsfiles = trialsfiles[7:10]
   #data <- trialsfiles %>% map_df(~fromJSON(file.path(trialsfiles, .), flatten = TRUE))
   result <- trialsfiles %>% map(parseTrials) %>% bind_rows()
   browse_tbl <<- result

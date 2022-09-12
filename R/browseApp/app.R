@@ -15,7 +15,7 @@ library(tidyverse)
 source(here("R", "browseApp", "global.R"))
 source(here("R", "browseApp", "read_data.R"))
 source(here("R", "browseApp", "panel_browse.R"))
-source(here("R", "browseApp", "panel_match_gen.R"))
+#source(here("R", "browseApp", "panel_match_gen.R"))
 
 
 ##### UI ######

@@ -5,7 +5,7 @@ parseTrials <- function(jsonfile) {
   #jsonfile <- trialsfiles[1]
   trial <- fromJSON(jsonfile)
   
-  #unction to create (1 line of) biomarker per cohort
+  #function to create (1 line of) biomarker per cohort
   # processBiomarker <- function(x) {
   #   b <- arm_groups[x,]$biomarker[[1]] %>%
   #     select(summary) %>%
@@ -58,15 +58,20 @@ parseTrials <- function(jsonfile) {
     
     #query - cohorts only for display table
     disp_cohorts = list(disp_cohorts = bind_cols(arm_groups %>% select(-biomarker))),
+    
+    #biomarker = lapply(1:nrow(arm_groups), function(x) processBiomarker(x)) %>%
+     #                                              unlist())),
 
     # query - biomarkers only for display table
     disp_biomarkers = trial$query$arm[[1]]$biomarker %>%
       bind_rows() %>%
       select(summary) %>%
-      do.call(paste, summary) %>%
+      #do.call(paste, summary) %>%
       unlist() %>%
-      unique(),
-      #do.call(paste, summary),
+      paste0(collapse = "|"),
+     # unique() %>%
+    #  glue_col(sep = " : "),
+      #do.call(paste(., collapse = " ")),
     
     HoldStatus = trial$query$trial_hold_status,
     Documentation = trial$query$docs
