@@ -61,13 +61,15 @@ display_browse_db <- reactable(browse_tbl %>%
                                    reactable(browse_tbl[index, ]$arms$arms %>% 
                                                # reactable(coh %>% 
                                               # select(arms),
-                                               select(cohortlabel, drug, arm_type,line_of_therapy,arm_hold_status),
+                                               select(cohortlabel, drug, arm_type,line_of_therapy,arm_hold_status,Selection,summary),
                                              columns = list(cohortlabel = colDef(name = "Cohort Label"),
                                                             drug = colDef(name = "Drug(s)"),
                                                             arm_type = colDef(name = "Arm Type"),
                                                             #  biomarker = colDef(name = "Biomarker(s)"), 
                                                             line_of_therapy = colDef(name = "Line of Tx"), 
-                                                            arm_hold_status = colDef(name = "Arm HoldStatus"))),
+                                                            arm_hold_status = colDef(name = "Arm HoldStatus"),
+                                                            Selection = colDef(name = "Criteria"),
+                                                            summary = colDef(name = "Biomarker"))),
                                    
 
                                    # group 3: summary

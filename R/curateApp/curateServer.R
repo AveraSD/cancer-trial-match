@@ -140,7 +140,7 @@ modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
         selectInput(
           inputId = "typ",
           label = "Type",
-          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Wild-Type", "Amplification", "Deletion", "TMB", "MSI", "PD-L1", "Fusion", "RNA expr", "HRD", "MMR", "ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
+          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Wild-Type", "Amplification", "Deletion", "Abberration" ,"Rearrangement" ,"Class II Mutation", "Class III Mutation" ,"TMB", "MSI", "PD-L1", "Fusion", "RNA expr", "HRD", "MMR", "dMMR" ,"ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
           multiple = F,
           width = "200px"
         )
@@ -172,7 +172,7 @@ modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
         selectInput(
           inputId = "func",
           label = "function",
-          choices = c("Not available", "high", "low", "positive", "negative", "unstable", "activating"),
+          choices = c("Not available", "high", "low", "positive", "negative", "unstable", "activating" ),
           multiple = F,
           width = "200px"
         )
