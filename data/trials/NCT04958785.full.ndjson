@@ -63,11 +63,13 @@
           "arm_hold_status": "open",
           "biomarker": [
             {
-              "gene": "",
-              "type": "PD-L1",
-              "variant": "",
-              "selection": "include",
-              "function": "positive",
+		"cohort": "Safety Run-in Cohort 2: Magrolimab + Sacituzumab govitecan",
+              "Gene": "",
+	      "Gene2": "",
+              "Type": "PD-L1",
+              "Variant": "",
+              "Selection": "include",
+              "Function": "positive",
 		"summary": "PD-L1 positive"
             }
           ]

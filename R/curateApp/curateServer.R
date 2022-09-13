@@ -110,6 +110,17 @@ modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
       div(
         style = "display: inline-block;",
         selectInput(
+          inputId = "selec",
+          label = "selection",
+          choices = c("include","exclude"),
+          multiple = F,
+          width = "200px"
+        )
+      ),
+      
+      div(
+        style = "display: inline-block;",
+        selectInput(
           inputId = "gene1",
           label = "Gene", 
           #choices = NULL,
@@ -121,30 +132,18 @@ modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
           width = "200px"
         )
       ),
-      div(
-        style = "display: inline-block;",
-        selectizeInput(
-          inputId = "gene2",
-          label = "Gene2", 
-          #choices = NULL,
-          #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
-          choices = allgenes$x,
-          multiple = F,
-          #selected = NULL,
-          #options = list(`actions-box` = TRUE,`live-search` = TRUE,size=10),
-          width = "200px"
-        )
-      ),
+      
       div(
         style = "display: inline-block;",
         selectInput(
           inputId = "typ",
           label = "Type",
-          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Wild-Type", "Amplification", "Deletion", "Abberration" ,"Rearrangement" ,"Class II Mutation", "Class III Mutation" ,"TMB", "MSI", "PD-L1", "Fusion", "RNA expr", "HRD", "MMR", "dMMR" ,"ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
+          choices = c("Not available", "Mutation","Missense mut", "Frame Shift mut", "Splice site mut", "Multiple Mut", "Wild-Type", "Amplification", "Deletion", "Abberration" ,"Rearrangement" ,"Class II Mutation", "Class III Mutation" ,"TMB", "MSI", "PD-L1", "Fusion", "RNA expr", "HRD", "MMR", "dMMR", "pMMR" ,"ER (IHC/FISH)", "PR (IHC/FISH)", "HER2 (IHC/FISH)"),
           multiple = F,
           width = "200px"
         )
       ),
+      
       div(
         style = "display: inline-block;",
         selectizeInput(
@@ -157,16 +156,7 @@ modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
           width = "200px"
         )
       ),
-      div(
-        style = "display: inline-block;",
-        selectInput(
-          inputId = "selec",
-          label = "selection",
-          choices = c("include","exclude"),
-          multiple = F,
-          width = "200px"
-        )
-      ),
+      
       div(
         style = "display: inline-block;",
         selectInput(
@@ -174,6 +164,21 @@ modal_biomarker <- function(gene1, gene2, typ, var, selec, func) {
           label = "function",
           choices = c("Not available", "high", "low", "positive", "negative", "unstable", "activating" ),
           multiple = F,
+          width = "200px"
+        )
+      ),
+      
+      div(
+        style = "display: inline-block;",
+        selectizeInput(
+          inputId = "gene2",
+          label = "Gene2", 
+          #choices = NULL,
+          #choices = c("TP53", "BRAF", "PIK3CA", "KRAS"),
+          choices = allgenes$x,
+          multiple = F,
+          #selected = NULL,
+          #options = list(`actions-box` = TRUE,`live-search` = TRUE,size=10),
           width = "200px"
         )
       )

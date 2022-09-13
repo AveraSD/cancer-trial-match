@@ -546,7 +546,7 @@ server <- function(input, output, session) {
                      # {
                      #   docs = glue("<a href=\\", input$doc, "\\", "target=\"_blank\">site-documentation</a>")
                      # },
-                     docs = glue("<a href=\\", input$doc, "\\", "target=\"_blank\">site-documentation</a>"),
+                     docs = input$doc,
                      min_age = infoDis$min_age,
                      gender = infoDis$gender,
                      link = infoDis$link

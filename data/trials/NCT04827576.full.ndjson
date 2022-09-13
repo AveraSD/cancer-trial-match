@@ -1,0 +1,125 @@
+[
+  {
+    "info": {
+      "NCT": "NCT04827576",
+      "jit": "Optimal",
+      "trial_name": "Gilead GS-US-548-5918"
+    },
+    "disease": {
+      "summary": "locally advanced or metastatic mNSCLC and mSCLC metastatic urothelial cancer ",
+      "details": [
+        {
+          "code": "Combined Small Cell Lung Carcinoma (CSCLC)",
+          "selection": "include"
+        },
+        {
+          "code": "Non-Small Cell Lung Cancer (NSCLC)",
+          "selection": "include"
+        },
+        {
+          "code": "Bladder/Urinary Tract (BLADDER)",
+          "selection": "include"
+        }
+      ]
+    },
+    "query": {
+      "nct": "NCT04827576",
+      "title": "Study of Magrolimab in Participants With Solid Tumors",
+      "current_status": "Recruiting",
+      "status_verif_date": "July 2022",
+      "last_update_date": "August 24, 2022",
+      "trial_hold_status": "open",
+      "sponsor": "Gilead Sciences",
+      "brief_summary": "The primary objectives of the study are to evaluate the safety, tolerability, and recommended Phase 2 dose (RP2D) of magrolimab + docetaxel combination therapy in solid tumors (Safety Run-in Cohort 1, Phase 2 Cohorts 1a,\n\n1b, and 1c) and to evaluate the efficacy of magrolimab + docetaxel combination therapy in solid tumors as determined by investigator-assessed objective response rate (ORR) (Phase 2 Cohorts 1a, 1b, and 1c)",
+      "conditions": "Solid Tumor",
+      "type": "Interventional",
+      "phase": "Phase 2",
+      "arm": [
+        {
+          "ArmID": "1",
+          "cohortlabel": "Safety Run-in Cohort 1, mNSCLC, mUC, mSCLC (Magrolimab + Docetaxel)",
+          "drug": "Magrolimab | Docetaxel",
+          "arm_type": "Experimental",
+          "line_of_therapy": "Not available",
+          "arm_hold_status": "Not available",
+          "biomarker": [
+            {
+              "cohort": "Safety Run-in Cohort 1, mNSCLC, mUC, mSCLC (Magrolimab + Docetaxel)",
+              "Gene": "Not available",
+              "Gene2": "Not available",
+              "Type": "Not available",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "Not available",
+              "summary": "absent"
+            }
+          ]
+        },
+        {
+          "ArmID": "2",
+          "cohortlabel": "Phase 2 Cohort 1a, mNSCLC (Magrolimab + Docetaxel)",
+          "drug": "Magrolimab | Docetaxel",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "cohort": "Phase 2 Cohort 1a, mNSCLC (Magrolimab + Docetaxel)",
+              "Gene": "Not available",
+              "Gene2": "Not available",
+              "Type": "Not available",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "Not available",
+              "summary": "absent"
+            }
+          ]
+        },
+        {
+          "ArmID": "3",
+          "cohortlabel": "Phase 2 Cohort 1b, mUC (Magrolimab + Docetaxel)",
+          "drug": "Magrolimab | Docetaxel",
+          "arm_type": "Experimental",
+          "line_of_therapy": "3",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "cohort": "Phase 2 Cohort 1b, mUC (Magrolimab + Docetaxel)",
+              "Gene": "Not available",
+              "Gene2": "Not available",
+              "Type": "Not available",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "Not available",
+              "summary": "absent"
+            }
+          ]
+        },
+        {
+          "ArmID": "4",
+          "cohortlabel": "Phase 2 Cohort 1c, mSCLC (Magrolimab + Docetaxel)",
+          "drug": "Magrolimab | Docetaxel",
+          "arm_type": "Experimental",
+          "line_of_therapy": "2",
+          "arm_hold_status": "open",
+          "biomarker": [
+            {
+              "cohort": "Phase 2 Cohort 1c, mSCLC (Magrolimab + Docetaxel)",
+              "Gene": "Not available",
+              "Gene2": "Not available",
+              "Type": "Not available",
+              "Variant": "Not available",
+              "Selection": "include",
+              "Function": "Not available",
+              "summary": "absent"
+            }
+          ]
+        }
+      ],
+      "docs": "\\Q:\\MCK\\MOA\\Precision Oncology\\JIT Trials\\Optimal_Working list Optimal Unblinded Study List_FINAL_draft_ 2022.08.11.pdf",
+      "min_age": "18 Years",
+      "gender": "All",
+      "link": "<a href=\"https://clinicaltrials.gov/ct2/show/NCT04827576\" target=\"_blank\">NCT04827576<\/a>"
+    }
+  }
+]
